@@ -1,0 +1,100 @@
+:q
+45+90
+590-372
+195+ 177
+295+ 295
+take 100 [1,1..1]
+[1,1..1]
+[1..1]
+:q
+11+ 18
+11+7
+:q
+c
+f 11
+f n = f (n-1) + (n-2)
+accumulate (fmap (fmap (2*)) [Just 1, Just 2, Just 3, Nothing])
+fmap (fmap (2*)) [Just 1, Just 2, Just 3, Nothing]
+fmap (fmap (2*)) {Just 1, Just 2, Just 3, Nothing]
+fmap (fmap (2*))
+fmap (2*) (Just 1) 
+fmap (2*) [1,2,3,4]
+fmap (2*) [1,2,3,4] [5,6,7,8]
+fmap max [1,2,3]
+fmap fmap max [[1,2,3],[3,5,7],[12,10,7]]
+max [1,2,3] [4,5,6]
+max [1,2,3]
+:t max
+:t fmap
+fmap max [[1,2,3],[3,5,7],[12,10,7]]
+:q
+60/5
+130/60
+2*60+10
+:q
+:l syntax.hs 
+:q
+:l syntax.hs
+:l syntax.hs n
+:q
+:l syntax.hs 
+:q
+:l syntax.hs 
+:q
+:l syntax.hs
+:q
+:l syntax.hs
+:q
+length (1,2)
+length (1,2,3)
+length (1,2)
+length (1)
+length (1,)
+length (1,2,3)
+436 / 60
+872/60
+5.8 + 8.4
+74.60 + 12.46 + 132.08 + 12.46
+74 + 132 + 24 + 19 + 3 + 4
+74 + 132 + 24 + 19 + 3 + 64 + 4
+74 + 132 + 418 + 24 + 19 + 3 + 64 + 69 + 4 - 418
+74 + 132 + 418 + 24 + 19 + 3 + 64 + 69 + 4
+872/60
+872/60
+10.9 * 80
+436 / 60
+10.9 * 40
+14.2 / 1.3
+5.8 + 8.4
+418/40
+290/26
+26/290
+290/26
+94/5
+:q
+94/5
+94/4
+fringeTree tree1
+sumTree tree1
+doubleTree tree1
+:l tree.hs 
+:l tree.hs 
+a [2] 1
+a = flip (:)
+flip . (:)
+flip (:)
+(==) ((+) 4 9) 13
+(==) (4 + 9) 13
+:t map g . map f
+:t map f . map g
+g = undefined :: b -> c
+f = undefined :: a -> b
+:t map g . map f
+:t map f . map g
+g = undefined :: [b] -> [c]
+f = undefined :: [a] -> [b]
+:t map
+map ($3) [1,2,3]
+putStrLn . show . (+) 1 1
+[[1],['a']]
+fix error

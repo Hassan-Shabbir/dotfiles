@@ -1,0 +1,7 @@
+
+xmonad.hs:3:49: error:
+    Not in scope: ‘M.fromList’
+    No module named ‘M’ is imported.
+  |
+3 | myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
+  |                                                 ^^^^^^^^^^

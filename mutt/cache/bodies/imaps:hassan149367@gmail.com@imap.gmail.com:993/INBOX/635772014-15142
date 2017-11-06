@@ -1,0 +1,339 @@
+Delivered-To: hassan149367@gmail.com
+Received: by 10.100.162.16 with SMTP id c16csp198355pje;
+        Tue, 15 Aug 2017 18:31:31 -0700 (PDT)
+X-Received: by 10.176.22.36 with SMTP id k33mr40017uae.97.1502847091121;
+        Tue, 15 Aug 2017 18:31:31 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1502847091; cv=none;
+        d=google.com; s=arc-20160816;
+        b=nVTFbXEpP+sgPYtZUAzK4s+NO2t4qnQ5l6Tbi49jKFDoyjVS8K62ZVv3JDo/cL+fOr
+         oTep/0JqaD6AaEnATWLeq8QLsY1WfnJkofc04suaudhyb79Q0jIfdFfflGXdeAHUfJJi
+         cIsqRt6oiTSR8HEBpy9qHlwNafnwxKahU7CHCdCCovSfqDbMIb6eIBc+SHzCo71VRrP5
+         9xTdjanRnqgo6/iESILUIVEH8iIHDRz7er2k6tOkUVMqdmfaQQivZTpca3dXZzix+Avy
+         s6zlS51QqXAwOxAWOwEjbg0+AL4Qvps0GXktbOuiL41kUCCQl+jkrvmutJXqO6H/OC1B
+         gp9A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:from:subject:date:message-id:sender:reply-to:mime-version
+         :dkim-signature:dkim-signature:arc-authentication-results;
+        bh=O2A1z1wyToJju1zu+hRYArxL1QFlTkKpezqm552hLNw=;
+        b=QQKNcHyMW20VijLuhZkqw8NXV0Af1VPWFBLRHOMSV1iyGOxWWkjiZTGo5UOkEXSeJy
+         u2oA039BXFCrqb8jfgtH4+o6aSq0quV0CMo2zfU8a/vsI4YliZK+6dAYckS+hn5sCtHp
+         DQQ5c5hOL5XvKCImaQ3/mr05GxyDQTZ1xRyhm32GWQzM+JLNwSlAil19To/GPd/NhGjk
+         uT7HeWqsk0feR+eHgx2eMbNsDiRjdsS8G691DHMflbJMob5IhXnTcXM3XKOaNtHCdKIm
+         Qh1n+yHAyXPUYADuP9kJvOQUa0lovgXuAU5cOkyTgmQO6yGAFJKwvqZ7badccxES+ngb
+         4kFg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=MSJWZBdJ;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=bmFdlj1G;
+       spf=pass (google.com: domain of mohammadshabbircga@gmail.com designates 2607:f8b0:400c:c05::249 as permitted sender) smtp.mailfrom=mohammadshabbircga@gmail.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gmail.com
+Return-Path: <mohammadshabbircga@gmail.com>
+Received: from mail-vk0-x249.google.com (mail-vk0-x249.google.com. [2607:f8b0:400c:c05::249])
+        by mx.google.com with ESMTPS id f129si4516833vke.200.2017.08.15.18.31.30
+        for <hassan149367@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Aug 2017 18:31:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mohammadshabbircga@gmail.com designates 2607:f8b0:400c:c05::249 as permitted sender) client-ip=2607:f8b0:400c:c05::249;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=MSJWZBdJ;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=bmFdlj1G;
+       spf=pass (google.com: domain of mohammadshabbircga@gmail.com designates 2607:f8b0:400c:c05::249 as permitted sender) smtp.mailfrom=mohammadshabbircga@gmail.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gmail.com
+Received: by mail-vk0-x249.google.com with SMTP id n125so194570vke.4
+        for <hassan149367@gmail.com>; Tue, 15 Aug 2017 18:31:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=O2A1z1wyToJju1zu+hRYArxL1QFlTkKpezqm552hLNw=;
+        b=MSJWZBdJQAVXse5xnp/aS8ZmeMJHCzublk8WmYa/A1cr+6PnmqlDQInMuxHXFYnmh6
+         WMoia787TDNXNLNFH3gEJ9LsZXo+Y32bWwQjJ2Y4zqBAYCKWAEPSK7iPRtssMKwCHbQs
+         6spt+OiVT8p3n+f/nGZlVkwXq822fbbYzidZNjqiknQfLdbMo223ar2XGcs6bnhGz5ZH
+         hN1y37dhIviTljioJ+ZlTJGDsc3AtuWD6yoZE6YP+1RKSbyxIBC97mei/0gP5JG+ikKv
+         oz2PWlss8ex3HX8ls7Mbwbevxmf5MVUUpEpuUB05kqOVp33RLzN/W6G2njiAilsxKbGu
+         FnFw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=O2A1z1wyToJju1zu+hRYArxL1QFlTkKpezqm552hLNw=;
+        b=bmFdlj1GEsv5fVPGx59sc9paRC1GaLHwCXYLuHvfixP16RL+ppqM67xgbU4AL3LYTW
+         OpJpbkOzE4DZJm4H2M/35gFmBoG/9QkJVBXcb0nwH4e2HvUzAiRUViPZ/152xxaLwvup
+         DlB/Vp6nsfJPRkUK0GVKZY43hlc1Ge9wbZUJ0+kmfVWksKYEQVS7xiWmor2Nh2H4y/MD
+         PRwjgm2kFBmOvvVm0Ate+MDuw0BkwlzDwea7PNMYazr7lzFBcTHwyJOQzQLE4TImBgry
+         LqB78VB6MSEXR/HDY59Vhq/UIDLTouCihkbiRmfjVFSO21og60oj1yoDncbVDLMNxEHM
+         rGCw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:sender:message-id:date
+         :subject:from:to;
+        bh=O2A1z1wyToJju1zu+hRYArxL1QFlTkKpezqm552hLNw=;
+        b=dbyu8peSX00sDkhL2Om9gS060B7y+iar/tCjeXhebaidP3FZrfhTB0gb/HcIgMl0PO
+         WYKVhMVI41+O+S18xrW99X2w/KbP56e3WN6RpwDMLIE7xi3nrgp1/ElZRWoJ+W0nCAU0
+         XwBnGxNjb8SOIXSTFdaFXYkQ33LUBdosGE5we0tyonVq5IcutnwJ0WwFEwJg0lHQPuW1
+         nlR1zh3kW4jK+rjSSgXpjmaWRtIX5OXwUsAA13M0T8UItbJv05gj9/mYf5czNOjc5DDe
+         JzTYCctKdtopawv1XzRZk1W1vLQOlcWJFrldDhBfLq9BY9kqZ8yAX8bH0cqHS3FozYOf
+         J2mw==
+X-Gm-Message-State: AHYfb5ixFzpDcMNVw3uBxHAHidRXJQCP8QqGwyeVeLYWn4Fwl1TJLliJ
+	yq2tN65Rm1tfHJHpIfyv/788GczEx/gFdhUEL8Yi
+MIME-Version: 1.0
+X-Received: by 10.176.80.116 with SMTP id z49mr31989uaz.59.1502847090628; Tue,
+ 15 Aug 2017 18:31:30 -0700 (PDT)
+Reply-To: Mohammad Shabbir <mohammadshabbircga@gmail.com>
+Sender: Google Calendar <calendar-notification@google.com>
+Message-ID: <94eb2c191a52fd22260556d4da62@google.com>
+Date: Wed, 16 Aug 2017 01:31:30 +0000
+Subject: Invitation: Days Inn Ottawa @ Wed Aug 16 2pm - Thu Aug 17, 2017 11pm
+ (Hassan Shabbir)
+From: Mohammad Shabbir <mohammadshabbircga@gmail.com>
+To: hassan149367@gmail.com, shamim1592@gmail.com, 
+	Abdul Shabbir <abdulqshabbir@gmail.com>, Maria Shabbir <mariashabbir101@gmail.com>
+Content-Type: multipart/mixed; boundary="94eb2c191a52fd21ec0556d4da61"
+
+--94eb2c191a52fd21ec0556d4da61
+Content-Type: multipart/alternative; boundary="94eb2c191a52fd21e70556d4da5f"
+
+--94eb2c191a52fd21e70556d4da5f
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+WW91IGhhdmUgYmVlbiBpbnZpdGVkIHRvIHRoZSBmb2xsb3dpbmcgZXZlbnQuDQoNClRpdGxlOiBE
+YXlzIElubiBPdHRhd2ENCldoZW46IFdlZCBBdWcgMTYgMnBtIOKAkyBUaHUgQXVnIDE3LCAyMDE3
+IDExcG0gRWFzdGVybiBUaW1lIC0gVG9yb250bw0KV2hlcmU6IDM2NiBIdW50IENsdWIgUmQsIE90
+dGF3YSwgT04gSzFWIDFDMSwgQ2FuYWRhDQpDYWxlbmRhcjogSGFzc2FuIFNoYWJiaXINCldobzoN
+CiAgICAgKiBNb2hhbW1hZCBTaGFiYmlyIC0gb3JnYW5pemVyDQogICAgICogc2hhbWltMTU5MkBn
+bWFpbC5jb20NCiAgICAgKiBBYmR1bCBTaGFiYmlyDQogICAgICogSGFzc2FuIFNoYWJiaXINCiAg
+ICAgKiBNYXJpYSBTaGFiYmlyDQoNCkV2ZW50IGRldGFpbHM6ICANCmh0dHBzOi8vd3d3Lmdvb2ds
+ZS5jb20vY2FsZW5kYXIvZXZlbnQ/YWN0aW9uPVZJRVcmZWlkPVkyaHBOakprY0dvMk9IQTJOR0k1
+Y0RZd2IybzJZamxyWTJkdk0yVmlZakZqT0hJek5HSmlNbU0xYWpObmIyaG5OekJ6TTJWak1XazJO
+Q0JvWVhOellXNHhORGt6TmpkQWJRJnRvaz1NamdqYlc5b1lXMXRZV1J6YUdGaVltbHlZMmRoUUdk
+dFlXbHNMbU52YldWa056Z3laalEyTlRRNU5UQTRaalJqTnpnNU16RXpNell6T0RBNU5XVXlaREkz
+TjJJM056QSZjdHo9QW1lcmljYS9Ub3JvbnRvJmhsPWVuDQoNCkludml0YXRpb24gZnJvbSBHb29n
+bGUgQ2FsZW5kYXI6IGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvDQoNCllvdSBhcmUg
+cmVjZWl2aW5nIHRoaXMgZW1haWwgYXQgdGhlIGFjY291bnQgaGFzc2FuMTQ5MzY3QGdtYWlsLmNv
+bSBiZWNhdXNlICANCnlvdSBhcmUgc3Vic2NyaWJlZCBmb3IgaW52aXRhdGlvbnMgb24gY2FsZW5k
+YXIgSGFzc2FuIFNoYWJiaXIuDQoNClRvIHN0b3AgcmVjZWl2aW5nIHRoZXNlIGVtYWlscywgcGxl
+YXNlIGxvZyBpbiB0byAgDQpodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyLyBhbmQgY2hh
+bmdlIHlvdXIgbm90aWZpY2F0aW9uIHNldHRpbmdzIGZvciAgDQp0aGlzIGNhbGVuZGFyLg0KDQpG
+b3J3YXJkaW5nIHRoaXMgaW52aXRhdGlvbiBjb3VsZCBhbGxvdyBhbnkgcmVjaXBpZW50IHRvIG1v
+ZGlmeSB5b3VyIFJTVlAgIA0KcmVzcG9uc2UuIExlYXJuIG1vcmUgYXQgIA0KaHR0cHM6Ly9zdXBw
+b3J0Lmdvb2dsZS5jb20vY2FsZW5kYXIvYW5zd2VyLzM3MTM1I2ZvcndhcmRpbmcNCg==
+--94eb2c191a52fd21e70556d4da5f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span style=3D"=
+display:none" itemprop=3D"about" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><meta itemprop=3D"description" content=3D"Invitation from Mohammad Sh=
+abbir"/></span><span itemprop=3D"object" itemscope itemtype=3D"http://schem=
+a.org/Event"><div style=3D""><table cellspacing=3D"0" cellpadding=3D"8" bor=
+der=3D"0" summary=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;bor=
+der:1px Solid #ccc;border-width:1px 2px 2px 1px;background-color:#fff;"><tr=
+><td><meta itemprop=3D"eventStatus" content=3D"http://schema.org/EventSched=
+uled"/><div style=3D"padding:2px"><span itemprop=3D"publisher" itemscope it=
+emtype=3D"http://schema.org/Organization"><meta itemprop=3D"name" content=
+=3D"Google Calendar"/></span><meta itemprop=3D"eventId/googleCalendar" cont=
+ent=3D"chi62dpj68p64b9p60oj6b9kcgo3ebb1c8r34bb2c5j3gohg70s3ec1i64"/><div st=
+yle=3D"float:right;font-weight:bold;font-size:13px"> <a href=3D"https://www=
+.google.com/calendar/event?action=3DVIEW&amp;eid=3DY2hpNjJkcGo2OHA2NGI5cDYw=
+b2o2YjlrY2dvM2ViYjFjOHIzNGJiMmM1ajNnb2hnNzBzM2VjMWk2NCBoYXNzYW4xNDkzNjdAbQ&=
+amp;tok=3DMjgjbW9oYW1tYWRzaGFiYmlyY2dhQGdtYWlsLmNvbWVkNzgyZjQ2NTQ5NTA4ZjRjN=
+zg5MzEzMzYzODA5NWUyZDI3N2I3NzA&amp;ctz=3DAmerica/Toronto&amp;hl=3Den" style=
+=3D"color:#20c;white-space:nowrap" itemprop=3D"url">more details &raquo;</a=
+><br></div><h3 style=3D"padding:0 0 6px 0;margin:0;font-family:Arial,Sans-s=
+erif;font-size:16px;font-weight:bold;color:#222"><span itemprop=3D"name">Da=
+ys Inn Ottawa</span></h3><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" summary=3D"Event details"><tr><td style=3D"padding:0 1em 10px 0;font=
+-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap" vali=
+gn=3D"top"><div><i style=3D"font-style:normal">When</i></div></td><td style=
+=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222" valign=3D"top"><time itemprop=3D"startDate" datetime=3D"20170816T18000=
+0Z"></time><time itemprop=3D"endDate" datetime=3D"20170818T030000Z"></time>=
+Wed Aug 16 2pm =E2=80=93 Thu Aug 17, 2017 11pm <span style=3D"color:#888">E=
+astern Time - Toronto</span></td></tr><tr><td style=3D"padding:0 1em 10px 0=
+;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap"=
+ valign=3D"top"><div><i style=3D"font-style:normal">Where</i></div></td><td=
+ style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;c=
+olor:#222" valign=3D"top"><span itemprop=3D"location" itemscope itemtype=3D=
+"http://schema.org/Place"><span itemprop=3D"name" class=3D"notranslate">366=
+ Hunt Club Rd, Ottawa, ON K1V 1C1, Canada</span><span dir=3D"ltr"> (<a href=
+=3D"https://maps.google.com/maps?q=3D366+Hunt+Club+Rd,+Ottawa,+ON+K1V+1C1,+=
+Canada&amp;hl=3Den" style=3D"color:#20c;white-space:nowrap" target=3D"_blan=
+k" itemprop=3D"map">map</a>)</span></span></td></tr><tr><td style=3D"paddin=
+g:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white=
+-space:nowrap" valign=3D"top"><div><i style=3D"font-style:normal">Calendar<=
+/i></div></td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif=
+;font-size:13px;color:#222" valign=3D"top">Hassan Shabbir</td></tr><tr><td =
+style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;c=
+olor:#888;white-space:nowrap" valign=3D"top"><div><i style=3D"font-style:no=
+rmal">Who</i></div></td><td style=3D"padding-bottom:10px;font-family:Arial,=
+Sans-serif;font-size:13px;color:#222" valign=3D"top"><table cellspacing=3D"=
+0" cellpadding=3D"0"><tr><td style=3D"padding-right:10px;font-family:Arial,=
+Sans-serif;font-size:13px;color:#222"><span style=3D"font-family:Courier Ne=
+w,monospace">&#x2022;</span></td><td style=3D"padding-right:10px;font-famil=
+y:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0=
+ 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.o=
+rg/Person"><span itemprop=3D"name" class=3D"notranslate">Mohammad Shabbir</=
+span><meta itemprop=3D"email" content=3D"mohammadshabbircga@gmail.com"/></s=
+pan><span itemprop=3D"organizer" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><meta itemprop=3D"name" content=3D"Mohammad Shabbir"/><meta itemprop=
+=3D"email" content=3D"mohammadshabbircga@gmail.com"/></span><span style=3D"=
+font-size:11px;color:#888"> - organizer</span></div></div></td></tr><tr><td=
+ style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;co=
+lor:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;</span>=
+</td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size=
+:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"=
+attendee" itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D=
+"name" class=3D"notranslate">shamim1592@gmail.com</span><meta itemprop=3D"e=
+mail" content=3D"shamim1592@gmail.com"/></span></div></div></td></tr><tr><t=
+d style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;c=
+olor:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;</span=
+></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-siz=
+e:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D=
+"attendee" itemscope itemtype=3D"http://schema.org/Person"><span itemprop=
+=3D"name" class=3D"notranslate">Abdul Shabbir</span><meta itemprop=3D"email=
+" content=3D"abdulqshabbir@gmail.com"/></span></div></div></td></tr><tr><td=
+ style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;co=
+lor:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;</span>=
+</td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size=
+:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"=
+attendee" itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D=
+"name" class=3D"notranslate">Hassan Shabbir</span><meta itemprop=3D"email" =
+content=3D"hassan149367@gmail.com"/></span></div></div></td></tr><tr><td st=
+yle=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color=
+:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;</span></t=
+d><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13=
+px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"att=
+endee" itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"na=
+me" class=3D"notranslate">Maria Shabbir</span><meta itemprop=3D"email" cont=
+ent=3D"mariashabbir101@gmail.com"/></span></div></div></td></tr></table></t=
+d></tr></table></div><p style=3D"color:#222;font-size:13px;margin:0"><span =
+style=3D"color:#888">Going?&nbsp;&nbsp;&nbsp;</span><wbr><strong><span item=
+prop=3D"potentialaction" itemscope itemtype=3D"http://schema.org/RsvpAction=
+"><meta itemprop=3D"attendance" content=3D"http://schema.org/RsvpAttendance=
+/Yes"/><span itemprop=3D"handler" itemscope itemtype=3D"http://schema.org/H=
+ttpActionHandler"><link itemprop=3D"method" href=3D"http://schema.org/HttpR=
+equestMethod/GET"/><a href=3D"https://www.google.com/calendar/event?action=
+=3DRESPOND&amp;eid=3DY2hpNjJkcGo2OHA2NGI5cDYwb2o2YjlrY2dvM2ViYjFjOHIzNGJiMm=
+M1ajNnb2hnNzBzM2VjMWk2NCBoYXNzYW4xNDkzNjdAbQ&amp;rst=3D1&amp;tok=3DMjgjbW9o=
+YW1tYWRzaGFiYmlyY2dhQGdtYWlsLmNvbWVkNzgyZjQ2NTQ5NTA4ZjRjNzg5MzEzMzYzODA5NWU=
+yZDI3N2I3NzA&amp;ctz=3DAmerica/Toronto&amp;hl=3Den" style=3D"color:#20c;whi=
+te-space:nowrap" itemprop=3D"url">Yes</a></span></span><span style=3D"margi=
+n:0 0.4em;font-weight:normal"> - </span><span itemprop=3D"potentialaction" =
+itemscope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=3D"atten=
+dance" content=3D"http://schema.org/RsvpAttendance/Maybe"/><span itemprop=
+=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionHandler"><li=
+nk itemprop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET"/><a=
+ href=3D"https://www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DY=
+2hpNjJkcGo2OHA2NGI5cDYwb2o2YjlrY2dvM2ViYjFjOHIzNGJiMmM1ajNnb2hnNzBzM2VjMWk2=
+NCBoYXNzYW4xNDkzNjdAbQ&amp;rst=3D3&amp;tok=3DMjgjbW9oYW1tYWRzaGFiYmlyY2dhQG=
+dtYWlsLmNvbWVkNzgyZjQ2NTQ5NTA4ZjRjNzg5MzEzMzYzODA5NWUyZDI3N2I3NzA&amp;ctz=
+=3DAmerica/Toronto&amp;hl=3Den" style=3D"color:#20c;white-space:nowrap" ite=
+mprop=3D"url">Maybe</a></span></span><span style=3D"margin:0 0.4em;font-wei=
+ght:normal"> - </span><span itemprop=3D"potentialaction" itemscope itemtype=
+=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendance" content=3D"=
+http://schema.org/RsvpAttendance/No"/><span itemprop=3D"handler" itemscope =
+itemtype=3D"http://schema.org/HttpActionHandler"><link itemprop=3D"method" =
+href=3D"http://schema.org/HttpRequestMethod/GET"/><a href=3D"https://www.go=
+ogle.com/calendar/event?action=3DRESPOND&amp;eid=3DY2hpNjJkcGo2OHA2NGI5cDYw=
+b2o2YjlrY2dvM2ViYjFjOHIzNGJiMmM1ajNnb2hnNzBzM2VjMWk2NCBoYXNzYW4xNDkzNjdAbQ&=
+amp;rst=3D2&amp;tok=3DMjgjbW9oYW1tYWRzaGFiYmlyY2dhQGdtYWlsLmNvbWVkNzgyZjQ2N=
+TQ5NTA4ZjRjNzg5MzEzMzYzODA5NWUyZDI3N2I3NzA&amp;ctz=3DAmerica/Toronto&amp;hl=
+=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">No</a></spa=
+n></span></strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://www.googl=
+e.com/calendar/event?action=3DVIEW&amp;eid=3DY2hpNjJkcGo2OHA2NGI5cDYwb2o2Yj=
+lrY2dvM2ViYjFjOHIzNGJiMmM1ajNnb2hnNzBzM2VjMWk2NCBoYXNzYW4xNDkzNjdAbQ&amp;to=
+k=3DMjgjbW9oYW1tYWRzaGFiYmlyY2dhQGdtYWlsLmNvbWVkNzgyZjQ2NTQ5NTA4ZjRjNzg5MzE=
+zMzYzODA5NWUyZDI3N2I3NzA&amp;ctz=3DAmerica/Toronto&amp;hl=3Den" style=3D"co=
+lor:#20c;white-space:nowrap" itemprop=3D"url">more options &raquo;</a></p><=
+/td></tr><tr><td style=3D"background-color:#f6f6f6;color:#888;border-top:1p=
+x Solid #ccc;font-family:Arial,Sans-serif;font-size:11px"><p>Invitation fro=
+m <a href=3D"https://www.google.com/calendar/" target=3D"_blank" style=3D""=
+>Google Calendar</a></p><p>You are receiving this email at the account hass=
+an149367@gmail.com because you are subscribed for invitations on calendar H=
+assan Shabbir.</p><p>To stop receiving these emails, please log in to https=
+://www.google.com/calendar/ and change your notification settings for this =
+calendar.</p><p>Forwarding this invitation could allow any recipient to mod=
+ify your RSVP response. <a href=3D"https://support.google.com/calendar/answ=
+er/37135#forwarding">Learn More</a>.</p></td></tr></table></div></span></sp=
+an>
+--94eb2c191a52fd21e70556d4da5f
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20170816T180000Z
+DTEND:20170818T030000Z
+DTSTAMP:20170816T013130Z
+ORGANIZER;CN=Mohammad Shabbir:mailto:mohammadshabbircga@gmail.com
+UID:chi62dpj68p64b9p60oj6b9kcgo3ebb1c8r34bb2c5j3gohg70s3ec1i64@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=shamim1592@gmail.com;X-NUM-GUESTS=0:mailto:shamim1592@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abdul Shabbir;X-NUM-GUESTS=0:mailto:abdulqshabbir@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Hassan Shabbir;X-NUM-GUESTS=0:mailto:hassan149367@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Mohammad Shabbir;X-NUM-GUESTS=0:mailto:mohammadshabbircga@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Maria Shabbir;X-NUM-GUESTS=0:mailto:mariashabbir101@gmail.com
+CREATED:20170816T013129Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nView your event at https://www.google.com/calendar/event?action=VIEW&
+ eid=Y2hpNjJkcGo2OHA2NGI5cDYwb2o2YjlrY2dvM2ViYjFjOHIzNGJiMmM1ajNnb2hnNzBzM2V
+ jMWk2NCBoYXNzYW4xNDkzNjdAbQ&tok=MjgjbW9oYW1tYWRzaGFiYmlyY2dhQGdtYWlsLmNvbWV
+ kNzgyZjQ2NTQ5NTA4ZjRjNzg5MzEzMzYzODA5NWUyZDI3N2I3NzA&ctz=America/Toronto&hl
+ =en.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~::~:~::-
+LAST-MODIFIED:20170816T013129Z
+LOCATION:366 Hunt Club Rd\, Ottawa\, ON K1V 1C1\, Canada
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Days Inn Ottawa
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--94eb2c191a52fd21e70556d4da5f--
+--94eb2c191a52fd21ec0556d4da61
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTcwODE2VDE4MDAwMFoNCkRURU5EOjIwMTcwODE4
+VDAzMDAwMFoNCkRUU1RBTVA6MjAxNzA4MTZUMDEzMTMwWg0KT1JHQU5JWkVSO0NOPU1vaGFtbWFk
+IFNoYWJiaXI6bWFpbHRvOm1vaGFtbWFkc2hhYmJpcmNnYUBnbWFpbC5jb20NClVJRDpjaGk2MmRw
+ajY4cDY0YjlwNjBvajZiOWtjZ28zZWJiMWM4cjM0YmIyYzVqM2dvaGc3MHMzZWMxaTY0QGdvb2ds
+ZS5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BB
+UlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049c2hhbWltMTU5MkBnbWFpbC5jb207
+WC1OVU0tR1VFU1RTPTA6bWFpbHRvOnNoYW1pbTE1OTJAZ21haWwuY29tDQpBVFRFTkRFRTtDVVRZ
+UEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047
+UlNWUD0NCiBUUlVFO0NOPUFiZHVsIFNoYWJiaXI7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmFiZHVs
+cXNoYWJiaXJAZ21haWwuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1Q
+QVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPUhhc3NhbiBT
+aGFiYmlyO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpoYXNzYW4xNDkzNjdAZ21haWwuY29tDQpBVFRF
+TkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1BQ0NF
+UFRFRDtSU1ZQPVRSVUUNCiA7Q049TW9oYW1tYWQgU2hhYmJpcjtYLU5VTS1HVUVTVFM9MDptYWls
+dG86bW9oYW1tYWRzaGFiYmlyY2dhQGdtYWlsLmNvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURV
+QUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJV
+RTtDTj1NYXJpYSBTaGFiYmlyO1gtTlVNLUdVRVNUUz0wOm1haWx0bzptYXJpYXNoYWJiaXIxMDFA
+Z21haWwuY29tDQpDUkVBVEVEOjIwMTcwODE2VDAxMzEyOVoNCkRFU0NSSVBUSU9OOi06On46fjo6
+fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fg0K
+IDp+On46fjp+On46fjp+On46On46fjo6LVxuUGxlYXNlIGRvIG5vdCBlZGl0IHRoaXMgc2VjdGlv
+biBvZiB0aGUgZGVzY3JpcHRpbw0KIG4uXG5cblZpZXcgeW91ciBldmVudCBhdCBodHRwczovL3d3
+dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2FjdGlvbj1WSUVXJg0KIGVpZD1ZMmhwTmpKa2NH
+bzJPSEEyTkdJNWNEWXdiMm8yWWpsclkyZHZNMlZpWWpGak9ISXpOR0ppTW1NMWFqTm5iMmhuTnpC
+ek0yVg0KIGpNV2syTkNCb1lYTnpZVzR4TkRrek5qZEFiUSZ0b2s9TWpnamJXOW9ZVzF0WVdSemFH
+RmlZbWx5WTJkaFFHZHRZV2xzTG1OdmJXVg0KIGtOemd5WmpRMk5UUTVOVEE0WmpSak56ZzVNekV6
+TXpZek9EQTVOV1V5WkRJM04ySTNOekEmY3R6PUFtZXJpY2EvVG9yb250byZobA0KID1lbi5cbi06
+On46fjo6fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+
+On46fjp+On46fg0KIDp+On46fjp+On46On46fjo6LQ0KTEFTVC1NT0RJRklFRDoyMDE3MDgxNlQw
+MTMxMjlaDQpMT0NBVElPTjozNjYgSHVudCBDbHViIFJkXCwgT3R0YXdhXCwgT04gSzFWIDFDMVws
+IENhbmFkYQ0KU0VRVUVOQ0U6MA0KU1RBVFVTOkNPTkZJUk1FRA0KU1VNTUFSWTpEYXlzIElubiBP
+dHRhd2ENClRSQU5TUDpPUEFRVUUNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==
+--94eb2c191a52fd21ec0556d4da61--
