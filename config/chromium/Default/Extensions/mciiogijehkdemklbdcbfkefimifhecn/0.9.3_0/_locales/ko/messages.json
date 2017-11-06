@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "파일 URL에 대한 액세스 허용"
+   },
+   "chromesysDownloadLocation": {
+      "message": "다운로드 위치"
+   },
+   "chromesysDownloadsSection": {
+      "message": "다운로드"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "고급 설정 표시"
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Korean"
+   }
+}

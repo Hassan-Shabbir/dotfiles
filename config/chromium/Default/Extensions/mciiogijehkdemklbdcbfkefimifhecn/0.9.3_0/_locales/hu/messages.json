@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Fájl URL-ekhez való hozzáférés engedélyezése"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Letöltés helye"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Letöltések"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Speciális beállítások megjelenítése..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Hungarian"
+   }
+}

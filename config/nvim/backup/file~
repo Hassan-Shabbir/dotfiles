@@ -1,0 +1,26 @@
+wget options:
+-r  or  --recursive to download the website recursively
+-U Chrome
+--user-agent=Chrome
+--wait=20 wait 20 seconds between downloading retrievals
+--random-wait wait a random number of seconds between retrievals
+--limit-rate=20K limit download speeds to 20kb/s
+--convert-links convert hard links to relative links to work offline
+--page-requisites download all the elements needed for the website
+--no-clobber don't overwrite files that are resumed
+-k use local version of files
+-b run command in the background
+-t to specify the number of retries allowed
+-c to retry to download from the last connection drop
+-A "*.mp3" to download only .mp3 files
+-R "*.mp3" to download everything but .mp3 files
+-O x save file as x
+-m turn on mirroring
+--execute robots=off ignore robots.txt
+
+run wget -i /path/to/inputfile to download all links in file
+or using base urls, wget -B file.com -i /path/to/inputfile
+where the inputfile only contains the ending part of the url
+
+run nohup wget .... to keep running wget commands even after the terminal is closed
+

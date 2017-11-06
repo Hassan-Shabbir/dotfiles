@@ -1,0 +1,296 @@
+" vim:foldmethod=marker:
+" Hassan's NeoVimrc 
+" Dein (package manager) Scripts---------------{{{
+if &compatible
+  set nocompatible               " Be iMproved
+endif
+
+" Required:
+set runtimepath+=/home/hassan4350/.local/share/dein/./repos/github.com/Shougo/dein.vim
+
+" Required:
+if dein#load_state('/home/hassan4350/.local/share/dein/.')
+  call dein#begin('/home/hassan4350/.local/share/dein/.')
+
+  " Let dein manage dein
+  " Required:
+  call dein#add('/home/hassan4350/.local/share/dein/./repos/github.com/Shougo/dein.vim')
+
+  " Color scheme for vim
+  call dein#add('iCyMind/NeoSolarized')
+  " preview markdown in a chrome window using `:InstantMarkdownPreview`
+  call dein#add('suan/vim-instant-markdown')
+  " adds support for pandoc flavored markdown
+  call dein#add('vim-pandoc/vim-pandoc')
+  " adds support for pandoc flavored markdown
+  call dein#add('vim-pandoc/vim-pandoc-syntax')
+  " adds coloring for haskell code
+  call dein#add('neovimhaskell/haskell-vim')
+  " `:Codi haskell` will run haskell code inside a text window
+  call dein#add('metakirby5/codi.vim')
+  " shows line numbers relative in command mode and absolute in insert mode
+  call dein#add('myusuf3/numbers.vim')
+  " shows fancy bottom bar in vim 
+  call dein#add('vim-airline/vim-airline')
+  " adds solarized theme
+  call dein#add('vim-airline/vim-airline-themes')
+  " shows changes in the gutter to a git file
+  call dein#add('mhinz/vim-signify')
+  " use multiple cursors by ctrl-n
+  call dein#add('terryma/vim-multiple-cursors')
+  " align text
+  call dein#add('godlygeek/tabular')
+  " surround words
+  call dein#add('tpope/vim-surround')
+  " repeat plugin command using `.`
+  call dein#add('tpope/vim-repeat')
+  " adds additional text objects to vim 
+  call dein#add('wellle/targets.vim')
+  " real time linting/error checking
+  call dein#add('w0rp/ale')
+  " graphical tree undo for vim using :GundoToggle
+  call dein#add('sjl/gundo.vim')
+  " better fold text for vim
+  call dein#add('vim-scripts/Spiffy-Foldtext')
+  " collaborative editing
+  call dein#add('Floobits/floobits-neovim')
+  " haskell math syntax
+  call dein#add('enomsg/vim-haskellconcealplus')
+  " git from within vim
+  call dein#add('tpope/vim-fugitive.git')
+
+  "add search using subvert from abolish tim pope
+
+  " not working:
+  "call dein#add('Shougo/denite.nvim')
+  "call dein#add('vim-ctrlspace/vim-ctrlspace')
+  " real time collaborative editing
+  "call dein#add('Floobits/floobits-neovim')
+  " icons in vim
+  "call dein#add('ryanoasis/vim-devicons')
+
+  " Required:
+  call dein#end()
+  call dein#save_state()
+endif
+
+" Required:
+filetype plugin indent on
+syntax enable
+" allow buffer switches while not saved
+set hidden
+
+" If you want to install not installed plugins on startup.
+if dein#check_install()
+  call dein#install()
+endif
+
+"End dein Scripts-------------------------}}}
+" Basic Settings {{{
+" Colors
+colorscheme NeoSolarized
+" set colors to reflect a dark background
+set background=dark
+" show line numbers
+set number
+" expand the tonal range displayed.
+let g:neosolarized_contrast = "high"
+" Special characters such as trailing whitespace, tabs, newlines, are shown with
+" low visibility
+let g:neosolarized_visibility = "low"
+" highlight when lines are too long with brighter background
+highlight ColorColumn ctermfg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
+
+" two space tabs
+set ts=2 sts=2 sw=2 expandtab
+
+" recursively search for files
+" fuzzy file find using globbing,
+" *hs searches for all haskell files
+set path+=**
+
+" python2 support on neovim
+let g:python_host_prog = '/usr/bin/python2.7'
+
+
+" formatting
+"w - specify line length (80)
+"r - repeat characters in bodiless lines
+"e - remove ‘superflous’ lines
+"q - handle nested quotations in plaintext email
+" use formatting by gq command
+set formatprg=par\ -w80req
+
+" hide `-- Insert --` on last line while using lightline
+set noshowmode
+
+" open file to the last edited location
+au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") |
+                     \ exe "normal! g`\"" | endif
+
+" automatically read the file when it is changed by other than vim
+autocmd FileChangedShell *
+      \ echohl WarningMsg |
+      \ echo "File has been changed outside of vim." |
+      \ echohl None
+
+" change buffers with F7 and F8
+nnoremap <F7> :bprevious<CR>
+nnoremap <F8> :bnext<CR>
+
+" show 5 lines between the cursor and the top/bottom of screen
+set scrolloff=5
+
+" remove search highlights on redraw
+noremap <silent> <C-L> <C-L>:nohls<CR>
+
+" search based on whether the search is capitalized
+set smartcase
+
+" see changes made to the file since last save
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set buftype=nofile | read ++edit # | 0d_ | diffthis
+                 \ | wincmd p | diffthis
+endif
+
+" save changes that overwrite a file
+set writebackup
+" backup changes
+set backup
+" backup changes to 
+set backupdir=/home/hassan4350/.config/nvim/backup/
+" use an undo file
+set undofile
+" set a directory to store the undo history
+set undodir=/home/hassan4350/.config/nvim/undo/
+
+" redraw only when needed, should speed up vim
+set lazyredraw
+
+" NEW
+" Sets how many lines of history VIM has to remember
+set history=5000
+
+" Set to auto read when a file is changed from the outside
+set autoread
+
+" map a leader key to use for custom functions
+let mapleader = " "
+let g:mapleader = " "
+
+" Fast saving
+nnoremap <leader><leader> :w!<cr>
+
+" :W saves the file using sudo  
+" (useful for handling the permission-denied error)
+command! W w !sudo tee % > /dev/null
+
+" Ignore compiled files
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
+
+" For regular expressions turn magic on
+set magic
+
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+" make * / # (search next/prev word under cursor) 
+" behave like normal mode commands 
+vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
+vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
+
+" Delete trailing white space on save, useful for some filetypes
+fun! CleanExtraSpaces()
+    let save_cursor = getpos(".")
+    let old_query = getreg('/')
+    silent! %s/\s\+$//e
+    call setpos('.', save_cursor)
+    call setreg('/', old_query)
+endfun
+
+if has("autocmd")
+    autocmd BufWritePre *.txt,*.md,*.sh :call CleanExtraSpaces()
+endif
+
+" Custom AG search functions
+if executable('ag')
+  set grepprg=ag\ --nogroup\ --nocolor
+endif
+
+" Protect large files from sourcing and other overhead.
+" Files become read only
+if !exists("my_auto_commands_loaded")
+  let my_auto_commands_loaded = 1
+  " Large files are > 10M
+  " Set options:
+  " eventignore+=FileType (no syntax highlighting etc
+  " assumes FileType always on)
+  " noswapfile (save copy of file)
+  " bufhidden=unload (save memory when other file is viewed)
+  " buftype=nowrite (file is read-only)
+  " undolevels=-1 (no undo possible)
+  let g:LargeFile = 1024 * 1024 * 10
+  augroup LargeFile
+    autocmd BufReadPre * let f=expand("<afile>") | if getfsize(f) > g:LargeFile | set eventignore+=FileType | setlocal noswapfile bufhidden=unload buftype=nowrite undolevels=-1 | else | set eventignore-=FileType | endif
+    augroup END
+  endif
+" }}}
+" Plugin Settings {{{
+" Markdown suan/vim-instant-markdown
+" refresh not so rapidly
+let g:instant_markdown_slow = 1
+" do not open instant markdown when opening a markdown file
+let g:instant_markdown_autostart = 0
+
+" Pandoc-Markdown
+" hide urls
+let g:pandoc#syntax#conceal#urls=1
+" change weird dog paw bullet to normal bullet
+let g:pandoc#syntax#conceal#cchar_overrides = {"li" : "◦"}" ∙
+" hide everything other than the #'s
+let g:pandoc#folding#level = 0
+" do not show the depth of sub/header in gutter
+let g:pandoc#folding#fdc = 0
+" run a command on :w 
+"let g:pandoc#command#autoexec_on_writes = 1
+" run this command 
+"let g:pandoc#command#autoexec_commands = ''
+
+" use python3 with gundo
+let g:gundo_prefer_python3 = 1
+
+" properly formatted fold text
+" %c      place first line of fold, pad with spaces
+" <space> place literal space
+" %<      things to the left will left align
+" %f      fill extra region with spaces
+" %4n     show how many lines have been folded  
+" Remember: add quote after equal sign
+let g:SpiffyFoldtext_format ="%c{ }  %<%f{ }| %4n lines |"
+"}}}
+" Markdown fold functions {{{
+function! MarkdownFolds()
+  let thisline = getline(v:lnum)
+  if match(thisline, '^##') >= 0
+    let syntaxGroup = map(synstack(a:lnum, 1), 'synIDattr(v:val, "name")')
+    if syntaxGroup == "markdownCode" 
+      return ">2"
+  elseif match(thisline, '^#') >= 0
+    let syntaxGroup = map(synstack(a:lnum, 1), 'synIDattr(v:val, "name")')
+    if syntaxGroup == "markdownCode" 
+      return ">1"
+  else 
+    return "="
+  endif
+endfunction
+
+function! MarkdownFoldText()
+  let foldsize = (v:foldend-v:foldstart)
+  return getline(v:foldstart).'                    '.' ('.foldsize.' lines)'
+endfunction
+
+set foldmethod=expr
+set foldexpr=MarkdownFolds()
+set foldtext=MarkdownFoldText()
+" End Markdown }}}

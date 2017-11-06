@@ -1,0 +1,7 @@
+unclutter -idle 1 -root &
+xinput set-prop "SynPS/2 Synaptics TouchPad" "Device Enabled" 0 &
+setxkbmap -option caps:swapescape &
+xset +dpms &
+set dpms 0 0 300 &
+exec xmonad &
+feh --bg-scale '/home/hassan4350/pictures/algorithm.jpg' &

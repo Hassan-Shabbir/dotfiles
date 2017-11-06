@@ -1,0 +1,318 @@
+﻿<meta name="google" value="notranslate" />
+<meta http-equiv="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<html>
+<head>
+    <title i18n-text="extName">Chrono Download Manager</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />       
+    
+	<link rel="stylesheet" type="text/css" href="../libs/chrome-bootstrap.css" />
+
+    <link rel="stylesheet" type="text/css" href="../com/taskdlg.css" />
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<!-- override -->
+
+    <link rel="stylesheet" type="text/css" href="../libs/apprise/apprise-v2.css" />
+    <link rel="stylesheet" type="text/css" href="../libs/jquery-dropdown/jquery.dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../libs/colorpicker/colorpicker.css" />
+    <link rel="stylesheet" type="text/css" href="../libs/simptip.css" />
+	<link rel="stylesheet" type="text/css" href="../libs/slickgrid/slick.grid.css" />
+	<link rel="stylesheet" type="text/css" href="../libs/switcher.css" />
+    
+    <script type="text/javascript" src="../libs/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../libs/jqueryui/jquery-ui.draggable_slide.min.js"></script>
+    <script type="text/javascript" src="../libs/jqueryui/jquery-ui.sortable.min.js"></script>
+
+    <script type="text/javascript" src="../libs/jquery-layout/jquery.layout-1.3.0.min.js"></script>
+    <script type="text/javascript" src="../libs/apprise/apprise-v2.js"></script>
+    <script type="text/javascript" src="../libs/noty/jquery.noty.js"></script>
+    <script type="text/javascript" src="../libs/jquery.nestable.js"></script>
+    <script type="text/javascript" src="../libs/jquery.numeric.js"></script>
+    <script type="text/javascript" src="../libs/jquery-dropdown/jquery.dropdown.js"></script>
+    <script type="text/javascript" src="../libs/colorpicker/jquery.colorpicker.js"></script>
+
+	<script type="text/javascript" src="../libs/slickgrid/slick.gridc.js"></script>
+	<script type="text/javascript" src="../libs/slickgrid/slick.dataview.js"></script>
+
+    <script type="text/javascript" src="../com/common.js"></script>
+    <script type="text/javascript" src="../com/uihelper.js"></script>
+    <script type="text/javascript" src="../com/dlgwrap.js"></script>
+    <script type="text/javascript" src="../com/bitset.js"></script>
+    <script type="text/javascript" src="../com/i18n.js"></script>
+
+    <script type="text/javascript" src="bg_vars.js"></script>
+    <script type="text/javascript" src="tasks.js"></script>
+    <script type="text/javascript" src="taskinfo.js"></script>
+	
+    <script type="text/javascript" src="share_btns.js"></script>
+    <script type="text/javascript" src="message.js"></script>
+    <script type="text/javascript" src="ui.js"></script>
+    <!--script type="text/javascript" src="../com/ga.js"></script-->
+</head>
+<body class="chrome-bootstrap unselectable">
+<div class="loading-overlay undraggable"><img src="../icons/loading.gif"/></div>
+<div id="dy_bg" style="display:none"></div>
+<!-- clear menu -->
+<div id="dropdown-clear" class="dropdown dropdown-tip dropdown-anchor-right dropdown-anchor-top">
+    <ul class="dropdown-menu">
+        <li><label for="cb_clear_file" ><input id="cb_clear_file" type="checkbox" />&nbsp;<span i18n-text="optItemClearRemoveFile">Remove file from disk</span></label></li>
+        <li class="dropdown-divider"></li>
+		<li><a i18n-text="btnClearRemoved" id="btn_clear_fmissing">Clear File Missing</a></li>
+		<li class="dropdown-divider"></li>
+        <li><a i18n-text="btnClearFinished" id="btn_clear_finished">Clear finished</a></li>
+        <li><a i18n-text="btnClearFailed" id="btn_clear_failed">Clear interrupted</a></li>
+        <li><a i18n-text="btnClearAll" id="btn_clear_all">Clear both</a></li>
+		<li class="dropdown-divider"></li>
+		<li>
+		<div style="padding: 3px 15px;">
+		<span i18n-text="labelAutoClear">Schedule</span><span class="simptip-position-left" i18n-tooltip="tipAutoClear">?</span>
+		<div>
+			<div style="margin-top:5px">
+				<select id="autoclear_type" style="width:100%">
+					<option value="finished" i18n-text="btnClearFinished">Clear finished</option>
+					<option value="interrupted" i18n-text="btnClearFailed">Clear interrupted</option>
+					<option value="both" i18n-text="btnClearAll">Clear both</option>
+				</select>
+			</div>
+			<div style="margin-top:5px">
+				<select id="autoclear_timer" style="width:100%">
+					<option value="-1" i18n-text="phraseNever">Never</option>
+					<option value="5" i18n-textparams="everyXMinutes,5">Every 5 minutes</option>
+					<option value="30" i18n-textparams="everyXMinutes,30">Every 30 minutes</option>
+					<option value="300" i18n-textparams="everyXHours,5">Every 5 hours</option>
+					<option value="1440" i18n-textparams="everyXHours,24">Every 24 hours</option>
+					<option value="4320" i18n-textparams="everyXDays,3">Every 3 days</option>
+					<option value="10080" i18n-textparams="everyXDays,7">Every 7 days</option>
+					<option value="43200" i18n-textparams="everyXDays,30">Every 30 days</option>
+				</select>
+			</div>
+		</div>
+		</div>
+		</li>
+    </ul>
+</div>
+<div id="dropdown-sort" class="dropdown dropdown-tip dropdown-anchor-right dropdown-anchor-top">
+    <div class="dropdown-panel">
+    <ul>
+        <li>
+            <a i18n-text="fieldState">State</a>
+			<span class="btn-sorts" data-sortcol="state">
+                <span class="btn-sort-up"></span><span class="btn-sort-down"></span>
+            </span>
+		</li>
+        <li>
+            <a i18n-text="fieldFileName">Name</a>
+			<span class="btn-sorts" data-sortcol="name">
+                <span class="btn-sort-up"></span><span class="btn-sort-down"></span>
+            </span>
+		</li>
+        <li>
+            <a i18n-text="fieldURL">URL</a>
+			<span class="btn-sorts" data-sortcol="url">
+                <span class="btn-sort-up"></span><span class="btn-sort-down"></span>
+            </span>
+		</li>
+        <li>
+            <a i18n-text="fieldFileSize">Size</a>
+			<span class="btn-sorts" data-sortcol="size">
+                <span class="btn-sort-up"></span><span class="btn-sort-down"></span>
+            </span>
+		</li>
+        <li>
+            <a i18n-text="fieldAddTime">Add Time</a>
+			<span class="btn-sorts" data-sortcol="time_add">
+                <span class="btn-sort-up"></span><span class="btn-sort-down"></span>
+            </span>
+		</li>
+    </ul>
+    </div>
+</div>
+<div id="dropdown-help" class="dropdown dropdown-tip">
+    <ul class="dropdown-menu">
+        <li><a i18n-text="btnAbout" id="btn_help_about">About</a></li>
+        <li><a i18n-text="menuGetHelp" id="btn_help_help">Help</a></li>
+        <li><a i18n-text="btnFAQ" id="btn_help_faq">FAQ</a></li>
+        <li><a i18n-text="menuReportIssue" id="btn_help_feedback"
+            href="http://bugs.chronodownloader.net" target="_blank"
+            >Report an issue</a></li>
+		<li><a i18n-text="titleUpdateLog" target="_blank" href="http://bugs.chronodownloader.net/changelog_page.php">Update Log</a></li>
+    </ul>
+</div>
+<div id="dropdown-change-bg" class="dropdown dropdown-tip dropdown-anchor-top">
+    <div class="dropdown-panel">
+        <h2><span i18n-text="titleChangeBG">Change background</span><a class="close-button"></a></h2>
+        <div style="text-align:center">
+            <label>
+            <input type="checkbox" id="bg-enable" />
+            <span i18n-text="phraseEnable">Enable</span>
+            </label>
+			<span class="simptip-position-right" i18n-tooltip="tipBGEnable">?</span>
+        </div>
+        <div id="bg-chooser-wrap" class="disableme">
+            <div id="bg-colpicker">
+                <label for="bg-ccolor" i18n-text="labelBGConstantColor">Constant color</label> <input id="bg-ccolor" type="text" name="bg-ccolor" value="#ffffff" />
+            </div>
+            <div>
+                <div  i18n-text="labelBGChooseFrom">
+                Choose from
+                </div>
+                <div id="bg-provided"></div>
+            </div>
+            <!--div>
+                Use an image from my computer:
+                <span id="bg-local">
+                    <button>Browse...</button>
+                    <a><img src="" /></a>
+                </span>
+            </div-->
+            <div>
+                <div style="margin-bottom:5px">
+                <span i18n-text="labelBGImageURL">Use an image from URL</span><span id="mytip-url" class="simptip-position-top" i18n-tooltip="tipBGURLNoFileAccess">?</span>
+                </div>
+                <div style="display:table">
+				<div style="display:table-cell;width:100%">
+                    <input type="text" id="bg-url-input" />
+				</div>
+				<div style="display:table-cell">
+                    <button i18n-text="btnApply" id="bg-weburl-btn">Apply</button>
+				</div>
+                </div>
+            </div>
+            <div id="bg-image-params">
+                <div style="margin-top:5px">
+                <input type="range" id="bg-opacity" min="0" max="1.0" step="0.05">
+                <span i18n-text="labelBGOpacity">Opacity</span>
+                </div>
+                <div>
+                <input type="range" id="bg-blur" min="0" max="20">
+                <span i18n-text="labelBGBlur">Blur</span><span class="simptip-position-top" i18n-tooltip="tipBGBlur">?</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="dy_tot_wrap">
+        <!--div id="left_nav_wrap"-->
+        <div id="dy_lnav" class="navigation ui-layout-west">
+			<h1>
+				<div class="undraggable">
+					<img style="vertical-align:bottom" src="../icons/logo/19.png" />
+					<span class="icon_extern">
+						<a style="font-size:22px" href="http://www.chronodownloader.net" target=_blank>Chrono</a>
+						<img src="../icons/link_external.png" />
+					</span>
+				</div>
+			</h1>
+            <div>
+			    <div id="dy_lnav_filters" class="menu dd">
+			    </div>
+			    <div>
+			        <ul class="menu">
+				        <li>
+							<!--img height=16 style="vertical-align:middle" src="../icons/toolbar/trash.png"/-->
+					        <a id="dy_lnavbtn_recycled" i18n-text="ruleRecycled">
+						        Recycle Bin</a>
+				        </li>
+			        </ul>
+                </div>
+
+                <div id="dy_searchbox">
+                    <a class="delete">x</a>
+                    <input type="text" class="search" i18n-placeholder="hintSearchDownloads">
+                </div>
+                
+            </div>
+        </div>
+        
+		<div id="dy_content" class="ui-layout-center ">
+			<div id="dy_tbar_wrap" class="ui-widget-header ui-corner-all ui-layout-north">
+            <div id="dy_tbar" class="undraggable">
+                <button id="dy_tbar_add" i18n-title="tipBtnNewTask">
+					<img src="../icons/toolbar/add.png" /></button>
+				<button id="dy_tbar_start" i18n-title="tipBtnStart">
+					<img src="../icons/toolbar/start.png" /></button>
+				<button id="dy_tbar_pause" i18n-title="tipBtnPause">
+					<img src="../icons/toolbar/pause.png" /></button>
+				<button id="dy_tbar_restart" i18n-title="tipBtnRestart">
+					<img src="../icons/toolbar/restart.png" /></button>
+				<button id="dy_tbar_startall" i18n-title="tipBtnStartAll">
+					<img src="../icons/toolbar/start_all.png" /></button>
+				<button id="dy_tbar_pauseall" i18n-title="tipBtnPauseAll">
+					<img src="../icons/toolbar/pause_all.png" /></button>
+				<button id="dy_tbar_trash" class="action_recycle" i18n-title="tipBtnRecycle">
+					<img src="../icons/toolbar/trash.png" /></button>
+				<button id="dy_tbar_delete" i18n-title="tipBtnDelete">
+					<img src="../icons/toolbar/delete.png" /></button>
+                
+                <!--button id="dy_tbar_sort" data-dropdown="#dropdown-sort" i18n-title="tipBtnSort" style="margin-left:20px">
+					<img src="../icons/toolbar/sort.png" /></button-->
+                <button id="dy_tbar_options" i18n-title="titleOptions" style="margin-left:20px">
+					<img src="../icons/toolbar/options.png" /></button>
+                <button id="dy_tbar_help" i18n-title="tipBtnHelp" data-dropdown="#dropdown-help">
+					<img src="../icons/toolbar/help.png" /></button>
+
+			</div>  </div>           
+			<div id="dy_tb" class="ui-layout-center"></div>
+			<div id='dy_details_panel' class='ui-layout-east'>
+				<div id='dy_bpan_info' class='dy_bpan_tab dy_new_task_dlg'>
+                    <div>
+                        Please select a task.
+                    </div>
+                    <div style="height:100%;overflow:auto;display:none">
+                            
+						<table id="dy_info_table" border="0" cellspacing="1" cellpadding="3">
+                                
+						</table>
+                    </div>
+				</div>
+				<!--div id='dy_bpan_prog' class='dy_bpan_tab'>
+					<div id='dy_bitgrid'>
+					</div>
+				</div>
+				<div id='dy_bpan_log' class='dy_bpan_tab'>
+					<div id='dy_log_ta'>
+						hello
+					</div>
+					<textarea id="log_textarea" rows="10" cols="65" id="urls_txt"></textarea>
+				</div-->
+			</div>
+		</div>
+        <div class="ui-layout-south">
+        <div id="dy_status_bar" class="undraggable">
+            <span id="dy_status_btnbg" class="dy_status_toolbtn" data-dropdown="#dropdown-change-bg" i18n-title="titleChangeBG"><img src="../icons/statusbar/bg.png" /></span>
+			<span id="dy_status_btn_location_wrap">
+				<span id="dy_status_btn_open_location" i18n-title="tipBtnOpenDefaultLocation" class="dy_status_toolbtn">
+					<img src="../icons/folder_open.png">
+				</span>
+				<span id="dy_status_btn_change_location" class="force_hide dy_status_toolbtn" i18n-title="tipBtnChangeDefaultLocation" class="dy_status_toolbtn">
+					<img src="../icons/folder_set.png">
+				</span>
+			</span>
+			<span id="dy_status_table_switcher">
+                <div class="switch status-tooltip" i18n-title="titleSwitchUI" style="display:inline-block">
+                    <input type="radio" class="switch-input" name="ui_table_list" value="list" id="list">
+                    <label for="list" class="switch-label switch-label-off">
+                        <div><img src="../icons/statusbar/list.png" /></div>
+                    </label>
+                    <input type="radio" class="switch-input" name="ui_table_list" value="table" id="table">
+                    <label for="table" class="switch-label switch-label-on"><img src="../icons/statusbar/table.png" /></label>
+                    <span class="switch-selection"></span>
+                </div>
+			</span>
+			<span id="dy_status_bgbusy" style="display:none;width:16px;padding-left:6px"><img width=16 height=16 src="../icons/loading.gif"/></span>
+            <span id="dy_status_queue">0 item(s)</span>
+            <span id="dy_status_downloading"></span>
+			<span id="dy_status_btn_sort" i18n-title="tipBtnSort" data-dropdown="#dropdown-sort" class="dy_status_toolbtn">
+				<img src="../icons/statusbar/sort.png">
+			</span>
+			<span id="dy_status_btn_clear" i18n-title="tipBtnClear" data-dropdown="#dropdown-clear" class="dy_status_toolbtn">
+				<img src="../icons/statusbar/trash.png">
+			</span>
+        </div>
+        </div>
+		
+    </div>
+</body>
+</html>

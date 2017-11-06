@@ -1,0 +1,3 @@
+function! CalculateAge()
+  normal 03wdei=2016-"0j
+endfunction

@@ -1,0 +1,54 @@
+VirtualBox XPCOM Server 5.1.22 r115126 linux.amd64 (May  9 2017 19:27:33) release log
+00:00:00.001833 main     Log opened 2017-05-26T21:05:46.769413000Z
+00:00:00.001839 main     Build Type: release
+00:00:00.001849 main     OS Product: Linux
+00:00:00.001852 main     OS Release: 4.10.13-1-ARCH
+00:00:00.001855 main     OS Version: #1 SMP PREEMPT Thu Apr 27 12:15:09 CEST 2017
+00:00:00.001907 main     DMI Product Name: 4290BB8
+00:00:00.001916 main     DMI Product Version: ThinkPad X220
+00:00:00.001950 main     Host RAM: 3838MB (3.7GB) total, 3435MB (3.3GB) available
+00:00:00.001954 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001962 main     Process ID: 23275
+00:00:00.001962 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003480 main     IPC socket path: /tmp/.vbox-hassan4350-ipc/ipcd
+00:00:00.113498 nspr-2   VirtualBox: object creation starts
+00:00:00.114889 nspr-2   Home directory: '/home/hassan4350/.config/VirtualBox'
+00:00:00.115617 nspr-2   Loading settings file "/home/hassan4350/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.131427 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.134427 nspr-2   NAT: resolv.conf: nameserver 192.168.96.1
+00:00:00.134490 nspr-2   HostDnsMonitor: old information
+00:00:00.134494 nspr-2     no server entries
+00:00:00.134497 nspr-2     no domain set
+00:00:00.134499 nspr-2     no search string entries
+00:00:00.134501 nspr-2   HostDnsMonitor: new information
+00:00:00.134503 nspr-2     server 1: 192.168.96.1
+00:00:00.134506 nspr-2     domain: pickering.pl
+00:00:00.134508 nspr-2     search string 1: pickering.pl
+00:00:00.134514 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.138355 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.141874 nspr-2   VD: VDInit finished
+00:00:00.142803 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.144826 nspr-2   VirtualBox: object created
+00:00:20.340620 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:20.342798 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:04.519265 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:04.570907 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:02:04.587345 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:04.601008 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:04.679424 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:04.680510 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:04.681461 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:07.409932 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:07.422038 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:07.422888 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:07.423635 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:07.893111 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={MachineWrap} aText={The virtual machine 'Arch  Linux (ArkOs)' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:02:07.912328 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:07.924841 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:07.925759 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:02:07.926608 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:03:37.331700 main     VirtualBox: object deletion starts
+00:03:37.331902 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/hassan4350/VirtualBox VMs/Arch  Linux (ArkOs)/Arch  Linux (ArkOs).vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:03:37.423906 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:03:42.334217 main     {00007f4b74014e50} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:03:42.334840 main     VirtualBox: object deleted

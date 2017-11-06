@@ -1,0 +1,45 @@
+-- succsum 0 = 0
+-- succsum n = n + succsum (n - 1)
+-- mult x 0 = 0
+-- mult x y = x + mult x (y - 1)
+-- mc91 x
+--   | x >  100 = x - 10
+--   | x <= 100 = mc91 (mc91 (x + 11))
+module WordNumber where
+import Data.List (intersperse)
+
+digitToWord :: Int -> String
+digitToWord n
+  | n == 0 = "zero"
+  | n == 1 = "one"
+  | n == 2 = "two"
+  | n == 3 = "three"
+  | n == 4 = "four"
+  | n == 5 = "five"
+  | n == 6 = "six"
+  | n == 7 = "seven"
+  | n == 8 = "eight"
+  | n == 9 = "nine"
+
+digits :: Int -> [Int]
+digits n
+  | n <= 9 = [n]
+  | n >  9 = digits (endRemoved n) ++ [end n]
+    where endRemoved = flip div 10
+          end = flip mod 10
+
+wordNumber :: Int -> [Char]
+wordNumber n = concat . intersperse "-" . map digitToWord . digits $ n
+
+-- succsum 0 = 0
+-- succsum n = n + succsum (n - 1)
+-- input: ['h','i',' ','h'] => ["hi", "h"]
+
+:{
+splitword :: [Char] -> [String]
+splitword string
+  | string /= ' ' = [ takeWhile (/=' ') string ]
+  | string == ' ' = [ dropWhile (==' ') string ]
+:}
+
+map splitword "all i wanna do is have some fun"

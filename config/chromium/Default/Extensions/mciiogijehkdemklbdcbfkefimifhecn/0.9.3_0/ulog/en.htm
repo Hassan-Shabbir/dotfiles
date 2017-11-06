@@ -1,0 +1,307 @@
+﻿<meta http-equiv="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<html>
+	<head>
+		<title>Update Log</title>
+        <script type="text/javascript" src="updatelog.js"></script>
+	</head>
+	<body>
+		<h1>Chrono Update Log</h1><a href="#" id='close_ulog'>Close</a>
+		<section>
+			<h3>Version 0.9.0 (2015-09-13)</h3>
+			<div>
+				<ul>
+				<li>
+                Fix a bug that causes setting wrong filename for new task.
+                </li>
+				<li>
+				Add support for Data URI scheme and URL with spaces.
+				</li>
+				<li>
+				Drag and drop link(s) onto download manager to add new download.
+				</li>
+				<li>
+                Ctrl-C to copy selected tasks' URLs.
+                </li>
+				<li>
+                Enhance media resources (video) detection in Sniffer.
+                </li>
+				<li>
+				Ignore spaces when searching tasks.
+				</li>
+				<li>
+                Show tooltips/messages on status bar.
+					<ul>
+					<li>
+					Add buttons for opening and changing default downloads folder
+					</li>
+					<li>
+					Move clear button and sort button to status bar
+					</li>
+					</ul>
+                </li>
+				<li>
+                Optimizations for:
+					<ul>
+					<li>Clipboard reading/writing speed</li>
+					<li>Handling very long URL (tested length of 300K)</li>
+					<li>Task sorting/filtering/loading/displaying</li>
+					<li>Task batch import/start/pause/restart/remove/clear</li>
+					</ul>
+				</li>
+				<li>
+				Other bug fixes:
+					<ul>
+					<li>Incorrect automatic naming after restarting task</li>
+					<li>Incorrect handling of [9:10] in batch descriptor</li>
+					<li>Not saving reordered rules in Rule System</li>
+					<li>Rows sorting bug in Sniffer URL table</li>
+					<li>Deleting wrong rows in task manager</li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+			<h3>Version 0.8.0 (2015-08-17)</h3>
+			<div>
+				<ul>
+				<li>
+                Fix the old name overwriting bug.
+                </li>
+				<li>
+                Add 'skip' action for file name confliction.
+                </li>
+				<li>
+                Allow to import downloads history from Chrome on installation.
+                </li>
+				<li>
+                Display task error details.
+                </li>
+				<li>
+                Fix a bug in rule system: datetime.is() not working.
+                </li>
+				<li>
+				Other bug fixes.
+				</li>
+				</ul>
+			</div>
+			<h3>Version 0.7.2 (2015-08-04)</h3>
+			<div>
+				<ul>
+				<li>
+                Fix bug: confirmation dialog for dangerous download not showing.
+                </li>
+				<li>
+				Other bug fixes.
+				</li>
+				</ul>
+			</div>
+			<h3>Version 0.7.0 (2015-07-27)</h3>
+			<div>
+				<ul>
+				<li>
+                The table(grid) is back, now you can switch between list and table mode in the Manager.
+                </li>
+				<li>
+                Improve UI.
+                </li>
+				<li>
+                Fix the delay in adding new task.
+                </li>
+				<li>
+                Fix bugs related to task naming.
+                </li>
+				<li>
+                Several improvements that make the extension more stable.
+                </li>
+                </ul>
+            </div>
+			<h3>Version 0.6.0</h3>
+			<div>
+				<ul>
+				<li>
+                Redesign the manager UI, move task information panel to the right.
+                </li>
+				<li>
+                Support changing background (image) for manager.
+                </li>
+				<li>
+                Add status bar, showing overall downloading statistics.
+                </li>
+				<li>
+                Make the sliding animation smoother when switching panels in popup page.
+                </li>
+				<li>
+                Popup faster when clicking on toolbar icon.
+                </li>
+				<li>
+                Fixed the bug of progress notification and finish notification showing simultaneously.
+                </li>
+				<li>
+				Fixed the bug of image icons in notifications not displaying correctly.
+				</li>
+				<li>
+                Improve oneclick-download-added animation.
+                </li>
+                </ul>
+            </div>
+            <h3>Version 0.5.3</h3>
+			<div>
+				<ul>
+				<li>
+                Fixed the incorrectly displayed speed.
+                </li>
+                </ul>
+            </div>
+            <h3>Version 0.5.2</h3>
+			<div>
+				<ul>
+				<li>
+				New naming masks: *text*, *title*, *page_title*.
+                </li>
+				<li>
+				Select from recently used naming masks.
+                </li>
+				<li>
+				Check/Uncheck highlighted rows at once in Sniffer page.
+                </li>
+                <li>
+				Other bugs fixed.
+                </li>
+                </ul>
+            </div>
+			<h3>Version 0.5.0</h3>
+			<div>
+				<ul>
+				<li>
+				Fixed the 'cannot open file' bug, 'empty New Task dialog' bug and 'download .crx/.js/.exe' bug.
+                </li>
+				<li>
+				Show downloads list in popup page.
+                </li>
+				<li>
+				Show number of downloading tasks on toolbar icon.
+                </li>
+                <li>
+				Smoother file-size-sliding in Sniffer page.
+                </li>
+                <li>
+				Add support for cleaning tasks. 
+                </li>
+                <li>
+                Optimize the popup speed.
+                </li>
+                </ul>
+            </div>
+            <h3>Version 0.2.3</h3>
+			<div>
+				<ul>
+				<li>
+				Fixed a typo 'r_downloaing' in Rule System.
+                </li>
+                <li>
+				Fixed the focus issue reported by some users.
+                </li>
+                <li>
+				Previous versions were unusable under Linux because I misspelled some file paths. The issue is now fixed.
+                </li>
+                <li>
+                Add support for filtering by file size in Chrono Sniffer.
+                </li>
+                </ul>
+            </div>
+            <h3>Version 0.2.2</h3>
+			<div>
+				<ul>
+				<li>
+				Fixed an issue in Save As dialog, now download starts only after you click Save button in Save As dialog.
+                </li>
+                <li>
+                Fixed a bug in Chrono Sniffer: cannot select all rows.
+                </li>
+                <li>
+                Fixed a bug when restarting tasks.
+                </li>
+                <li>
+                Fixed a bug when sorting tasks.
+                </li>
+                <li>
+				More robust handling of maximum 'Concurrent downloads' and 'Downloads per server'.
+                </li>
+                </ul>
+            </div>
+            <h3>Version 0.2.1</h3>
+			<div>
+				<ul>
+				<li>
+				Fixed a bug that occured when extension got unloaded.
+                </li>
+                <li>
+				Preview images in Task Information panel and notifications when download completes.
+                </li>
+                </ul>
+            </div>
+            <h3>Version 0.2.0</h3>
+			<div>
+				<ul>
+				<li>
+				Some improvements in the Chrono Sniffer: <br />
+                The sniffer can preview images/sounds and show file size before you select links to download; <br />
+                You can now download media files on the webpage, e.g. audio/video stream.
+                </li>
+                <li>
+                Show downloaded size for tasks.
+				</li>
+                <li>
+                Play sound when download completes/interrupts.
+				</li>
+                <li>
+                The Help page is updated, especially on writing Rules.
+                </li>
+                <li>
+                Add language support for Simplified Chinese.
+				</li>
+                <li>
+                Create two buttons that allow you to open Chrono Manager or Settings directly from the browser Toolbar. You can get these two buttons here:<br />
+                <a target="_blank" href="https://chrome.google.com/webstore/detail/chrono-manager-button/nimngehdfcodchaoncbkijfocmfnpebg">Chrono Manager Button</a>,
+                <a target="_blank" href="https://chrome.google.com/webstore/detail/chrono-settings-button/oflpkffadgbfbnjdckenekjbflgofalp">Chrono Settings Button</a>.
+				</li>
+                <li>
+                Fixed other bugs.
+                </li>
+				</ul>
+			</div>
+			<h3>Version 0.1.5</h3>
+			<div>
+				<ul>
+				<li>
+				New Feature: Download URL from Clipboard. You can configure it under Settings»General»Miscellaneous.
+                </li>
+                <li>
+                New Feature: Show download progress in notifications. You can enable/disable it under Settings»Interface»Notifications.
+				</li>
+                <li>
+                Bugs fix; some improvements related to notifications.
+				</li>
+                <li>
+                This update requires new permission: access the data in clipboard.
+				</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<h3>Version 0.1.4</h3>
+			<div>
+				<ul>
+				<li>
+				Remove One-Click download rule, since it's a little confusing. Now it's replaced by an option, you can enable/disable it.
+				</li>
+				<li>
+				Fix a bug related to the New Task Dialog in some webpages.
+				</li>
+				</ul>
+			</div>
+		</section>
+	</body>
+</html>

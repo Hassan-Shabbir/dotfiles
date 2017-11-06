@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Да се разреши достъп до URL адресите на файловете"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Файлов път"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Изтегляния"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Показване на разширените настройки..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Bulgarian"
+   }
+}

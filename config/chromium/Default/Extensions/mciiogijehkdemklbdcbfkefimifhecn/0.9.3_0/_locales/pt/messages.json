@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Permitir acesso a URLs de ficheiro"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Localização da transferência"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Transferências"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Mostrar definições avançadas..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Portuguese"
+   }
+}

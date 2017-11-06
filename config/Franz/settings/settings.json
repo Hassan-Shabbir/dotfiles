@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "id": "f9d246e8-8fc9-0702-8784-c45e440f4b11",
+    "locale": "en_GB",
+    "runInBackground": true,
+    "globalMute": false,
+    "usage": {
+      "personal": "true"
+    },
+    "autoStartApp": true,
+    "email": "hassan149367@gmail.com",
+    "newsletter": false
+  }
+}

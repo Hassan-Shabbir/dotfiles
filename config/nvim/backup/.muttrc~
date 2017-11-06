@@ -1,0 +1,21 @@
+set ssl_starttls = yes
+set ssl_force_tls = yes
+set from = "hassan149367@gmail.com"
+set realname = "Hassan Shabbir"
+set imap_user = "hassan149367@gmail.com"
+set imap_pass = "mtxscyrpxhyhansd"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+# set spoolfile = imaps://imap.gmail.com/INBOX
+set postponed = "imaps://imap.gmail.com/[Gmail]/Drafts"
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+set smtp_url = "smtp://hassan149367@smtp.gmail.com:587/"
+# set smtp_url = "smtp://smtp.gmail.com"
+set smtp_pass = "mtxscyrpxhyhansd""
+set move = no 
+set imap_keepalive = 900
+unset imap_passive
+set mail_check = 120
+

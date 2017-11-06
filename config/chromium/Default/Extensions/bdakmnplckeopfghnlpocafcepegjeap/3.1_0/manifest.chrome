@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "RescueTime for Chrome and Chrome OS",
+  "version": "3.1",
+  "description": "Keep track of the time you spend in Chrome, and get a clear picture of what you were doing all day.",
+  "homepage_url": "https://www.rescuetime.com",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": [
+    "tabs",
+    "idle",
+    "webRequest",
+    "bookmarks",
+    "http://*/",
+    "https://*/",
+    "activeTab",
+    "webNavigation",
+    "storage"
+  ],
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "icons/icon-96.png",
+    "default_title": "RescueTime",
+    "default_popup": "popover.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["detect_focus.js"]
+    }
+  ]
+}

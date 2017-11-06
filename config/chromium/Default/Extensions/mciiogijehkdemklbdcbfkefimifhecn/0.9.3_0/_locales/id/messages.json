@@ -1,0 +1,932 @@
+{
+   "btnAbout": {
+      "message": "Tentang"
+   },
+   "btnAddPaused": {
+      "message": "Tambah Ditunda"
+   },
+   "btnApply": {
+      "message": "Jalankan"
+   },
+   "btnBackToManager": {
+      "message": "Kembali"
+   },
+   "btnCancel": {
+      "message": "Batal"
+   },
+   "btnClearAll": {
+      "message": "Bersihkan keduanya"
+   },
+   "btnClearFailed": {
+      "message": "Bersihkan tugas terpotong"
+   },
+   "btnClearFinished": {
+      "message": "Bersihkan tugas yang selesai"
+   },
+   "btnClearRemoved": {
+      "message": "Bersihkan berkas yang hilang"
+   },
+   "btnFAQ": {
+      "message": "Pertanyaan Umum"
+   },
+   "btnGotIt": {
+      "message": "Mengerti!"
+   },
+   "btnImportChromeHistory": {
+      "message": "Impor sejarah unduhan dari Chrome"
+   },
+   "btnLater": {
+      "message": "Nanti"
+   },
+   "btnOpenManager": {
+      "message": "Buka Manajer"
+   },
+   "btnPopRemoveFile": {
+      "message": "Juga hapus berkas file"
+   },
+   "btnPopRemoveList": {
+      "message": "Hapus dari daftar"
+   },
+   "btnRate": {
+      "message": "Penilaian"
+   },
+   "btnShareDone": {
+      "message": "Sudah kulakukan"
+   },
+   "btnStart": {
+      "message": "Mulai!"
+   },
+   "btnStartAll": {
+      "message": "Mulai Semua!"
+   },
+   "btnTakeMeThere": {
+      "message": "Bawa aku ke sana"
+   },
+   "btnUpdateReload": {
+      "message": "Muat ulang sekarang"
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Izinkan akses ke URL file"
+   },
+   "chromesysChange": {
+      "message": "Ubah..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Lokasi unduhan"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Unduhan"
+   },
+   "chromesysFontSize": {
+      "message": "Ukuran font"
+   },
+   "chromesysLanguageSection": {
+      "message": "Bahasa"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Tampilkan setelan lanjutan..."
+   },
+   "confirmBatchDownload": {
+      "message": "Sepertinya Anda ingin memulai unduhan serempak, berikut beberapa contohnya:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Untuk mengunduh secara serempak, silakan pastikan tata cara penamaan akan menghasilkan nama berkas yang berbeda. Lanjutkan?"
+   },
+   "confirmBtnYes": {
+      "message": "Ya"
+   },
+   "confirmBtnYesFile": {
+      "message": "Ya, hapus juga berkasnya"
+   },
+   "confirmCantResumeRestart": {
+      "message": "Tugas $1 tak berhasil diteruskan, ulang kembali?"
+   },
+   "confirmProceed": {
+      "message": "Yakin untuk melanjutkan?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Hapus tugas yang sedang berjalan?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Hapus yang sudah dipilih?"
+   },
+   "confirmRemoveRule": {
+      "message": "Hapus aturan yang sudah dipilih?"
+   },
+   "confirmRemoveTask": {
+      "message": "Hapus tugas terpilih secara permanen?"
+   },
+   "confirmReset": {
+      "message": "Yakin untuk mengatur ulang ekstensi?"
+   },
+   "errorFNameConflict": {
+      "message": "Konflik nama berkas"
+   },
+   "errorFileNotExist": {
+      "message": "Berkas tidak ditemukan."
+   },
+   "errorInvalidNamingMask": {
+      "message": "Tatacara penamaan tidak benar."
+   },
+   "errorInvalidURLs": {
+      "message": "URL(s) tidak benar."
+   },
+   "errorNoID": {
+      "message": "Gagal menambah tugas baru ke Chrono karena tugas yang ada di manajer terlalu banyak, bersihkan beberapa tugas yang tak dipakai dan ulangi lagi."
+   },
+   "errorNone": {
+      "message": "Tanpa galat"
+   },
+   "errorRemovedFromChrome": {
+      "message": "Tugas tersebut mungkin telah dihapus dari Chrome."
+   },
+   "everyXDays": {
+      "message": "Tiap $1 hari"
+   },
+   "everyXHours": {
+      "message": "Tiap $1 jam"
+   },
+   "everyXMinutes": {
+      "message": "Tiap $1 menit"
+   },
+   "extDesc": {
+      "message": "Manajer Unduhan | Unduh Video | Unduh Gambar Serentak"
+   },
+   "extDescBest": {
+      "message": "Pengatur Unduhan Terbaik untuk Chrome"
+   },
+   "extDescSlogan": {
+      "message": "Unduh dan atur Web!"
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "extsAll": {
+      "message": "Semua"
+   },
+   "extsApp": {
+      "message": "Aplikasi"
+   },
+   "extsArchive": {
+      "message": "Arsip"
+   },
+   "extsAudio": {
+      "message": "Audio"
+   },
+   "extsDocument": {
+      "message": "Dokumen"
+   },
+   "extsImage": {
+      "message": "Gambar"
+   },
+   "extsNew": {
+      "message": "Penyaring Baru"
+   },
+   "extsOthers": {
+      "message": "Lainnya"
+   },
+   "extsVideo": {
+      "message": "Video"
+   },
+   "fieldAddTime": {
+      "message": "Waktu Penambahan"
+   },
+   "fieldAvgSpeed": {
+      "message": "Kecepatan Rerata"
+   },
+   "fieldDownloadedSize": {
+      "message": "Terunduh"
+   },
+   "fieldElapsedTime": {
+      "message": "Waktu Berjalan"
+   },
+   "fieldFileName": {
+      "message": "Nama berkas"
+   },
+   "fieldFileSize": {
+      "message": "Ukuran"
+   },
+   "fieldFinishTime": {
+      "message": "Waktu Selesai"
+   },
+   "fieldFolder": {
+      "message": "Folder"
+   },
+   "fieldNaming": {
+      "message": "Tatacara Penamaan"
+   },
+   "fieldProgress": {
+      "message": "Kemajuan"
+   },
+   "fieldRedirection": {
+      "message": "Pengalihan"
+   },
+   "fieldReferer": {
+      "message": "Penyerta"
+   },
+   "fieldRemainingTime": {
+      "message": "Waktu Tersisa"
+   },
+   "fieldRemarks": {
+      "message": "Komentar"
+   },
+   "fieldSpeed": {
+      "message": "Kecepatan"
+   },
+   "fieldState": {
+      "message": "Status"
+   },
+   "fieldThreads": {
+      "message": "Jumlah bagian"
+   },
+   "fieldType": {
+      "message": "Tipe"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "Penamaan"
+   },
+   "headExtFilterEnable": {
+      "message": "Berjalan"
+   },
+   "headExtFilterExts": {
+      "message": "Ekstensi File/Berkas"
+   },
+   "headExtFilterRefName": {
+      "message": "Nama Rujukan"
+   },
+   "headRulesActive": {
+      "message": "Aktif"
+   },
+   "headRulesAsFilter": {
+      "message": "Sebagai Penyaring Tugas"
+   },
+   "headRulesCaption": {
+      "message": "Penanda"
+   },
+   "headRulesCondition": {
+      "message": "Kondisi"
+   },
+   "headRulesRefName": {
+      "message": "Nama Rujukan"
+   },
+   "helpExtFilter": {
+      "message": "* Klik dua kali untuk menyunting.\n* Ketik di baris kosong untuk menambah saringan baru.\n* Pilih baris dan tekan HAPUS untuk menghilangkannya."
+   },
+   "helpRules": {
+      "message": "* Klik dua kali untuk menyunting.\n* Pilih baris kosong untuk menambahkan aturan baru.\n* Pilih baris dan tekan DELETE untuk menghapusnya.\n* Jika Anda menemukan masalah dalam menulis Pengaturan, silakan merujuk ke bagian Bantuan."
+   },
+   "hintSearchDownloads": {
+      "message": "Cari unduhan"
+   },
+   "labelAutoClear": {
+      "message": "Jadwal"
+   },
+   "labelBGBlur": {
+      "message": "Tingkat pengaburan"
+   },
+   "labelBGChooseFrom": {
+      "message": "Pilih dari"
+   },
+   "labelBGConstantColor": {
+      "message": "Warna konstan"
+   },
+   "labelBGImageURL": {
+      "message": "Gunakan gambar dari URL"
+   },
+   "labelBGOpacity": {
+      "message": "Tingkat transparansi"
+   },
+   "labelCustomFilter": {
+      "message": "Penyaring Suka-suka"
+   },
+   "menuDAudio": {
+      "message": "Unduh audio ..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Unduh audio dengan satu klik"
+   },
+   "menuDImage": {
+      "message": "Unduh gambar ..."
+   },
+   "menuDImageOneClick": {
+      "message": "Unduh gambar dengan satu klik"
+   },
+   "menuDLink": {
+      "message": "Unduh tautan ..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Unduh tautan dengan satu klik"
+   },
+   "menuDVideo": {
+      "message": "Unduh video ..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Unduh video dengan satu klik"
+   },
+   "menuGetHelp": {
+      "message": "Cari bantuan"
+   },
+   "menuOpenManager": {
+      "message": "Buka manajer"
+   },
+   "menuReportIssue": {
+      "message": "Laporkan masalah"
+   },
+   "msgCannotScanResources": {
+      "message": "Tak ada sumber unduhan di laman ini."
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Tak ada daftar tugas"
+   },
+   "msgRateShare": {
+      "message": "Jika Chrono Download Manager memang bermanfaat, tolong berikanlah nilai di Chrome Web Store dan bagikanlah ke teman-temanmu!"
+   },
+   "msgTaskAddPaused": {
+      "message": "Tugas ditambah dan tertunda"
+   },
+   "msgTaskFinish": {
+      "message": "Tugas selesai"
+   },
+   "msgTaskInterrupt": {
+      "message": "Tugas diinterupsi"
+   },
+   "msgTaskStart": {
+      "message": "Tugas ditambahkan ke antrian"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Silakan muat ulang ekstensi untuk menerapkan pembaruan."
+   },
+   "msgTextWelcome": {
+      "message": "Sebelum memulai, dianjurkan untuk mematikan kotak dialog Save As di Chrome, dengan cara tidak mencentang $1.\nAnda juga bisa memberikan izin kepada Chrono untuk mengakses URL berkas untuk pengalaman pengguna akan lebih baik, yang dapat diaktifkan dengan mencentang $2 di bawah $3.\nJika Anda memiliki pertanyaan, silakan cek halaman Bantuan dan FAQ, Anda juga dapat mengirim email ke dev@chronodownloader.net.\nSelamat menikmati!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Versi baru $1 tersedia!"
+   },
+   "msgTitleWelcome": {
+      "message": "Terima kasih telah memasang Chrono Download Manager"
+   },
+   "msgUpdated": {
+      "message": "Chrono telah diperbarui ke $1, tampilan $2"
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Tampilkan jumlah tugas unduhan di atas ikon papan perkakas"
+   },
+   "optItemClearNotify": {
+      "message": "Bersihkan notifikasi jika perlu"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Hapus berkas dari penyimpanan"
+   },
+   "optItemClearSearch": {
+      "message": "Bersihkan papan pencarian saat penyaring diubah"
+   },
+   "optItemClickNotify": {
+      "message": "Klik di sebuah pemberitahuan"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Unduhan bersamaan"
+   },
+   "optItemDblClickAction": {
+      "message": "Klik tugas dua kali"
+   },
+   "optItemDefAddPaused": {
+      "message": "Tambah Ditunda"
+   },
+   "optItemDefFolder": {
+      "message": "Folder awal"
+   },
+   "optItemDefNaming": {
+      "message": "Tata cara penamaan awal"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Unduh dari URL tembolok"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Unduhan tiap server"
+   },
+   "optItemHideShelf": {
+      "message": "Sembunyikan papan unduhan Chrome"
+   },
+   "optItemMenuDialog": {
+      "message": "Unduh tautan/gambar ..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Unduh tautan/gambar dengan Satu-Klik"
+   },
+   "optItemNameConflict": {
+      "message": "Bila nama file sama"
+   },
+   "optItemNotifyError": {
+      "message": "Tampilkan pemberitahuan jika terjadi galat"
+   },
+   "optItemNotifyFinish": {
+      "message": "Tampilkan pemberitahuan saat unduhan selesai"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Tampilkan pratayang gambar dalam ukuran besar"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Tampilkan pemberitahuan saat menambah unduhan Satu-Klik"
+   },
+   "optItemNotifyProgress": {
+      "message": "Tampilkan perkembangan unduhan"
+   },
+   "optItemOpenManScroll": {
+      "message": "Geser ke tugas saat tombol '$1' diklik"
+   },
+   "optItemOverrideChrome": {
+      "message": "Menutup laman unduhan awal Chrome dan menyalakan tombol pintas Ctrl-J"
+   },
+   "optItemPopClearClose": {
+      "message": "Tutup munculan setelah tugas dibersihkan"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Klik tombol \"Hapus'"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Tampilkan tombol media sosial"
+   },
+   "optItemPopMaxItems": {
+      "message": "Jumlah barang maksimum di daftar unduhan"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Tampilkan dahulu daftar yang sedang diunduh"
+   },
+   "optItemPopSlideButtons": {
+      "message": "Animasi tombol geser-masuk"
+   },
+   "optItemRecycleCancel": {
+      "message": "Batalkan tugas jika berkas dibuang ke tempat sampah"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Mode Kecocokan"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Geser di Panel Detail saat memilih tugas"
+   },
+   "optItemSoundError": {
+      "message": "Putar suara saat terjadi galat"
+   },
+   "optItemSoundFinish": {
+      "message": "Putar suara saat unduhan selesai"
+   },
+   "optItemStartInterrupted": {
+      "message": "Tombol Mulai dapat memulai tugas tertunda"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Hapus semua pemberitahuan"
+   },
+   "optOptionClearNotify": {
+      "message": "Hapus pemberitahuan"
+   },
+   "optOptionDoNothing": {
+      "message": "Diam saja"
+   },
+   "optOptionFirstMatch": {
+      "message": "Kecocokan pertama"
+   },
+   "optOptionOpenFile": {
+      "message": "Buka berkas"
+   },
+   "optOptionOpenFolder": {
+      "message": "Buka folder"
+   },
+   "optOptionOverwrite": {
+      "message": "Timpa"
+   },
+   "optOptionPrompt": {
+      "message": "Tanyakan"
+   },
+   "optOptionRemAsk": {
+      "message": "Tanya"
+   },
+   "optOptionRemFile": {
+      "message": "Hapus dari daftar dan penyimpanan"
+   },
+   "optOptionRemList": {
+      "message": "Hapus dari daftar"
+   },
+   "optOptionReplace": {
+      "message": "Ganti"
+   },
+   "optOptionSkipCancel": {
+      "message": "Lompati dan batalkan"
+   },
+   "optOptionSkipPause": {
+      "message": "Lompati dan tunda"
+   },
+   "optOptionStartPause": {
+      "message": "Mulai/Tunda"
+   },
+   "optOptionUniquify": {
+      "message": "Buat unik"
+   },
+   "optSectionBehaviors": {
+      "message": "Perilaku"
+   },
+   "optSectionMenu": {
+      "message": "Menu"
+   },
+   "optSectionMisc": {
+      "message": "Rupa-rupa"
+   },
+   "optSectionNetwork": {
+      "message": "Jaringan"
+   },
+   "optSectionNotifications": {
+      "message": "Pemberitahuan"
+   },
+   "optSectionOneClick": {
+      "message": "Unduhan Satu-Klik"
+   },
+   "optSectionPopup": {
+      "message": "Munculan"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Tetapan Tugas Baru"
+   },
+   "optionAddTop": {
+      "message": "Tambahkan di antrian teratas"
+   },
+   "optionDisableExtFilters": {
+      "message": "Matikan penyaring ekstensi"
+   },
+   "optionDontAsk": {
+      "message": "Ingat kesukaanku, jangan tanya lagi"
+   },
+   "optionShowSize": {
+      "message": "Tampilkan ukuran berkas"
+   },
+   "optionTableAutoResize": {
+      "message": "Pas ukuran kolom"
+   },
+   "optionTableSyncResize": {
+      "message": "Ubah ukuran sinkron"
+   },
+   "phraseAutomatic": {
+      "message": "Otomatis"
+   },
+   "phraseEnable": {
+      "message": "Menyala"
+   },
+   "phraseMultiValues": {
+      "message": "Bernilai jamak"
+   },
+   "phraseNever": {
+      "message": "Tak pernah"
+   },
+   "phrasePreview": {
+      "message": "Pratayang"
+   },
+   "phraseRegex": {
+      "message": "Ekspresi Umum"
+   },
+   "phraseToday": {
+      "message": "Hari Ini"
+   },
+   "phraseUnknown": {
+      "message": "Tak diketahui"
+   },
+   "phraseUnknownSize": {
+      "message": "Ukuran Tidak Diketahui"
+   },
+   "phraseVersion": {
+      "message": "Versi"
+   },
+   "phraseYesterday": {
+      "message": "Kemarin"
+   },
+   "ruleAllTasks": {
+      "message": "Semua Tugas"
+   },
+   "ruleAudio": {
+      "message": "Audio"
+   },
+   "ruleDocument": {
+      "message": "Dokumen"
+   },
+   "ruleDownloading": {
+      "message": "Mengunduh"
+   },
+   "ruleFinished": {
+      "message": "Selesai"
+   },
+   "ruleImage": {
+      "message": "Gambar"
+   },
+   "ruleInterrupted": {
+      "message": "Terpotong"
+   },
+   "ruleNew": {
+      "message": "Aturan Baru"
+   },
+   "ruleOther": {
+      "message": "Lainnya"
+   },
+   "ruleRecent": {
+      "message": "Terbaru"
+   },
+   "ruleRecycled": {
+      "message": "Tempat Sampah"
+   },
+   "ruleSmallFiles": {
+      "message": "Berkas Kecil"
+   },
+   "ruleVideo": {
+      "message": "Video"
+   },
+   "stateDownloading": {
+      "message": "Mengunduh"
+   },
+   "stateError": {
+      "message": "Terpotong"
+   },
+   "stateFileMiss": {
+      "message": "Berkas file tak ditemukan"
+   },
+   "stateFinished": {
+      "message": "Selesai"
+   },
+   "statePaused": {
+      "message": "Ditunda"
+   },
+   "stateQueue": {
+      "message": "Mengantri"
+   },
+   "statusCopyURL": {
+      "message": "Sedang sibuk - menyalin URL"
+   },
+   "statusCopyURLDone": {
+      "message": "URL tersalin di tembolok"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 dari $2"
+   },
+   "statusImportDone": {
+      "message": "Selesai mengimpor"
+   },
+   "statusImporting": {
+      "message": "Sedang sibuk - mengimpor"
+   },
+   "statusNumDownloading": {
+      "message": "$1 sedang diunduh"
+   },
+   "statusNumItems": {
+      "message": "$1 tugas"
+   },
+   "statusReadClipboard": {
+      "message": "Sedang sibuk - membaca tembolok"
+   },
+   "statusScheduledAutoClear": {
+      "message": "Bersihkan tugas secara otomatis dalam $1 detik"
+   },
+   "statusSelectedOf": {
+      "message": "Dipilih $1 dari $2 tugas"
+   },
+   "statusTasksCleared": {
+      "message": "$1 tugas telah dibersihkan"
+   },
+   "statusTimeLeft": {
+      "message": "masih $1"
+   },
+   "tipAutoClear": {
+      "message": "Otomatis bersihkan tugas dari daftar namun berkas tak dihapus"
+   },
+   "tipBGBlur": {
+      "message": "Efek kabur dapat menurunkan tingkat respon GUI"
+   },
+   "tipBGEnable": {
+      "message": "Karena masalah tertentu di Chrome, penggunaan gambar latar belakang akan meningkatkan penggunaan memori banyak, ingatlah ini sebelum Anda mengaktifkan fitur ini."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Masukkan URL web, atau jalur lengkap dari gambar di komputer Anda diawali dengan 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Masukkan URL web, atau jalur lengkap dari suatu gambar pada komputer Anda (untuk file lokal, Anda harus mengaktifkan akses file untuk Chrono terlebih dahulu, klik tanda tanya untuk melihat caranya)"
+   },
+   "tipBrowserAction": {
+      "message": "Unduh semua sumber daya di lama ini"
+   },
+   "tipBtnBackToManager": {
+      "message": "Kembali ke Manajer"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Ubah folder unduhan"
+   },
+   "tipBtnClear": {
+      "message": "Bersihkan tugas"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Sunting penyaring ekstensi"
+   },
+   "tipBtnCopyLink": {
+      "message": "Salin tautan"
+   },
+   "tipBtnDelete": {
+      "message": "Hapus"
+   },
+   "tipBtnHelp": {
+      "message": "Bantuan"
+   },
+   "tipBtnNewTask": {
+      "message": "Tugas Baru"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Buka folder unduhan"
+   },
+   "tipBtnOpenFile": {
+      "message": "Buka berkas"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Buka folder"
+   },
+   "tipBtnOptions": {
+      "message": "Opsi"
+   },
+   "tipBtnPause": {
+      "message": "Jeda"
+   },
+   "tipBtnPauseAll": {
+      "message": "Tunda Semuanya"
+   },
+   "tipBtnPopList": {
+      "message": "Beralih ke daftar unduhan"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Beralih ke Pengendus"
+   },
+   "tipBtnRecycle": {
+      "message": "Daur ulang"
+   },
+   "tipBtnRestart": {
+      "message": "Ulangi"
+   },
+   "tipBtnRestore": {
+      "message": "Kembalikan"
+   },
+   "tipBtnSort": {
+      "message": "Urutkan tugas"
+   },
+   "tipBtnStart": {
+      "message": "Mulai"
+   },
+   "tipBtnStartAll": {
+      "message": "Mulai Semuanya"
+   },
+   "tipExtFilterEnable": {
+      "message": "Berjalan sebagai penyaring ekstensi di Chrono Pengendus"
+   },
+   "tipExtFilterRefName": {
+      "message": "Nama internal untuk merujuk penyaring dalam bentuk lain"
+   },
+   "tipNaming": {
+      "message": "Silakan merujuk laman Bantuan untuk cara penggunaan Tatacara Penamaan."
+   },
+   "tipOptItemDefFolder": {
+      "message": "Biarkan tetap kosong untuk menerapkan pencocokan Pengaturan secara otomatis; atau menggunakan $1 untuk menerapkan Tatacara Penamaan standar, sebagaimana diatur dalam Pengaturan Sistem."
+   },
+   "tipOptItemDefNaming": {
+      "message": "Biarkan tetap kosong untuk menerapkan pencocokan Pengaturan secara otomatis; atau menggunakan $1 untuk menerapkan Tatacara Penamaan standar, sebagaimana diatur dalam Pengaturan Sistem."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Harap dicatat bahwa hanya Aturan aktif yang diuji untuk pencocokan. Dalam mode Penggantian, semua Aturan yang cocok akan diterapkan, tetapi nantinya Pengaturan akan menimpa aturan sebelumnya."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Anda juga bisa menggunakan Alt+klik tugas untuk membuka Panel Detail"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Diterapkan saat tidak ada Pengaturan yang cocok"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Jika dinyalakan maka unduhan akan dilakukan segera setelah sebuah tautan di-klik, menggunakan tetapan tugas baru (lihat di atas), tanpa menanyakan pengaturan dll."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Tetapan aturan yang diterapkan ketika menambahkian tugas baru, seperti untuk Unduhan Satu-Klik"
+   },
+   "tipRulesActive": {
+      "message": "Hanya Aturan aktif yang digunakan untuk pencocokan Aturan"
+   },
+   "tipRulesAsFilter": {
+      "message": "Tampilkan penyaring tugas di Manajer Unduhan"
+   },
+   "tipRulesRefName": {
+      "message": "Nama internal untuk aturan rujukan dalam bentuk lain"
+   },
+   "tipURL": {
+      "message": "Anda bisa memasukkan banyak URL yang dipisahkan oleh baris baru; Anda bisa memulai unduhan serempak dengan memakai Deskriptor Batch."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Anda cukup menekan Ctrl-C untuk menyalin URL dari tugas yang dipilih"
+   },
+   "tipmsgDoubleClick": {
+      "message": "Anda dapat mengubah kebiasaan klik-ganda di $1"
+   },
+   "tipmsgFileAccess": {
+      "message": "Mengijinkan Chrono untuk mengakses URL file akan membuat pengalaman penggunaan Anda lebih baik, misalnya menunjukkan gambar terunduh sebagai ikon tugas dan mengatus gambar lokal sebagai latar belakang. Anda dapat mengaktifkan hal ini dengan mencentang kotak $1 pada laman chrome://extensions."
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Klik dua kali pada pengatur kolom untuk menyesuaikan lebar kolom secara otomatis"
+   },
+   "tipmsgGridSelection": {
+      "message": "Gunakan Ctrl / Shift untuk memilih beberapa baris, atau tekan Ctrl-A untuk memilih semua baris"
+   },
+   "tipmsgNotifications": {
+      "message": "Anda dapat mengubah pengaturan notifikasi/suara di $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Cara termudah untuk membuka Chrono adalah dengan menekan Ctrl-J"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Panel rincian geser dapat dimatikan melalui $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Tariklah untuk menyusun ulang Penyaring Tugas; Anda juga bisa menambah Penyaring Tugas kustom di $1"
+   },
+   "titleChangeBG": {
+      "message": "Ganti latar belakang"
+   },
+   "titleNewTaskDialog": {
+      "message": "Tugas Baru"
+   },
+   "titleOptions": {
+      "message": "Opsi"
+   },
+   "titleOptionsAbout": {
+      "message": "Tentang"
+   },
+   "titleOptionsFilter": {
+      "message": "Penyaring Ekstensi"
+   },
+   "titleOptionsGeneral": {
+      "message": "Umum"
+   },
+   "titleOptionsHelp": {
+      "message": "Bantuan"
+   },
+   "titleOptionsInterface": {
+      "message": "Antarmuka"
+   },
+   "titleOptionsRules": {
+      "message": "Sistem Aturan"
+   },
+   "titleQuickSelection": {
+      "message": "Pilih Cepat"
+   },
+   "titleRateShare": {
+      "message": "Beri nilai dan bagikan!"
+   },
+   "titleSniffer": {
+      "message": "Pengendus"
+   },
+   "titleSwitchUI": {
+      "message": "Beralih mode tampilan"
+   },
+   "titleTaskProps": {
+      "message": "Keterangan Tugas"
+   },
+   "titleTips": {
+      "message": "Petunjuk"
+   },
+   "titleUpdateLog": {
+      "message": "Catatan Pembaruan"
+   },
+   "translateContributors": {
+      "message": "hamdanm"
+   },
+   "uilang": {
+      "message": "id"
+   },
+   "uilangName": {
+      "message": "Indonesian"
+   },
+   "unitBytes": {
+      "message": "$1 Bita"
+   },
+   "unitDay": {
+      "message": "$1 hari"
+   },
+   "unitDays": {
+      "message": "$1 hari"
+   },
+   "unitHour": {
+      "message": "$1 jam"
+   },
+   "unitHours": {
+      "message": "$1 jam"
+   },
+   "unitMinute": {
+      "message": "$1 men"
+   },
+   "unitMinutes": {
+      "message": "$1 men"
+   },
+   "unitSecond": {
+      "message": "$1 det"
+   },
+   "unitSeconds": {
+      "message": "$1 det"
+   }
+}

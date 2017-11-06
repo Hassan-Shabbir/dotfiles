@@ -1,0 +1,108 @@
+/*
+SOLARIZED HEX     
+--------- ------- 
+
+base03    #002b36 
+base02    #073642 
+base01    #586e75 
+base00    #657b83 
+base0     #839496 
+base1     #93a1a1 
+base2     #eee8d5 
+base3     #fdf6e3 
+yellow    #b58900 
+orange    #cb4b16 
+red       #dc322f 
+magenta   #d33682 
+violet    #6c71c4 
+blue      #268bd2 
+cyan      #2aa198 
+green     #859900 
+*/
+
+:root, *:not(input) {
+	/* Select everything that is not an input field (or else it wouldn't show) 
+	 * Chose to select :root, 'cause why not? (since it should propagate) */
+	background-color: #002b36 !important;
+	/* base03    #002b36 */
+	color: #eee8d5 !important;
+	/* base2     #eee8d5 */
+	border: none !important;
+	/* If you leave this out the borders will show in stark white */
+}
+input {
+	/* Select input fields */
+	background-color: #073642 !important;
+	/* base02    #073642 */
+	border: 1px solid #586e75 !important;
+	/* base01    #586e75 */
+	color: #839496 !important;
+	/* base0     #839496 */
+}
+a:hover, a:hover * {
+	/* visual que to show the hovered item is a link 
+	 * also selects all children recursively */
+	background-color: #073642 !important;
+	/* base02    #073642 */
+}
+a:visited, a:visited * {
+	/* visual que to show the link has been visited */
+	color: #d33682 !important;
+	/* magenta   #d33682 */
+}
+a, a * {
+	/* Select anchor tags (ie. links) 
+	 * and all children recursively */
+	color: #268bd2 !important;
+	/* blue      #268bd2 */
+}
+nav, #nav, .nav {
+	/* Give less visual importance to nav section
+	 * since it's less important than the main section, etc.*/
+	color: #586e75 !important;
+	/* base01    #586e75 */
+}
+p, body, section, article, main {
+	/* Normal importance to page content, and the html5 versions of them */
+	color: #eee8d5 !important;
+	/* base2     #eee8d5 */
+}
+h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+	/* Higher importance to headers, big or small 
+	 * and all children */
+	color: #eee8d5 !important;
+	/* base2     #eee8d5 */
+}
+title, i, b, strong, em {
+	/* Select italic and bold, normal and html5 versions */
+	color: #93a1a1 !important;
+	/* base1     #93a1a1 */
+}
+blockquote {
+	/* Select quoted text */
+	color: #586e75 !important;
+	/* base01    #586e75 */
+	background-color: #073642 !important;
+	/* base02    #073642 */
+}
+.result-sponsored {
+	/* Hide ads on duckduckgo.com */
+	display: none !important;
+}
+table, tr, td {
+	/* Hide stark white table borders */
+	border: none!important;
+	/* base01    #586e75 */	
+}
+button, .btn {
+	/* Select buttons*/
+	background-color: #073642 !important;
+	/* base02    #073642 */
+	border-color: #586e75 !important;
+	/* base01    #586e75 */
+}
+hr {
+	/* Select horizontal rule (ie. page break) */
+	border-color: #002b36 !important;
+	/* base03    #002b36 */
+}

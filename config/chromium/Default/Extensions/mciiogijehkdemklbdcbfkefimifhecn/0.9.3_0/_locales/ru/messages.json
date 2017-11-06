@@ -1,0 +1,932 @@
+{
+   "btnAbout": {
+      "message": "О Chrono"
+   },
+   "btnAddPaused": {
+      "message": "Добавить паузу"
+   },
+   "btnApply": {
+      "message": "Применить"
+   },
+   "btnBackToManager": {
+      "message": "Назад"
+   },
+   "btnCancel": {
+      "message": "Отмена"
+   },
+   "btnClearAll": {
+      "message": "Очистить все"
+   },
+   "btnClearFailed": {
+      "message": "Очистить прерванные задачи"
+   },
+   "btnClearFinished": {
+      "message": "Очистить завершённые задачи"
+   },
+   "btnClearRemoved": {
+      "message": "Очистить список без файлов"
+   },
+   "btnFAQ": {
+      "message": "Часто задаваемые вопросы"
+   },
+   "btnGotIt": {
+      "message": "Я понял!"
+   },
+   "btnImportChromeHistory": {
+      "message": "Импортировать список загрузок с Chrome"
+   },
+   "btnLater": {
+      "message": "Позже"
+   },
+   "btnOpenManager": {
+      "message": "Открыть менеджер закачек"
+   },
+   "btnPopRemoveFile": {
+      "message": "И удалить файл"
+   },
+   "btnPopRemoveList": {
+      "message": "Удалить из списка"
+   },
+   "btnRate": {
+      "message": "Оценить"
+   },
+   "btnShareDone": {
+      "message": "Я уже сделал это"
+   },
+   "btnStart": {
+      "message": "Пуск!"
+   },
+   "btnStartAll": {
+      "message": "Запустить все!"
+   },
+   "btnTakeMeThere": {
+      "message": "Перенести меня туда"
+   },
+   "btnUpdateReload": {
+      "message": "Перезапустить сейчас"
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Разрешить открывать файлы по ссылкам"
+   },
+   "chromesysChange": {
+      "message": "Изменить"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Расположение скачиваемых файлов"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Скачанные файлы"
+   },
+   "chromesysFontSize": {
+      "message": "Размер шрифта"
+   },
+   "chromesysLanguageSection": {
+      "message": "Язык"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Показать дополнительные настройки"
+   },
+   "confirmBatchDownload": {
+      "message": "Кажется, что вы собираетесь начать пакетную загрузку , вот некоторые примеры:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Для пакетной загрузки, пожалуйста, убедитесь, что именная маска настроена генерировать разные имена файлов. Все равно продолжайте?"
+   },
+   "confirmBtnYes": {
+      "message": "Да"
+   },
+   "confirmBtnYesFile": {
+      "message": "Да, так же удалить файлы"
+   },
+   "confirmCantResumeRestart": {
+      "message": "Невозможно возобновить задание $1 , перезапустить?"
+   },
+   "confirmProceed": {
+      "message": "Вы уверены ?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Удалить запущенное задание?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Удалить выбранные элемент(ы)?"
+   },
+   "confirmRemoveRule": {
+      "message": "Удалить выбранные правила?"
+   },
+   "confirmRemoveTask": {
+      "message": "Безвозвратно удалить выбранное задание?"
+   },
+   "confirmReset": {
+      "message": "Сбросить настройки расширения?"
+   },
+   "errorFNameConflict": {
+      "message": "Конфликт с названием файла"
+   },
+   "errorFileNotExist": {
+      "message": "Файл не найден"
+   },
+   "errorInvalidNamingMask": {
+      "message": "Неверная именная маска"
+   },
+   "errorInvalidURLs": {
+      "message": "Неверная ссылка(и)"
+   },
+   "errorNoID": {
+      "message": "Ошибка, чтобы добавить новой задачи в Chrono (слишком много задач) очистите неиспользуемые и попробуйте еще раз."
+   },
+   "errorNone": {
+      "message": "Нет ошибок"
+   },
+   "errorRemovedFromChrome": {
+      "message": "Задание может быть удаленно с Chrome."
+   },
+   "everyXDays": {
+      "message": "Каждые $1 дней"
+   },
+   "everyXHours": {
+      "message": "Каждые $1 часов"
+   },
+   "everyXMinutes": {
+      "message": "Каждые $1 минут"
+   },
+   "extDesc": {
+      "message": "Менеджер загрузок | Загрузчик видео | Пакетный загрузчик изображений"
+   },
+   "extDescBest": {
+      "message": "Лучший менеджер закачек для Chrome"
+   },
+   "extDescSlogan": {
+      "message": "Скачай и управляй интернетом"
+   },
+   "extName": {
+      "message": "Менеджер загрузки Chrono"
+   },
+   "extsAll": {
+      "message": "Все"
+   },
+   "extsApp": {
+      "message": "Приложение"
+   },
+   "extsArchive": {
+      "message": "Архив"
+   },
+   "extsAudio": {
+      "message": "Аудио"
+   },
+   "extsDocument": {
+      "message": "Документ"
+   },
+   "extsImage": {
+      "message": "Изображение"
+   },
+   "extsNew": {
+      "message": "Новый фильтр"
+   },
+   "extsOthers": {
+      "message": "Другие"
+   },
+   "extsVideo": {
+      "message": "Видео"
+   },
+   "fieldAddTime": {
+      "message": "Время добавления"
+   },
+   "fieldAvgSpeed": {
+      "message": "Средняя скорость"
+   },
+   "fieldDownloadedSize": {
+      "message": "Закачено"
+   },
+   "fieldElapsedTime": {
+      "message": "Прошло времени"
+   },
+   "fieldFileName": {
+      "message": "Имя файла"
+   },
+   "fieldFileSize": {
+      "message": "Размер"
+   },
+   "fieldFinishTime": {
+      "message": "Время окончания"
+   },
+   "fieldFolder": {
+      "message": "Папка"
+   },
+   "fieldNaming": {
+      "message": "Название маски"
+   },
+   "fieldProgress": {
+      "message": "Состояние"
+   },
+   "fieldRedirection": {
+      "message": "Перенаправление"
+   },
+   "fieldReferer": {
+      "message": "Реферер ссылка"
+   },
+   "fieldRemainingTime": {
+      "message": "Оставшееся время"
+   },
+   "fieldRemarks": {
+      "message": "Пометки"
+   },
+   "fieldSpeed": {
+      "message": "Скорость"
+   },
+   "fieldState": {
+      "message": "Состояние"
+   },
+   "fieldThreads": {
+      "message": "Потоки"
+   },
+   "fieldType": {
+      "message": "Тип"
+   },
+   "fieldURL": {
+      "message": "Ссылка"
+   },
+   "headExtFilterCaption": {
+      "message": "Заголовок"
+   },
+   "headExtFilterEnable": {
+      "message": "Включить"
+   },
+   "headExtFilterExts": {
+      "message": "Расширение файла"
+   },
+   "headExtFilterRefName": {
+      "message": "Имя ссылки"
+   },
+   "headRulesActive": {
+      "message": "Активный"
+   },
+   "headRulesAsFilter": {
+      "message": "Как фильтровать задания"
+   },
+   "headRulesCaption": {
+      "message": "Заголовок"
+   },
+   "headRulesCondition": {
+      "message": "Условие"
+   },
+   "headRulesRefName": {
+      "message": "Название ссылки"
+   },
+   "helpExtFilter": {
+      "message": "* Двойной клик для редактирования \n* Клик в пустую строку для добавления нового фильтра\n * Что бы удалить строку, выделите её и нажмите УДАЛИТЬ"
+   },
+   "helpRules": {
+      "message": "* Двойной клик для редактирования  \n* Клик в пустую строку для добавления нового фильтра  \n* Что бы удалить строку, выделите её и нажмите УДАЛИТЬ\n* Если у Вас проблемы с написанием правил, перейдите в раздел Помощь"
+   },
+   "hintSearchDownloads": {
+      "message": "Поиск закачек"
+   },
+   "labelAutoClear": {
+      "message": "График"
+   },
+   "labelBGBlur": {
+      "message": "Размытость"
+   },
+   "labelBGChooseFrom": {
+      "message": "Выберите форму"
+   },
+   "labelBGConstantColor": {
+      "message": "Постоянный цвет"
+   },
+   "labelBGImageURL": {
+      "message": "Использовать как картинку с URL"
+   },
+   "labelBGOpacity": {
+      "message": "Прозрачность"
+   },
+   "labelCustomFilter": {
+      "message": "Пользовательский фильтр"
+   },
+   "menuDAudio": {
+      "message": "Скачать аудио ..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Скачать аудио в один клик"
+   },
+   "menuDImage": {
+      "message": "Скачать изображение ..."
+   },
+   "menuDImageOneClick": {
+      "message": "Скачать картинку в один клик"
+   },
+   "menuDLink": {
+      "message": "Скачать по ссылке ..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Скачать ссылку в один клик"
+   },
+   "menuDVideo": {
+      "message": "Скачать видео ..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Скачать видео в один клик"
+   },
+   "menuGetHelp": {
+      "message": "Помощь"
+   },
+   "menuOpenManager": {
+      "message": "Открыть менеджер"
+   },
+   "menuReportIssue": {
+      "message": "Сообщить о проблеме"
+   },
+   "msgCannotScanResources": {
+      "message": "Невозможно найти ресурсы для этой страницы"
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Список заданий пуст"
+   },
+   "msgRateShare": {
+      "message": "Если вам понравилось расширение Chrono менеджер закачек, пожалуйста оцените в магазине Chrome и расскажите друзьям."
+   },
+   "msgTaskAddPaused": {
+      "message": "Задание добавлено и приостановленно"
+   },
+   "msgTaskFinish": {
+      "message": "Задание завершенно"
+   },
+   "msgTaskInterrupt": {
+      "message": "Задание прерванно"
+   },
+   "msgTaskStart": {
+      "message": "Задание добавленно в очередь"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Пожалуйста перезапустите расширение, что бы применить обновление"
+   },
+   "msgTextWelcome": {
+      "message": "Перед запуском рекомендуется отключить диалоговое окно 'Сохранить как'  в Chrome , сняв флажок под $1.  \nВы можете предоставить Chrono возможность открывать файловые ссылки для удобства пользователя, активируйте параметр $2 под $3.\nЕсли у вас есть вопросы, пожалуйста, посетите страницу справки и Часто Задаваемые Вопросы, Вы можете также можете получить помощь через электронную почту dev@chronodownloader.net.\nНаслаждайтесь!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Доступна новая версия  $1 !"
+   },
+   "msgTitleWelcome": {
+      "message": "Спасибо что установили Менеджер загрузок Chrono вы не пожалеете :D"
+   },
+   "msgUpdated": {
+      "message": "Chrono обновлён до версии $1, посмотреть список изменений $2"
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Показывать число загрузок в верхней иконке Chrono"
+   },
+   "optItemClearNotify": {
+      "message": "Отчистить уведомления когда необходимо"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Удалить файл с диска"
+   },
+   "optItemClearSearch": {
+      "message": "Отчистить поле поиска, если фильтр изменён"
+   },
+   "optItemClickNotify": {
+      "message": "Включить уведомления"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Одновременные загрузки"
+   },
+   "optItemDblClickAction": {
+      "message": "Двойной клик по заданию"
+   },
+   "optItemDefAddPaused": {
+      "message": "Добавить без запуска"
+   },
+   "optItemDefFolder": {
+      "message": "Папка по умолчанию"
+   },
+   "optItemDefNaming": {
+      "message": "Имя маски по умолчанию"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Закачать по ссылке из буфера обмена"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Максимальное число соединений от одной загрузки"
+   },
+   "optItemHideShelf": {
+      "message": "Скрыть панель загрузки Chrome"
+   },
+   "optItemMenuDialog": {
+      "message": "Скачать ссылку/изображения ..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Скачать ссылку/изображения в один клик"
+   },
+   "optItemNameConflict": {
+      "message": "Когда совпадает имя файла"
+   },
+   "optItemNotifyError": {
+      "message": "Показывать уведомления при ошибках"
+   },
+   "optItemNotifyFinish": {
+      "message": "Показывать уведомления по окончанию загрузки"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Показывать предварительный просмотр для изображениий больше"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Показывать уведомление при загрузки в один клик"
+   },
+   "optItemNotifyProgress": {
+      "message": "Показывать состояние загрузки"
+   },
+   "optItemOpenManScroll": {
+      "message": "Перейти к заданию при нажатии на кнопку '$1'"
+   },
+   "optItemOverrideChrome": {
+      "message": "Заменить оригинальную страницу загрузок Chrome и использовать сочетание клавиш Ctrl-J"
+   },
+   "optItemPopClearClose": {
+      "message": "Закрыть всплывающее окно после очистки задачи"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Нажмите кнопку 'Удалить'"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Показывать социальные кнопки"
+   },
+   "optItemPopMaxItems": {
+      "message": "Максимальное количество элементов в списке загрузок"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Сперва Показывать закачиваемые задания"
+   },
+   "optItemPopSlideButtons": {
+      "message": "Анимация для кнопок"
+   },
+   "optItemRecycleCancel": {
+      "message": "Отменить задание, если она в корзине"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Совпадение с правилами"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Детальная панель при клики на задание"
+   },
+   "optItemSoundError": {
+      "message": "Проигрывать звук, при возникновении ошибки"
+   },
+   "optItemSoundFinish": {
+      "message": "Проигрывать звук, при завершение загрузки"
+   },
+   "optItemStartInterrupted": {
+      "message": "Кнопка Пуск может запустить прерванные задачи"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Отчистить все уведомления"
+   },
+   "optOptionClearNotify": {
+      "message": "Отчистить это уведомление"
+   },
+   "optOptionDoNothing": {
+      "message": "Ничего не делать"
+   },
+   "optOptionFirstMatch": {
+      "message": "Первое совпадение"
+   },
+   "optOptionOpenFile": {
+      "message": "Открыть файл"
+   },
+   "optOptionOpenFolder": {
+      "message": "Открыть папку"
+   },
+   "optOptionOverwrite": {
+      "message": "Перезаписать"
+   },
+   "optOptionPrompt": {
+      "message": "Подтвердить"
+   },
+   "optOptionRemAsk": {
+      "message": "Спросить"
+   },
+   "optOptionRemFile": {
+      "message": "Удалить из списка и с диска"
+   },
+   "optOptionRemList": {
+      "message": "Удалить из списка"
+   },
+   "optOptionReplace": {
+      "message": "Заменить"
+   },
+   "optOptionSkipCancel": {
+      "message": "Пропустить и отменить"
+   },
+   "optOptionSkipPause": {
+      "message": "Пропустить и приостановить"
+   },
+   "optOptionStartPause": {
+      "message": "Запустить/Приостановить"
+   },
+   "optOptionUniquify": {
+      "message": "сделать его уникальным"
+   },
+   "optSectionBehaviors": {
+      "message": "Режим"
+   },
+   "optSectionMenu": {
+      "message": "Меню"
+   },
+   "optSectionMisc": {
+      "message": "Разное"
+   },
+   "optSectionNetwork": {
+      "message": "Сеть"
+   },
+   "optSectionNotifications": {
+      "message": "Уведомление"
+   },
+   "optSectionOneClick": {
+      "message": "Скачивание в один клик"
+   },
+   "optSectionPopup": {
+      "message": "Всплывающее окно"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Новое задание по умолчанию"
+   },
+   "optionAddTop": {
+      "message": "Поднять наверх в списке очереди"
+   },
+   "optionDisableExtFilters": {
+      "message": "Отключить фильтры расширения"
+   },
+   "optionDontAsk": {
+      "message": "Запомнить выбор и больше не спрашивать"
+   },
+   "optionShowSize": {
+      "message": "Показать размер"
+   },
+   "optionTableAutoResize": {
+      "message": "Принудительно растянуть столбцы"
+   },
+   "optionTableSyncResize": {
+      "message": "Изменить размер синхронно"
+   },
+   "phraseAutomatic": {
+      "message": "Автоматический"
+   },
+   "phraseEnable": {
+      "message": "Применить"
+   },
+   "phraseMultiValues": {
+      "message": "Мульти-значения"
+   },
+   "phraseNever": {
+      "message": "Никогда"
+   },
+   "phrasePreview": {
+      "message": "Предосмотр"
+   },
+   "phraseRegex": {
+      "message": "Регулярные выражения"
+   },
+   "phraseToday": {
+      "message": "Сегодня"
+   },
+   "phraseUnknown": {
+      "message": "Неизвестный"
+   },
+   "phraseUnknownSize": {
+      "message": "Неизвестный размер"
+   },
+   "phraseVersion": {
+      "message": "Версия"
+   },
+   "phraseYesterday": {
+      "message": "Вчера"
+   },
+   "ruleAllTasks": {
+      "message": "Все задания"
+   },
+   "ruleAudio": {
+      "message": "Аудио"
+   },
+   "ruleDocument": {
+      "message": "Документ"
+   },
+   "ruleDownloading": {
+      "message": "Загрузка"
+   },
+   "ruleFinished": {
+      "message": "Завершенно"
+   },
+   "ruleImage": {
+      "message": "Изображение"
+   },
+   "ruleInterrupted": {
+      "message": "Прерванно"
+   },
+   "ruleNew": {
+      "message": "Новое правило"
+   },
+   "ruleOther": {
+      "message": "Другое"
+   },
+   "ruleRecent": {
+      "message": "Недавний"
+   },
+   "ruleRecycled": {
+      "message": "Корзина"
+   },
+   "ruleSmallFiles": {
+      "message": "Маленькие файлы"
+   },
+   "ruleVideo": {
+      "message": "Видео"
+   },
+   "stateDownloading": {
+      "message": "Загрузка"
+   },
+   "stateError": {
+      "message": "Прерванный"
+   },
+   "stateFileMiss": {
+      "message": "Файл отсутствует"
+   },
+   "stateFinished": {
+      "message": "Завершено"
+   },
+   "statePaused": {
+      "message": "Пауза"
+   },
+   "stateQueue": {
+      "message": "В очереди"
+   },
+   "statusCopyURL": {
+      "message": "Копирую ссылки"
+   },
+   "statusCopyURLDone": {
+      "message": "Ссылки скопированы в буфер обмена"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 из $2"
+   },
+   "statusImportDone": {
+      "message": "Импорт завершён"
+   },
+   "statusImporting": {
+      "message": "Импортирую подождите"
+   },
+   "statusNumDownloading": {
+      "message": "$1 загрузок"
+   },
+   "statusNumItems": {
+      "message": "$1 элемент(ы)"
+   },
+   "statusReadClipboard": {
+      "message": "Считываю буфер обмена"
+   },
+   "statusScheduledAutoClear": {
+      "message": "Автоматическая очистка задача будет выполняться в течение $1 секунд"
+   },
+   "statusSelectedOf": {
+      "message": "выбраны $1 из $2 элементов"
+   },
+   "statusTasksCleared": {
+      "message": "$1 задача(и) очистил"
+   },
+   "statusTimeLeft": {
+      "message": "$1 прошло"
+   },
+   "tipAutoClear": {
+      "message": "Автоматически четкие задания из списка, но не будет удалять файлы на диске"
+   },
+   "tipBGBlur": {
+      "message": "Эффект размытия может замедлить Графический интерфейс пользователя"
+   },
+   "tipBGEnable": {
+      "message": "Смена заднего фона, немного увеличит потребление памяти, имейте в виду, прежде чем включить эту функцию."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Введите URL, или полный путь к изображению на компьютере с приставкой 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Введите URL, или полный путь к изображению на компьютере (для локальных файлов, Вам необходимо сперва включить доступ к файлам для Chrono, нажмите на знак вопроса, чтобы увидеть, как)"
+   },
+   "tipBrowserAction": {
+      "message": "Скачать всё на этой странице"
+   },
+   "tipBtnBackToManager": {
+      "message": "Вернуться к менеджеру"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Сменить папку закачек"
+   },
+   "tipBtnClear": {
+      "message": "Очистить задачи"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Редактировать фильтры дополнения"
+   },
+   "tipBtnCopyLink": {
+      "message": "Скопировать ссылку"
+   },
+   "tipBtnDelete": {
+      "message": "Удалить"
+   },
+   "tipBtnHelp": {
+      "message": "Помощь"
+   },
+   "tipBtnNewTask": {
+      "message": "Новое задание"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Открыть папку закачек"
+   },
+   "tipBtnOpenFile": {
+      "message": "Открыть файл"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Открыть в папку"
+   },
+   "tipBtnOptions": {
+      "message": "Настройки"
+   },
+   "tipBtnPause": {
+      "message": "Пауза"
+   },
+   "tipBtnPauseAll": {
+      "message": "Приостановить все"
+   },
+   "tipBtnPopList": {
+      "message": "Переключиться к списку загрузки"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Переключиться к Сниффер"
+   },
+   "tipBtnRecycle": {
+      "message": "Корзина"
+   },
+   "tipBtnRestart": {
+      "message": "Перезапустить"
+   },
+   "tipBtnRestore": {
+      "message": "Возобновить"
+   },
+   "tipBtnSort": {
+      "message": "Сортировать задания"
+   },
+   "tipBtnStart": {
+      "message": "Пуск"
+   },
+   "tipBtnStartAll": {
+      "message": "Запустить все"
+   },
+   "tipExtFilterEnable": {
+      "message": "Включить в качестве расширенного фильтра в Chrono Сниффер"
+   },
+   "tipExtFilterRefName": {
+      "message": "Внутреннее название ссылки для привязки фильтра в других выражениях"
+   },
+   "tipNaming": {
+      "message": "Пожалуйста перейдите на страницу Помощь для ознакомления с нумерованными масками"
+   },
+   "tipOptItemDefFolder": {
+      "message": "Оставьте пустым, чтобы применить автоматические правило соответствия; или использовать $1, чтобы применить по умолчанию папку c установками, как  установлено в правиле системы."
+   },
+   "tipOptItemDefNaming": {
+      "message": "Оставьте пустым, чтобы применить автоматическое правило соответствия; или использовать $1, чтобы применить по умолчанию именованную маску, как установлено в правиле системы."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Пожалуйста, обратите внимание, что только активные Правила проверяются на соответствие. В режиме Замены, все Правила соответствия применяются, но последние правила будут перезаписывать предыдущие."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Вы так же можете нажать ALT+Клик что бы открыть детальную панель"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Применяются когда нет совпадений с правилами"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Если включено, загрузка начнется сразу же, когда вы кликнете по ссылке, используя параметр задания по умолчанию (смотрите выше), без диалога запроса для настройки именованной маске и т.д."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Настройки по умолчанию применяться при добавлении нового задания, например, применяется для скачивания в один клик"
+   },
+   "tipRulesActive": {
+      "message": "Только активные правила будут обрабатываться для Правил совпадений"
+   },
+   "tipRulesAsFilter": {
+      "message": "Показать как фильтровать задания в Менеджере для загрузок"
+   },
+   "tipRulesRefName": {
+      "message": "Внутреннее название ссылки для привязки фильтр в других выражениях"
+   },
+   "tipURL": {
+      "message": "Вы можете ввести несколько адресов, разделенных новой линией; Вы можете начать  пакетную загрузку с помощью пакетных дескрипторов."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Вы можете нажать Ctrl-C для копирования URL-адресов из выбранной(ых) задания(й)"
+   },
+   "tipmsgDoubleClick": {
+      "message": "Вы можете изменить событие при двойном клике в $1"
+   },
+   "tipmsgFileAccess": {
+      "message": "Предоставляя Chrono доступ к файловым ссылкам, повышает удобства для пользователя, например, показать загруженные изображения в качестве иконок групп или свое изображение в качестве заднего фона. Активируйте параметр $1 в разделе chrome://extensions."
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Дважды щелкните по столбцу, чтобы задать автоматическую разметку ширины"
+   },
+   "tipmsgGridSelection": {
+      "message": "Используйте Ctrl / Shift, чтобы выбрать несколько строк, или нажмите Ctrl-A, чтобы выбрать все строки"
+   },
+   "tipmsgNotifications": {
+      "message": "Вы можете изменить звуковые уведомления в настройках $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Самый простой способ, чтобы открыть Chrono, это нажать Ctrl-J"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Детальная панель может быть отключена в $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Перетащите, чтобы изменить порядок фильтра заданий; также можно добавить пользовательские фильтры в $1"
+   },
+   "titleChangeBG": {
+      "message": "Сменить задний фон"
+   },
+   "titleNewTaskDialog": {
+      "message": "Новое задание"
+   },
+   "titleOptions": {
+      "message": "Настройки"
+   },
+   "titleOptionsAbout": {
+      "message": "О Chrono"
+   },
+   "titleOptionsFilter": {
+      "message": "Фильтры дополнения"
+   },
+   "titleOptionsGeneral": {
+      "message": "Основные"
+   },
+   "titleOptionsHelp": {
+      "message": "Помощь"
+   },
+   "titleOptionsInterface": {
+      "message": "Интерфейс"
+   },
+   "titleOptionsRules": {
+      "message": "Правила"
+   },
+   "titleQuickSelection": {
+      "message": "Быстрый выбор"
+   },
+   "titleRateShare": {
+      "message": "Оценить и поделиться"
+   },
+   "titleSniffer": {
+      "message": "Сниффер"
+   },
+   "titleSwitchUI": {
+      "message": "Переключить в режим отображения"
+   },
+   "titleTaskProps": {
+      "message": "Настройки задания"
+   },
+   "titleTips": {
+      "message": "Подсказки"
+   },
+   "titleUpdateLog": {
+      "message": "История обновлений"
+   },
+   "translateContributors": {
+      "message": "kazazuz, evrologoped, kolover, evgs89 etc."
+   },
+   "uilang": {
+      "message": "ru"
+   },
+   "uilangName": {
+      "message": "Russian"
+   },
+   "unitBytes": {
+      "message": "$1 Байт"
+   },
+   "unitDay": {
+      "message": "$1 день"
+   },
+   "unitDays": {
+      "message": "$1 дней"
+   },
+   "unitHour": {
+      "message": "$1 час"
+   },
+   "unitHours": {
+      "message": "$1 часов"
+   },
+   "unitMinute": {
+      "message": "$1 мин"
+   },
+   "unitMinutes": {
+      "message": "$1 минут"
+   },
+   "unitSecond": {
+      "message": "$1 сек"
+   },
+   "unitSeconds": {
+      "message": "$1 секунд"
+   }
+}

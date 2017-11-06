@@ -1,0 +1,44 @@
+[
+    {
+        "iconPath": "/home/hassan4350/.local/share/albert/org.albert.extension.websearch/{da458bae-f7de-492c-a466-fdc3c9e80610}.",
+        "name": "Google",
+        "trigger": "g ",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/hassan4350/.local/share/albert/org.albert.extension.websearch/{1d7b5f50-73bd-4338-9a29-dfebe4c9af50}.",
+        "name": "Youtube",
+        "trigger": "y ",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "iconPath": "/home/hassan4350/.local/share/albert/org.albert.extension.websearch/{389cac60-3914-4e2a-8822-6af805a0bd72}.",
+        "name": "Amazon",
+        "trigger": "ama ",
+        "url": "http://www.amazon.com/s/?field-keywords=%s"
+    },
+    {
+        "iconPath": ":ebay",
+        "name": "Ebay",
+        "trigger": "eb ",
+        "url": "http://www.ebay.com/sch/i.html?_nkw=%s"
+    },
+    {
+        "iconPath": ":github",
+        "name": "GitHub",
+        "trigger": "gh ",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    },
+    {
+        "iconPath": "/home/hassan4350/.local/share/albert/org.albert.extension.websearch/{4c152c73-527c-4fa5-bbd6-5f14f8eff221}.",
+        "name": "Wikipedia",
+        "trigger": "w ",
+        "url": "https://en.wikipedia.org/w/index.php?search=%s"
+    },
+    {
+        "iconPath": ":wolfram",
+        "name": "Wolfram Alpha",
+        "trigger": "=",
+        "url": "https://www.wolframalpha.com/input/?i=%s"
+    }
+]

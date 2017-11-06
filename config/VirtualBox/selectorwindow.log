@@ -1,0 +1,18 @@
+VirtualBox GUI VM Selector Window 5.1.22 r115126 linux.amd64 (May  9 2017 19:27:33) release log
+00:00:00.516204 Log opened 2017-05-26T21:05:46.972111000Z
+00:00:00.516206 Build Type: release
+00:00:00.516208 OS Product: Linux
+00:00:00.516209 OS Release: 4.10.13-1-ARCH
+00:00:00.516210 OS Version: #1 SMP PREEMPT Thu Apr 27 12:15:09 CEST 2017
+00:00:00.516231 DMI Product Name: 4290BB8
+00:00:00.516239 DMI Product Version: ThinkPad X220
+00:00:00.516283 Host RAM: 3838MB (3.7GB) total, 3432MB (3.3GB) available
+00:00:00.516287 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.516288 Process ID: 23251
+00:00:00.516288 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.516315 Qt version: 5.8.0
+00:00:00.538334 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.699500 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1366x768
+00:02:04.783075 GUI: UIMediumEnumerator: Medium with key={3715c199-a0bd-4e0e-bbed-4934f3043a5a} created
+00:02:04.900140 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:28.929977 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={7844aa05-b02e-4cdd-a04f-ade4a762e6b7} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0

@@ -1,0 +1,27 @@
+[Added Associations]
+image/jpeg=ristretto.desktop;mcomix.desktop;feh.desktop;
+application/pdf=evince.desktop;libreoffice-draw.desktop;
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+video/mp4=mpv.desktop;vlc.desktop;
+video/webm=vlc.desktop;
+text/plain=mousepad.desktop;
+image/png=mcomix.desktop;wine-extension-png.desktop;qutebrowser.desktop;ristretto.desktop;feh.desktop;
+application/javascript=mousepad.desktop;
+text/markdown=mousepad.desktop;
+application/x-yaml=mousepad.desktop;
+application/x-xpinstall=org.gnome.FileRoller.desktop;
+application/x-ms-dos-executable=wine.desktop;org.gnome.FileRoller.desktop;
+application/xml=mousepad.desktop;qutebrowser.desktop;
+text/x-haskell=mousepad.desktop;
+text/html=chromium.desktop;
+application/json=mousepad.desktop;
+text/x-python=mousepad.desktop;
+text/x-svsrc=mousepad.desktop;
+image/svg+xml=ristretto.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+image/gif=ristretto.desktop;
+application/x-bittorrent=transmission-gtk.desktop;
+application/gzip=org.gnome.FileRoller.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+video/x-matroska=vlc.desktop;mpv.desktop;mplayer.desktop;org.xfce.Parole.desktop;

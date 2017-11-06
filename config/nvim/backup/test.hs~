@@ -1,0 +1,5 @@
+f :: Double -> Double -> Double
+f n 1 = n
+f n x = (a0 + n/a0)/2
+        where a0 = f n (x-1)
+

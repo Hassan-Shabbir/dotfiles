@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Tillåt åtkomst till webbadresser i filen"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Nedladdningsplats"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Nedladdningar"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Visa avancerade inställningar ..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Swedish"
+   }
+}

@@ -1,0 +1,33 @@
+.badge {
+	padding: 2px 4px !important;
+}
+
+.author a:after {
+	color: white;
+	pointer-events: none;
+	/*background: rgba(255,255,255,.35);*/
+	background: #646464;
+	/*background: #7f919e;*/
+	/*padding: 1px 3px;*/
+	padding: 2px 4px;
+	font-size: 10px;
+	line-height: 1.1;
+	font-weight: 700;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	margin-left: 5px;
+}
+
+.author a[data-username="pilar6195"]:after {
+	content: 'Senpai';
+}
+
+.author a[data-username="BakaNEET"]:after {
+	content: 'Lewd';
+}
+
+.author a[data-username="Aikatsuyuri"]:after {
+	content: 'Trap';
+}

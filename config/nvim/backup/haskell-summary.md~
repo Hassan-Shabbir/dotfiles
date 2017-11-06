@@ -1,0 +1,393 @@
+# 1. All you need is Lambda
+
+## 1.1 All you need is Lambda
+* lambda calculus is a model of computation by Alonzo Church
+* formalizes the definition of 'effective computability'
+
+## 1.2 What is functional programming?
+* functional programming
+  * a computer programming paradigm
+  * based on functions modeled on mathematical functions
+* programs are a combination of expressions made up of:
+  * values
+  * variables
+  * functions:
+    * are expressions applied to input and then evaluated
+    * are first-class
+      * can be used both as values or as inputs to other functions
+* all functional programming languages are based on lambda calculus
+  * Haskell is pure (has referential trasparency):
+    * all Haskell features can be translated into lambda expressions
+    * given a fuction and a input, the result will be constant
+* Haskell is easily composable and abstractable
+
+## 1.3 What is a function?
+* parts of a function:
+  * input set
+  * relation from input set to output set
+  * output set
+* example function:
+  * `f(1) = A`
+  * `f(2) = B`
+  * `f(3) = C`
+  * i.e. `{1, 2, 3} -f-> {A, B, C}`
+    * this function will always return A given 1
+* valid function:
+  * `f(1) = A`
+  * `f(2) = A`
+* invalid function:
+  * `f(1) = X`
+  * `f(1) = Y`
+* example relationship function:
+  * `f(x) = x + 1`
+
+## 1.4 The structure of lambda terms
+* 3 basic components:
+  * variables
+    * no meaning or value
+  * abstractions
+    * a lambda term (a function)
+  * expressions
+    * a superset of variables and abstractions
+* example abstraction:
+  * `\x.x`  where `\ ` is a lambda
+* all lambda abstractions (functions) are anonymous (have no name)
+* the head is from `\ ` to `.`
+* `\x.x` can be read as:
+  * given parameter `x`(1st), return `x`(2nd)
+* alpha equivalence:
+  * `\x.x` == `\d.d` == `\z.z`
+  * as variables have no letter specific meaning if undefined
+
+## 1.5 Beta reduction
+* beta reduction is applying argument to function and removing head
+  * `(\x.x) (2)`
+  * `(\[x := 2].x)`
+  * `2`
+* the body could could also be something like: `(\x.x + 1)`
+* example
+  * `(\x.x) (\y.y)`
+  * `[x := (\y.y)]`
+  * `(\y.y)`
+  * cannot reduce more
+* example
+  * `(\x.x)(\y.y) (z)`
+  * `((\x.x)(\y.y)) (z)`
+  * `[x := (\y.y)]`
+  * `(\y.y) (z)`
+  * `[y := z]`
+  * `z`
+* stop beta reduction when no more arguments are left to apply
+* the head tells which variables to replace when applied
+* variables that are not named in the head are called free variables
+  * example: in `(\x.xy)` `y` is a free variable
+    * `(\x.xy) (z)`
+    * `(\[x := z].xy)`
+    * `zy`
+* alpha equivalence does not apply to free variables
+  * `(\x.xz) /= (\x.xy)`
+  * `(\xy.yx) == (\ab.ba)`
+  * `(\x.xz) == (\y.yz)`
+
+## 1.6 Multiple arguments
+* each lambda takes one parameter and one argument
+* functions with multiple arguments have multiple nested heads
+  * the multiple arguments can be applied one after the other, called currying
+* example `(\xy.xy)` == `(\x.(\y.xy))`
+* example flip:
+  * `(\xy.yx) (1)(2)`
+  * `(\x(\y.yx)) (1)(2)`
+  * `[x := 1]`
+  * `(\y.y1)(2)`
+  * `[y := 2]`
+  * `2 1`
+* example
+  * base: `(\xy.xy)`
+  * `(\xy.xy) (\z.a)(1)`
+  * `(\x(\y.xy)) (\z.a)(1)`
+  * `[x := (\z.a)]`
+  * `(\y.(\z.a)y) (1)`
+  * `[y := 1]`
+  * `(\z.a)`
+  * `[z := 1]`
+  * `a`
+
+## 1.7 Evaluation is simplification
+* beta normal form: when you cannot apply lambdas to arguments
+* `(\x.x)` is in normal form
+* `(\x.x) z` is *not* in normal form
+  * the `z` can still be applied
+
+## 1.8 Combinators
+* combinator: a lambda term with no free variables in body
+* example:
+  * `(\xy.x)`
+* not a combinator:
+  * `(\x.xy)`
+
+## 1.9 Divergence
+* divergence is when a beta reduction never stops (infinite loop)
+* opposite is convergence or normal form
+* divergence example:
+  * `(\x.xx)(\x.xx)`
+  * `([x := (\x.xx)]xx))`
+  * `(\x.xx)(\x.xx)`
+
+## 1.10 Summary
+* functional programming based on variables, functions and expressions
+* functions can be applied and then evaluated to a result
+* functions bound in the head have the same value in the body
+* all functions take one input and return one result
+* functions are a mapping from one set to another set
+* given the same input functions return the same output
+
+## 1.13 Definitions
+* `\ ` lambda is used to introduce, in the head, arguments to bind
+* a lambda abstraction is an anonymous function `(\x.x + 1)`
+* application is when you apply a value to a lambda expression `(\x.x) (1)`
+* lambda calculus is a formal way to express programs in terms of abstraction and application
+
+# 2 Hello, Haskell
+
+## 2.1 Hello, Haskell
+* objectives:
+  * use Haskell code in the interactive environment and also from source files;
+  * understand the building blocks of Haskell: expressions and functions;
+  * learn some features of Haskell syntax and conventions of good Haskell style;
+  * modify simple functions.
+
+## 2.2 Interacting with Haskell code
+* enter code using
+  * GHCi's REPL
+    * REPL: read-eval-print-loop
+    * quit using `:q`
+  * GHCi on a text file
+    * saving the code and running it using GHCi
+* GHCi commands include `:q`, `:i`
+* create a Haskell source code file called `test.hs` and enter the following
+
+```haskell
+sayhello :: String -> IO ()
+sayHello x = putStrLn ("Hello, " ++ x ++ "!")
+```
+
+* `::` is used to write the type signature
+* type `:load test.hs` into the REPL
+* then `sayHello "Haskell"` will return
+  * `"Hello, Haskell!"`
+
+## 2.3 Understanding expressions
+
+
+# Images
+
+<img src='https://g.gravizo.com/svg?
+ graph G {
+   main -- parse -- execute
+   main -- init
+   main -- cleanup
+   execute -- make_string
+   execute -- printf
+   init -- make_string
+   main -- printf
+ }
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  a -> b -> c
+  b -> d
+  d -> e -> f -> g
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  null -> t
+  null -> e
+  t -> m
+  t -> n
+  e -> a
+  e -> i
+  m -> o
+  m -> g
+  o -> null1
+  o -> null2
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+graph graphname {
+  a -- b -- c
+  b -- d
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph graphname {
+  a -> b -> c
+  b -> d
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+graph ethane {
+  C_0 -- H_0 [type=s]
+  C_0 -- H_1 [type=s]
+  C_0 -- H_2 [type=s]
+  C_0 -- C_1 [type=s]
+  C_1 -- H_3 [type=s]
+  C_1 -- H_4 [type=s]
+  C_1 -- H_5 [type=s]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  aize ="4,4"
+  main [shape=box]
+  main -> parse [weight=8]
+  parse -> execute
+  main -> init [style=dotted]
+  main -> cleanup
+  execute -> { make_string; printf}
+  init -> make_string [label="make a string"]
+  main -> printf [style=bold,label="100 times",color=red]
+  node [shape=box,style=filled,color=".7 .3 1.0"]
+  execute -> compare
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  A -> {B C}
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  A -> {B C}
+}
+subgraph H {
+  rank = same; A; B; C
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph H {
+  A -> {B C}
+}
+subgraph G {
+  rank = same; A; B; C
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+strict graph G {
+  a -- b
+  a -- b
+  b -- a [color=blue]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+graph G {
+  abc [fillcolor = red]
+  abc -> def [arrowhead = diamond]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  a -> b [dir=both color="red:blue"]
+  c -> d [dir=none color="green:red;0.25:blue"]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  a -> c
+  a -> b
+  b -> c [constraint=false]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  {
+    node [margin=0 fontcolor=blue fontsize=32 width=0.5 shape=circle style=filled]
+    b [fillcolor=yellow fixedsize=true label="a very long label"]
+    d [fixedsize=shape label="an even longer label"]
+  }
+a -> {c d}
+b -> {c d}
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+graph structs {
+  node [shape=record]
+  box [label="A | B | C | D"]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+graph structs {
+  node [shape=record]
+  box [label="{A | B | C | D}"]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+graph structs {
+  node [shape=record]
+  box [label="A | { B | C } | D"]
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph structs {
+  node [shape=record];
+  struct1 [label="<f0> left|<f1> middle|<f2> right"];
+  struct2 [label="<f0> one|<f1> two"];
+  struct3 [label="hello&#92nworld |{ b |{c|<here> d|e}| f}| g | h"];
+  f1 -> f0;
+  f2 -> here;
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  rankdir=LR
+  node [shape=box, color=blue]
+  node1 [style=filled]
+  node2 [style=filled, fillcolor=red]
+  node0 -> node1 -> node2
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph R {
+  rankdir=LR
+  node [style=rounded]
+  node1 [shape=box]
+  node2 [fillcolor=yellow, style="rounded,filled", shape=diamond]
+  node3 [shape=record, label="{ a | b | c }"]
+  node1 -> node2 -> node3
+}
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  a -> b
+  b -> {c d}
+  {c d } -> a
+'/>
+
+<img src='https://g.gravizo.com/svg?
+digraph G {
+  a -> b
+  b -> {c d}
+  c -> a
+  d -> a
+'/>

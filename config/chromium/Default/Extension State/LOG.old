@@ -1,0 +1,15 @@
+2017/11/03-13:01:31.198 2306 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Extension State/MANIFEST-000001
+2017/11/03-13:01:31.198 2306 Recovering log #418
+2017/11/03-13:01:31.254 2306 Reusing old log /home/hassan4350/.config/chromium/Default/Extension State/000418.log 
+2017/11/03-13:02:34.079 2953 Level-0 table #422: started
+2017/11/03-13:02:34.170 2953 Level-0 table #422: 3544568 bytes OK
+2017/11/03-13:02:34.175 2953 Delete type=0 #418
+2017/11/03-13:02:34.179 2953 Compacting 4@0 + 1@1 files
+2017/11/03-13:02:34.306 2953 Generated table #423@0: 16 keys, 22748 bytes
+2017/11/03-13:02:34.306 2953 Compacted 4@0 + 1@1 files => 22748 bytes
+2017/11/03-13:02:34.310 2953 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/11/03-13:02:34.310 2953 Delete type=2 #422
+2017/11/03-13:02:34.321 2953 Delete type=2 #416
+2017/11/03-13:02:34.322 2953 Delete type=2 #419
+2017/11/03-13:02:34.322 2953 Delete type=2 #413
+2017/11/03-13:02:34.322 2953 Delete type=2 #410

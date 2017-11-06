@@ -1,0 +1,197 @@
+# WELCOME TO HASSAN'S .ZSHRC
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH=/home/hassan4350/.oh-my-zsh
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+#ZSH_THEME="random"
+
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(archlinux taskwarrior git vi-mode z fancy-ctrl-z history-substring-search)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+### Start Personal Section
+
+
+# Start programs for startup:
+# Hide mouse after one second
+#nohup unclutter -idle 1 -root &
+# Swap caps with escape for use with vi-mode
+setxkbmap -option caps:swapescape > /dev/null 2>&1 &
+# Set background image randomly
+#feh --randomize --bg-scale ~/pictures/* > /dev/null 2>&1 &
+# Set background image to fork bomb ie why linux 
+#feh --bg-scale ~/pictures/fork-bomb.jpg 
+feh --image-bg black --bg-max ~/pictures/card/arch-card-black-demo2.png > /dev/null 2>&1 &
+# load zmv command for batch renaming
+autoload zmv
+# remove mouse from screen after 1 second of not moving
+#unclutter -idle 1 -root > /dev/null 2>&1 &
+# run xflux to redden screen after dark
+#killall xflux > /dev/null 2>&1 &
+#xflux -l 43.6532 -g -79.3832 -k 3000 -nofork > /dev/null 2>&1 &
+#xflux -l 43.6532 -g -79.3832 -k 3000 >  /dev/null 2>&1 &
+#xflux -l 43.6532 -g -79.3832 -k 3000 -nofork > /dev/null &
+#xflux -l 43.6532 -g -79.3832 -k 3000 -nofork &
+#xflux -l 43.6532 -g -79.3832 -k 3000 &
+# reset mouse pointer
+#sh -c 'sleep 2 ; xset m 3 3' &
+#sh -c 'sleep 2.1 ; xinput --set-prop "TPPS/2 IBM TrackPoint" "Device Accel Profile" 7' &
+#sh -c 'sleep 2.2 ; xinput --set-prop "TPPS/2 IBM TrackPoint" "Device Accel Velocity Scaling" 2.0' &
+# tune laptop for battery efficiency
+echo "Hs905239" | sudo -S powertop --auto-tune > /dev/null 2>&1 &
+# Change terminal background on each new terminal
+#file=`ls ~/pictures/pokemon | shuf -n 1`
+#fullfile=`echo '/home/hassan4350/pictures/pokemon/'$file` 
+#sed -i "38s@.*@BackgroundImageFile=$fullfile@" ~/.config/xfce4/terminal/terminalrc
+
+# Personal aliases
+alias c="clear"
+alias cc="cd;clear"
+alias sl="ls"
+alias n="nvim"
+alias alwaysontop="almostontop"
+alias at="almostontop toggle"
+alias an="almostontop on"
+alias af="almostontop off"
+alias cl="tty-clock -C 6 -cbtD"
+alias lc="tty-clock -C 6 -cbtD"
+alias battery="watch -d acpi"
+alias bmv="bash /usr/bin/vimv/vimv.sh"
+alias vimv="bash /usr/bin/vimv/vimv.sh"
+alias darken="light -S 0.5"
+alias dark="light -S 0.04"
+alias redden="xflux -l 43.6532 -g -79.3832 -k 3000 -nofork"
+alias ta="task add"
+alias td="task done"
+alias tb="timew start"
+alias te="timew stop"
+alias dtrx="extract"
+alias drive="ls /dev/disk/by-label; echo ""; lsblk"
+alias ls="ls --color --group-directories-first"
+alias reboot-wifi="nmcli radio wifi off && sleep 1 && nmcli radio wifi on && sleep 7 && notify-send 'wifi should work'"
+alias reboot-mouse="sudo modprobe -r psmouse; sudo modprobe psmouse"
+alias jn="jupyter-notebook"
+alias gs="git status"
+alias ga="git add ."
+alias gc="git commit"
+alias gcm="git commit -m"
+alias gl="git log --oneline --graph --all --decorate"
+#alias en="2> /dev/null"
+#alias on="1> /dev/null"
+#alias bn="2>&1 /dev/null"
+# timer for aboo coming with notification and beep
+function timer {
+  str='                        BEEP !                    ';
+  sleep $1 && notify-send $str && sleep 2s && aplay media/beep.wav && notify-send $str;
+}
+
+function conv-all {
+  for mov in *.mp4; do
+    ffmpeg -i ${mov} -vf scale=-1:360 360.${mov} || ffmpeg -i ${mov} -vf scale=-1:480 480.${mov};
+  done
+  for mov in *.mkv; do
+    ffmpeg -i ${mov} -vf scale=-1:360 360.${mov} || ffmpeg -i ${mov} -vf scale=-1:480 480.${mov};
+  done
+}
+
+function conv {
+  ffmpeg -i ${1} -vf scale=-1:360 360.${1} || ffmpeg -i ${1} -vf scale=-1:480 480.${1};
+}
+
+
+#  Archlinux zsh plugin: PACAUR COMMANDS
+#|Alias |Command     |Description                            |
+#|------|------------|---------------------------------------|
+#|pain  |pacaur -S   |Install packages from the repositories |
+#|      |            |                                       |
+#|paupg |pacaur -Syua|Sync with repositories before          |
+#|      |            |upgrading all packages (from AUR too)  |
+#|      |            |                                       |
+#|palst |pacaur -Qe  |List installed packages including      |
+#|      |            |from AUR (tagged as "local")           |
+#|      |            |                                       |
+#|pareps|pacaur -Ss  |Search for packages in the repositories|
+#|      |            |                                       |
+#|paupd |pacaur -Sy  |Update and refresh the local           |
+#|      |            |package database                       |
+
+# Use Neovim as default editor
+export EDITOR=/usr/bin/nvim
+export VISUAL=/usr/bin/nvim
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/home/hassan4350/anaconda3/bin:$PATH"
+
+# Search history for matches in vi mode using j,k (with text in prompt)
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+# Search history for matches using arrow keys
+zmodload zsh/terminfo
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
+
+# Manually load other plugins in the custom directory
+source ~/.oh-my-zsh/custom/plugins/prompt/async.zsh
+source ~/.oh-my-zsh/custom/plugins/prompt/pure.zsh
+source ~/.oh-my-zsh/custom/plugins/auto-ls/auto-ls.zsh
+source ~/.oh-my-zsh/custom/plugins/vi-mode/vi-mode.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/almostontop/almostontop.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/bmv/bmv.zsh
+source ~/.oh-my-zsh/custom/plugins/calc.plugin.zsh/calc.plugin.zsh
+source /usr/share/doc/pkgfile/command-not-found.zsh

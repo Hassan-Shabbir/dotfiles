@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Cho phép truy cập vào các URL của tệp"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Vị trí tải xuống"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Tải xuống"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Hiển thị cài đặt nâng cao..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Vietnamese"
+   }
+}

@@ -1,0 +1,323 @@
+[
+ {
+  "country": "dk",
+  "name": "pychess-engine",
+  "protocol": "xboard"
+ },
+ {
+  "analyze": true,
+  "command": "/usr/lib/python3.6/site-packages/pychess/Players/PyChess.py",
+  "country": "dk",
+  "md5": "958052112030b9cf794955386a1dc2aa",
+  "name": "PyChess.py",
+  "options": [
+   {
+    "default": false,
+    "name": "Ponder",
+    "type": "check"
+   },
+   {
+    "default": 0,
+    "max": 100,
+    "min": 0,
+    "name": "skipPruneChance",
+    "type": "spin"
+   }
+  ],
+  "protocol": "xboard",
+  "recheck": false,
+  "variants": [
+   "normal",
+   "wildcastle",
+   "nocastle",
+   "fischerandom",
+   "crazyhouse",
+   "losers",
+   "suicide",
+   "atomic",
+   "kingofthehill",
+   "3check",
+   "asean",
+   "cambodian",
+   "makruk",
+   "sittuyin"
+  ],
+  "vm_args": [
+   "-u"
+  ],
+  "vm_command": "/usr/bin/python",
+  "vm_name": "python"
+ },
+ {
+  "analyze": true,
+  "command": "/usr/bin/gnuchess",
+  "country": "us",
+  "md5": "78a647a2a6dfb398a9f97236b7d850a2",
+  "name": "gnuchess",
+  "options": [
+   {
+    "default": false,
+    "name": "Ponder",
+    "type": "check"
+   }
+  ],
+  "protocol": "xboard",
+  "recheck": false,
+  "variants": [
+   "normal"
+  ]
+ },
+ {
+  "country": "us",
+  "name": "gnome-gnuchess",
+  "protocol": "xboard"
+ },
+ {
+  "country": "us",
+  "name": "crafty",
+  "protocol": "xboard"
+ },
+ {
+  "country": "ca",
+  "name": "faile",
+  "protocol": "xboard",
+  "protover": 1
+ },
+ {
+  "country": "cz",
+  "name": "phalanx",
+  "protocol": "xboard",
+  "protover": 1
+ },
+ {
+  "country": "be",
+  "name": "sjeng",
+  "protocol": "xboard"
+ },
+ {
+  "country": "de",
+  "name": "hoichess",
+  "protocol": "xboard"
+ },
+ {
+  "country": "de",
+  "name": "boochess",
+  "protocol": "xboard",
+  "protover": 1
+ },
+ {
+  "country": "de",
+  "name": "amy",
+  "protocol": "xboard"
+ },
+ {
+  "country": "sw",
+  "name": "amundsen",
+  "protocol": "xboard"
+ },
+ {
+  "command": "/usr/bin/gnuchessu",
+  "country": "us",
+  "md5": "d599369ba10c6fcf03555e22c7b2f33c",
+  "name": "gnuchessu",
+  "options": [
+   {
+    "default": 16,
+    "max": 1024,
+    "min": 4,
+    "name": "Hash",
+    "type": "spin"
+   },
+   {
+    "default": false,
+    "name": "Ponder",
+    "type": "check"
+   },
+   {
+    "default": true,
+    "name": "OwnBook",
+    "type": "check"
+   },
+   {
+    "default": "book_small.bin",
+    "name": "BookFile",
+    "type": "text"
+   },
+   {
+    "choices": [
+     "Always",
+     "Fail High",
+     "Never"
+    ],
+    "default": "Fail High",
+    "name": "NullMove Pruning",
+    "type": "combo"
+   },
+   {
+    "default": 3,
+    "max": 3,
+    "min": 1,
+    "name": "NullMove Reduction",
+    "type": "spin"
+   },
+   {
+    "choices": [
+     "Always",
+     "Endgame",
+     "Never"
+    ],
+    "default": "Endgame",
+    "name": "Verification Search",
+    "type": "combo"
+   },
+   {
+    "default": 5,
+    "max": 6,
+    "min": 1,
+    "name": "Verification Reduction",
+    "type": "spin"
+   },
+   {
+    "default": true,
+    "name": "History Pruning",
+    "type": "check"
+   },
+   {
+    "default": 60,
+    "max": 100,
+    "min": 0,
+    "name": "History Threshold",
+    "type": "spin"
+   },
+   {
+    "default": false,
+    "name": "Futility Pruning",
+    "type": "check"
+   },
+   {
+    "default": 100,
+    "max": 500,
+    "min": 0,
+    "name": "Futility Margin",
+    "type": "spin"
+   },
+   {
+    "default": false,
+    "name": "Delta Pruning",
+    "type": "check"
+   },
+   {
+    "default": 50,
+    "max": 500,
+    "min": 0,
+    "name": "Delta Margin",
+    "type": "spin"
+   },
+   {
+    "default": 1,
+    "max": 2,
+    "min": 0,
+    "name": "Quiescence Check Plies",
+    "type": "spin"
+   },
+   {
+    "default": 100,
+    "max": 400,
+    "min": 0,
+    "name": "Material",
+    "type": "spin"
+   },
+   {
+    "default": 100,
+    "max": 400,
+    "min": 0,
+    "name": "Piece Activity",
+    "type": "spin"
+   },
+   {
+    "default": 100,
+    "max": 400,
+    "min": 0,
+    "name": "King Safety",
+    "type": "spin"
+   },
+   {
+    "default": 100,
+    "max": 400,
+    "min": 0,
+    "name": "Pawn Structure",
+    "type": "spin"
+   },
+   {
+    "default": 100,
+    "max": 400,
+    "min": 0,
+    "name": "Passed Pawns",
+    "type": "spin"
+   }
+  ],
+  "protocol": "uci",
+  "recheck": false
+ },
+ {
+  "country": "ru",
+  "name": "robbolito",
+  "protocol": "uci"
+ },
+ {
+  "country": "no",
+  "name": "glaurung",
+  "protocol": "uci"
+ },
+ {
+  "country": "no",
+  "name": "stockfish",
+  "protocol": "uci"
+ },
+ {
+  "country": "de",
+  "name": "ShredderClassicLinux",
+  "protocol": "uci"
+ },
+ {
+  "country": "fr",
+  "name": "fruit_21_static",
+  "protocol": "uci"
+ },
+ {
+  "country": "fr",
+  "name": "fruit",
+  "protocol": "uci"
+ },
+ {
+  "country": "de",
+  "name": "toga2",
+  "protocol": "uci"
+ },
+ {
+  "country": "gb",
+  "name": "hiarcs",
+  "protocol": "uci"
+ },
+ {
+  "country": "us",
+  "name": "diablo",
+  "protocol": "uci"
+ },
+ {
+  "country": "be",
+  "name": "Houdini.exe",
+  "protocol": "uci",
+  "vm_name": "wine"
+ },
+ {
+  "country": "ru",
+  "name": "Rybka.exe",
+  "protocol": "uci",
+  "vm_name": "wine"
+ },
+ {
+  "name": "plugin spec 0.0",
+  "protocol": "xboard"
+ }
+]

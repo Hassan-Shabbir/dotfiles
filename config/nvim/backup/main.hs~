@@ -1,0 +1,5 @@
+main = do
+  x <- putStrLn "Please enter your name:"
+  y <- getLine
+  z <- putStrLn ("hello, " ++ name ++ ", how are you?")
+  print (x, y, z)

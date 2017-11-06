@@ -1,0 +1,6 @@
+% hello.tex - Our firsst Latex!
+
+\documentclass{article}
+\begin{document}
+Hello World!
+\end{document}

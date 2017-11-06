@@ -1,0 +1,167 @@
+﻿<meta name="google" value="notranslate" />
+<html>
+<head>
+    <title i18n-text="titleOptions">Options</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+	<link rel="stylesheet" type="text/css" href="../libs/chrome-bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="../libs/slickgrid/slick.grid.css" />
+	<link rel="stylesheet" type="text/css" href="../libs/slickgrid/slick-default-theme.css" />
+	<link rel="stylesheet" type="text/css" href="options.css" />
+    <link rel="stylesheet" type="text/css" href="../libs/simptip.css" />
+
+    <script src="../libs/jquery-2.1.0.min.js"></script>
+	<script src="../libs/jqueryui/jquery-ui.sortable.min.js"></script>
+
+	<script src="../libs/slickgrid/slick.gridc.js"></script>
+	<script src="../libs/slickgrid/slick.editors.js"></script>
+
+    <script src="../libs/jquery.numeric.js"></script>
+
+    <script src="../com/i18n.js"></script>
+	
+    <script src="share_btns.js"></script>
+	<script src="options.js"></script>
+    
+
+
+    <script type="text/javascript" src="../com/ga.js"></script>
+
+</head>
+<body class="chrome-bootstrap">
+	<div class="frame">
+		<div id="settings_nav" class="navigation">
+			<div id="btnBackWrap">
+				<a i18n-title="tipBtnBackToManager" i18n-text="btnBackToManager" id='dy_opendy'>Back</a>
+			</div>
+			
+			<ul class="menu">
+				<li>
+					<a href="#general">
+						</a>
+				</li>
+				<li>
+					<a href="#interface">
+						</a>
+				</li>
+				<!--li>
+					<a href="#dy_network">
+						Network</a>
+				</li-->			
+				<li>
+					<a href="#category"  i18n-text="titleOptionsFilter">
+						</a>
+				</li>
+				<li>
+					<a href="#rules">
+						</a>
+				</li>
+			</ul>
+			<ul class="menu">
+				<li>
+					<a href="#help" i18n-text="titleOptionsHelp">
+						</a>
+				</li>
+                <li>
+                    <a href="#about" i18n-text="titleOptionsAbout">
+						</a>
+				</li>
+				
+			</ul>
+		</div>
+		
+		<div class="mainview view">
+		<div id="dy_general">
+			<header><h1>General</h1></header>
+			<div class="content">
+			</div>
+		</div>
+		<div id="dy_interface">
+			<header><h1>Interface</h1></header>
+			<div class="content">
+			</div>
+		</div>
+		<div id="dy_network">
+			<header><h1>Network</h1></header>
+			<div class="content">
+			</div>
+			
+		</div>
+		<div id="dy_category">
+			<header><h1 i18n-text="titleOptionsFilter">Filter</h1></header>
+			<div class="content">
+				<div style="margin-top: 8px;" id="cats_grid" class="cfg_grid"></div>
+                <div style="padding-left:500px" i18n-text="helpExtFilter">
+                </div>
+			</div>
+		</div>
+		<div id="dy_rules">
+			<header><h1>Rules</h1></header>
+			<div class="content" style="overflow: initial;">
+				<div style="margin-top: 8px;" id="rules_grid" class="cfg_grid"></div>
+
+                <div style="padding-left:500px" i18n-text="helpRules">
+                </div>
+			</div>
+		</div>
+		<div id="dy_help">
+			<header><h1 i18n-text="titleOptionsHelp">Help</h1></header>
+            <div id="help_holder" class="content"></div>
+		</div>
+        <div id="dy_about">
+            <header><h1 i18n-text="titleOptionsAbout">About</h1></header>
+            <div class="content">
+                <div id="about-container">
+                    <img id="product-logo" src="../icons/logo/32.png" alt="Chrono">
+                    <div id="product-description">
+                      <h2 i18n-text="extName">Chrono Download Manager</h2>
+                      <span i18n-text="extDesc">Your only download manager for Chrome Browser</span>
+                    </div>
+                </div>
+                <div id="version-container">
+                <span i18n-text="phraseVersion">Version</span>&nbsp;<a id="version-changelog" target="_blank" href="http://bugs.chronodownloader.net/changelog_page.php"><span id="version-number">0.0.1</span></a>
+                </div>
+				<div id="translation_info" style="margin-top: 8px;">
+                </div>
+
+                <div class="share_buttons">
+                </div>
+
+                <div id="about_holder"></div>
+				
+				<div>
+				<table id="opensrc_table" class="simpletable">
+                            
+					<thead><tr><th>Library</th><th>License</th></tr></thead>
+
+					<tbody>
+					<tr><td><a target="_blank" href="http://labs.bigroomstudios.com/libraries/Apprise-v2">apprise</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="https://github.com/roykolak/chrome-bootstrap">chrome-bootstrap</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>                            
+					<tr><td><a target="_blank" href="https://jquery.org/">jquery</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>                     <tr><td><a target="_blank" href="http://labs.abeautifulsite.net/jquery-dropdown/">jquery-dropdown</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="http://layout.jquery-dev.net/">jquery-layout</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="http://dbushell.github.io/Nestable/">jquery-nestable</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="http://www.texotela.co.uk/code/jquery/numeric/">jquery-numeric</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="https://github.com/daredevel/jquery-tree">jquery-tree</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="http://jqueryui.com/">jquery-ui</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="http://ned.im/noty/">noty</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="http://www.laktek.com/2008/10/27/really-simple-color-picker-in-jquery/">Really Simple Color Picker</a></td><td><a target="_blank" href="https://github.com/laktek/really-simple-color-picker/blob/master/LICENSE">*</a></td></tr>
+					<tr><td><a target="_blank" href="https://github.com/arashmanteghi/simptip">simptip</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="https://github.com/mleibman/SlickGrid">slickgrid</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					<tr><td><a target="_blank" href="http://www.cssflow.com/snippets/toggle-switches">Toggle Switches</a></td><td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td></tr>
+					</tbody>
+				</table>
+				</div>
+            </div>
+        </div>
+	
+
+	</div>
+	
+		<div id="adwrap">
+			<div class="ads_hint">
+				Ads by Sponsor
+			</div>
+		</div>
+	</div>
+</body>
+</html>

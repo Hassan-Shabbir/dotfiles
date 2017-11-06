@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "disablef12.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "description": "An extension to disable F12 opening the dev console.",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjyBgsbIJ5bEKG4Pj0QDkpYq3EZZ4mIa2SVKMN7rB/TTUe0lk38oZTsDDSoDDjTn4suonrhnsyeoMeSbOKWaKIKz7JUYRZf4fj1CLajnwZc+x20uzbwez0I5Ze6387F9IhBiJZZ2KT4bKPYcBCnBSKa9SrAc0/+bQK2qzOq8FBnQIDAQAB",
+   "manifest_version": 2,
+   "name": "Disable F12",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

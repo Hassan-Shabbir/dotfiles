@@ -1,0 +1,65 @@
+On Saffron in Wine
+
+Saffron added to wine makes you very drunk and foul-smelling as well
+as making the wine taste most strange. As there is no receipt which
+instructs you to add saffron to wine I am surprised Gaudio Fullente so
+frequently offers it to one, but then as he is drunk and foul-smelling
+at all times it is possible I am wrong in my condemnation of his drink
+and it is he for whom I should have contempt.
+
+Excerpt from Leonardo's Kitchen Note Books.
+
+var foo    = 1;
+var bar    = 'a';
+var foobar = foo + bar;
+
+one   = 1
+two   = 2
+three = 3
+four  = 4
+
+examples: 
+  | start | eat | left    |
+  | 12    | 5   | 7       |
+  | 20    | 5   | 15      |
+  | asdf  | sfd | sdlfkjs |
+
+This is example text (with a pair of parentheses).
+Shopping list: oranges, apples, tomatoes, bananas
+
+a ( b ( ccccccccccccccc ) d ) e
+
+
+16027 + 20847 = 36874
+7582  + 430   = 8012
+24400 + 12662 = 37062
+7457  + 1422  = 8879
+22760 + 9747  = 32507
+23092 + 26832 = 49924
+25243 + 32762 = 58005
+3843  + 22707 = 26550
+8795  + 5560  = 14355
+4752  + 27065 = 31817
+23320 + 627   = 23947
+27635 + 4442  = 32077
+24541 + 7563  = 32104
+23785 + 5544  = 29329
+15875 + 23477 = 39352
+8630  + 26144 = 34774
+2002  + 14746 = 16748
+18090 + 17355 = 35445
+
+
+class VisualMode
+  def print
+    map(&:print).join
+  end
+end
+
+class VisualCommand
+  def print
+    raw_keystrokes + " "
+  end
+end
+
+class VisualTerminal < Terminator; end

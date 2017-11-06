@@ -1,0 +1,395 @@
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T14:36:46 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=8abf0c0dd3d7983e9fe7f1c4fe4ff11ee244e436-1495982214-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=e1e43c2b72f7c1605149a12dbedf032773d6353d-1495982218-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T17:00:33 +0000 +++
++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T22:08:45 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ KissAnime::CFCookie() -> Missing cf_clearance cookie
+ERROR +++ KissAnime::CFCookie() -> Missing cf_clearance cookie
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=4df406c1ebe828ba71e89e94180af21487414821-1496009339-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=425347ea5226946e3a5ce6160d32ff58e80d32d9-1496009343-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T22:10:44 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=59d3a436293dd3cee6c9be08843c2c7912f733fc-1496009450-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=f0b02071251ba858758cba5460bcbe4c0515754d-1496009454-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T22:12:05 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=d3ba0294583182206d27a751bd4113b27cd3ec1d-1496009531-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=84f5cc0a22267ea97f214b942fe2ab2fef8ece7d-1496009535-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T22:15:41 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=2ac8baf238e8e52c1e92dd7bf9dc3d8b251bd1bd-1496009746-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=13f13f390ce04bac43acfda721b921b69174b791-1496009750-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T22:40:30 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=446e8798444a3c7f4570bf446985311ace7d36cd-1496011236-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=ae245ec622eca2a832729acdaa0b3a16bbd3b64c-1496011241-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/01-006.0/compressed/r002.jpg?token=d7d049b2a1f55d9d7e30524d85e85fbc&ttl=1496088000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/01-006.0/compressed/r002.jpg?token=d7d049b2a1f55d9d7e30524d85e85fbc&ttl=1496088000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/01-006.0/compressed/r002.jpg?token=d7d049b2a1f55d9d7e30524d85e85fbc&ttl=1496088000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/01-006.0/compressed/r002.jpg?token=d7d049b2a1f55d9d7e30524d85e85fbc&ttl=1496088000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-28T22:47:39 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=dce6c6501ede70f1f97113f815a5873e488652cc-1496011664-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=ec46bef0c986da75278b5908b360c9b1fd0a9d3a-1496011669-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/03-026.5/compressed/ffa_mha_026_005_017.jpg?token=667a334fca38939a83291ce6ae4204e5&ttl=1496084400'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/04-035.0/compressed/c007.jpg?token=6875f26277cdcfb95e1e5881d7bd8a7a&ttl=1496080800'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/08-068.0/compressed/bfa_mha_068_015.jpg?token=2fb669259cce1b98d501a308fd48e4bd&ttl=1496091600'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/14356/10-086.0/compressed/i017.jpg?token=20ac094a94cb8da4a84a0b2454b3de83&ttl=1496077200'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://h.mfcdn.net/store/manga/13410/09-099.7/compressed/u099.005-003.jpg?token=9dc0862cedaf282efbda86e1e7daa935&ttl=1496102400'
+
++++++++++++++++++++++++++++++++++
++++ 2017-05-31T03:06:33 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=15a027c0e34cb1037108bac12ef501f5d934348d-1496185596-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=17f163ada72e9d2c709c6807b13ccaecadb187df-1496185601-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko_1.4.2_ubuntu-16.04_amd64.deb
+
++++++++++++++++++++++++++++++++++
++++ 2017-06-16T19:13:21 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=5d154d909a46d345ecd01f1f89a99dc1a1fc1d26-1497640402-28800
+ERROR +++ KissManga::CFCookie() -> Missing cf_clearance cookie
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=a103c103cd47b536d4e7ee289214acc93975d02c-1497640411-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko-desktop_preview_linux-portable_amd64.zip
+
++++++++++++++++++++++++++++++++++
++++ 2017-06-16T19:13:49 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ KissAnime::CFCookie() -> Missing cf_clearance cookie
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=6766efbd6e4c8a225fca9cebf828621e5f5c8116-1497640434-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=69775a492a0a99b7d0f4963db3f4dbae220b6f95-1497640438-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko-desktop_preview_linux-portable_amd64.zip
+
++++++++++++++++++++++++++++++++++
++++ 2017-06-18T13:27:26 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissAnime::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissManga::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ MangaDownloaderFrame::UpdateCheck() -> server connection failed
+
++++++++++++++++++++++++++++++++++
++++ 2017-06-27T21:23:47 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=673bd58956807b05df254e606fb6160d3b17b201-1498598614-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=78abc56e251d7e5e816d84b22371afb86c335786-1498598619-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko-desktop_preview_linux-portable_amd64.zip
+
++++++++++++++++++++++++++++++++++
++++ 2017-07-17T00:43:04 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=01b76f0f58feb9f287e6b1a1086c08d9e6ea659a-1500252189-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=80ee421336c7397efcc26512466e72df9f28909a-1500252193-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko-desktop_preview_linux-portable_amd64.zip
+
++++++++++++++++++++++++++++++++++
++++ 2017-07-22T04:38:53 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissAnime::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissManga::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ MangaDownloaderFrame::UpdateCheck() -> server connection failed
+
++++++++++++++++++++++++++++++++++
++++ 2017-08-08T02:31:30 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ CurlRequest::ExecuteRequest() -> Timeout was reached
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't connect to server
+NOTE +++ KissAnime::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+NOTE +++ KissManga::CFCookie() -> No CloudFlare cdn detected
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /hakuneko-desktop_preview_linux-portable_amd64.zip
+
++++++++++++++++++++++++++++++++++
++++ 2017-08-15T17:01:39 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissAnime::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissManga::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ MangaDownloaderFrame::UpdateCheck() -> server connection failed
+
++++++++++++++++++++++++++++++++++
++++ 2017-08-15T17:03:44 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissAnime::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissManga::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ MangaDownloaderFrame::UpdateCheck() -> server connection failed
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+
++++++++++++++++++++++++++++++++++
++++ 2017-08-16T20:42:33 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=ddcbf61374f53646d496e7e48743eda9e12b9404-1502916158-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=3bf9c47060fb39365ef51a660aa6ff2f819a4ba7-1502916162-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /0.0.32/hakuneko-desktop_0.0.32_linux_i386.rpm
+
++++++++++++++++++++++++++++++++++
++++ 2017-08-22T00:12:27 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ KissAnime::CFCookie() -> Missing cf_clearance cookie
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=fbc06ae977b2b033588442ffc2c9d5771539d36c-1503360757-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=3df396bd3faba9234f00e53a467fce082a8aef69-1503360761-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.3
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /0.0.32/hakuneko-desktop_0.0.32_linux_i386.rpm
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/21457/01-001.0/compressed/n016.jpg?token=eda07438c9b7aee9d804c1ce9f76c3c040020f28&ttl=1503446400'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/21457/01-001.0/compressed/n016.jpg?token=eda07438c9b7aee9d804c1ce9f76c3c040020f28&ttl=1503446400'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/21457/01-001.0/compressed/n016.jpg?token=eda07438c9b7aee9d804c1ce9f76c3c040020f28&ttl=1503446400'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/21457/01-001.0/compressed/n016.jpg?token=eda07438c9b7aee9d804c1ce9f76c3c040020f28&ttl=1503446400'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failed writing received data to disk/application
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/21457/01-001.0/compressed/n016.jpg?token=eda07438c9b7aee9d804c1ce9f76c3c040020f28&ttl=1503446400'
+ERROR +++ MangaConnector::DownloadJobs(...) -> failed downloading 'http://l.mfcdn.net/store/manga/21457/01-001.0/compressed/n016.jpg?token=eda07438c9b7aee9d804c1ce9f76c3c040020f28&ttl=1503446400'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/25/02-016.0/compressed/DEATH_NOTE_16_01-12.jpg?token=d00697375e5347ae77653d4692d4dcf9eae08aaf&ttl=1503450000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Failure when receiving data from the peer
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/8093/03-017.0/compressed/qsteins_gate_boukan_no_rebellion_ch017_002.jpg?token=395e1348e48d355a6776102c9f062a7f7c78e690&ttl=1503450000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/8093/03-017.0/compressed/qsteins_gate_boukan_no_rebellion_ch017_002.jpg?token=395e1348e48d355a6776102c9f062a7f7c78e690&ttl=1503450000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/8093/03-017.0/compressed/qsteins_gate_boukan_no_rebellion_ch017_002.jpg?token=395e1348e48d355a6776102c9f062a7f7c78e690&ttl=1503450000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/8093/03-017.0/compressed/qsteins_gate_boukan_no_rebellion_ch017_002.jpg?token=395e1348e48d355a6776102c9f062a7f7c78e690&ttl=1503450000'
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt 'http://l.mfcdn.net/store/manga/8093/03-017.0/compressed/qsteins_gate_boukan_no_rebellion_ch017_002.jpg?token=395e1348e48d355a6776102c9f062a7f7c78e690&ttl=1503450000'
+ERROR +++ MangaConnector::DownloadJobs(...) -> failed downloading 'http://l.mfcdn.net/store/manga/8093/03-017.0/compressed/qsteins_gate_boukan_no_rebellion_ch017_002.jpg?token=395e1348e48d355a6776102c9f062a7f7c78e690&ttl=1503450000'
+
++++++++++++++++++++++++++++++++++
++++ 2017-09-11T20:27:28 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=68d4d0a865dedac6c1641f9411ba765b87f80cb6-1505161653-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=9ad2d9f1a13c90e5e4cef0cc1549e8586e786cda-1505161657-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.2
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /0.0.32/hakuneko-desktop_0.0.32_linux_i386.rpm
+
++++++++++++++++++++++++++++++++++
++++ 2017-09-19T00:02:45 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ KissAnime::CFCookie() -> Missing cf_clearance cookie
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=15ad769729945c85ba449d64c1dcb392fa8ccc76-1505779367-28800
+ERROR +++ KissManga::CFCookie() -> Missing cf_clearance cookie
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=d93e7cfe219298eaee57114e3bab7b3eaba5f086-1505779375-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.2
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /0.0.32/hakuneko-desktop_0.0.32_linux_i386.rpm
+
++++++++++++++++++++++++++++++++++
++++ 2017-09-19T00:07:21 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ KissAnime::CFCookie() -> Missing cf_clearance cookie
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=42a3a30cc19b4954ed0f51e7dab7ddaae31be4da-1505779643-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=eaf2eb42adc709eb9c58e68e0a7b0a7261542438-1505779647-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.2
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /0.0.32/hakuneko-desktop_0.0.32_linux_i386.rpm
+
++++++++++++++++++++++++++++++++++
++++ 2017-09-19T00:09:22 +0000 +++
++++++++++++++++++++++++++++++++++
+
+NOTE +++ KissAnime::CFCookie() -> cookie = cf_clearance=4efd83070585360b2c39c9f511c5237301c6db07-1505779760-28800
+NOTE +++ KissManga::CFCookie() -> cookie = cf_clearance=ea30f978d93e6697b903607dacdf7373aff77579-1505779764-86400
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.2
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> latest package = /0.0.32/hakuneko-desktop_0.0.32_linux_i386.rpm
+
++++++++++++++++++++++++++++++++++
++++ 2017-09-19T23:33:30 +0000 +++
++++++++++++++++++++++++++++++++++
+
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't connect to server
+ERROR +++ KissAnime::CFCookie() -> Missing cf_clearance cookie
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissAnime::CFCookie() -> No CloudFlare cdn detected
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+NOTE +++ KissManga::CFCookie() -> No CloudFlare cdn detected
+NOTE +++ MangaDownloaderFrame::UpdateCheck() -> current version = 1.4.2
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ MangaDownloaderFrame::UpdateCheck() -> server connection failed
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't connect to server
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ MangaConnector::DownloadJobs(...) -> failed downloading ''
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ MangaConnector::DownloadJobs(...) -> failed downloading ''
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ MangaConnector::DownloadJobs(...) -> failed downloading ''
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ MangaConnector::DownloadJobs(...) -> failed downloading ''
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ CurlRequest::ExecuteRequest() -> URL using bad/illegal format or missing URL
+WARNING +++ MangaConnector::DownloadJobs(...) -> failed download attempt ''
+ERROR +++ MangaConnector::DownloadJobs(...) -> failed downloading ''
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name
+ERROR +++ CurlRequest::ExecuteRequest() -> Couldn't resolve host name

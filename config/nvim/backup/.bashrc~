@@ -1,0 +1,9 @@
+PS1="\W\$ " 
+set -o vi
+alias c=clear
+alias cc="cd;clear"
+alias sl="ls"
+setxkbmap -option caps:swapescape
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/home/hassan4350/anaconda3/bin:$PATH"
