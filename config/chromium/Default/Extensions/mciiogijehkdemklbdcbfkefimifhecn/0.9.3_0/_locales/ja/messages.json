@@ -1,0 +1,932 @@
+{
+   "btnAbout": {
+      "message": "Chrono について"
+   },
+   "btnAddPaused": {
+      "message": "一時停止で追加"
+   },
+   "btnApply": {
+      "message": "適用"
+   },
+   "btnBackToManager": {
+      "message": "戻る"
+   },
+   "btnCancel": {
+      "message": "キャンセル"
+   },
+   "btnClearAll": {
+      "message": "いずれも削除"
+   },
+   "btnClearFailed": {
+      "message": "中断タスクの消去"
+   },
+   "btnClearFinished": {
+      "message": "完了タスクの消去"
+   },
+   "btnClearRemoved": {
+      "message": "不足ファイルの消去"
+   },
+   "btnFAQ": {
+      "message": "よくある質問"
+   },
+   "btnGotIt": {
+      "message": "了解"
+   },
+   "btnImportChromeHistory": {
+      "message": "Chromeからダウンロード履歴をインポートする"
+   },
+   "btnLater": {
+      "message": "あとで"
+   },
+   "btnOpenManager": {
+      "message": "マネージャーを起動"
+   },
+   "btnPopRemoveFile": {
+      "message": "ファイルも削除"
+   },
+   "btnPopRemoveList": {
+      "message": "リストから削除"
+   },
+   "btnRate": {
+      "message": "評価"
+   },
+   "btnShareDone": {
+      "message": "実施済みです"
+   },
+   "btnStart": {
+      "message": "スタート!"
+   },
+   "btnStartAll": {
+      "message": "すべてスタート!"
+   },
+   "btnTakeMeThere": {
+      "message": "そこに移動します"
+   },
+   "btnUpdateReload": {
+      "message": "リロードする"
+   },
+   "chromesysAllowFileAccess": {
+      "message": "ファイルの URL へのアクセスを許可する"
+   },
+   "chromesysChange": {
+      "message": "変更..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "ダウンロード保存先"
+   },
+   "chromesysDownloadsSection": {
+      "message": "ダウンロード"
+   },
+   "chromesysFontSize": {
+      "message": "フォント サイズ"
+   },
+   "chromesysLanguageSection": {
+      "message": "言語"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "詳細設定を表示..."
+   },
+   "confirmBatchDownload": {
+      "message": "バッチダウンロードを開始するつもりだと思われます。実行例は以下のとおりです。"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "一括ダウンロードの場合は、必ず命名マスクが異なるファイル名を生成してください。続行しますか？"
+   },
+   "confirmBtnYes": {
+      "message": "はい"
+   },
+   "confirmBtnYesFile": {
+      "message": "はい、ファイルも削除します。"
+   },
+   "confirmCantResumeRestart": {
+      "message": "タスク$1 は再開に失敗しました。再スタートしますか？"
+   },
+   "confirmProceed": {
+      "message": "本当に続行しますか？"
+   },
+   "confirmRecycleRunning": {
+      "message": "実行中のタスクをリサイクルしますか？"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "選択した項目を削除しますか？"
+   },
+   "confirmRemoveRule": {
+      "message": "選択したルールを削除しますか？"
+   },
+   "confirmRemoveTask": {
+      "message": "選択されたタスクを完全削除しますか？"
+   },
+   "confirmReset": {
+      "message": "拡張機能をリセットしてもよろしいですか？"
+   },
+   "errorFNameConflict": {
+      "message": "ファイル名の競合"
+   },
+   "errorFileNotExist": {
+      "message": "ファイルが存在しません。"
+   },
+   "errorInvalidNamingMask": {
+      "message": "無効なネーミングマスク。"
+   },
+   "errorInvalidURLs": {
+      "message": "無効なURL"
+   },
+   "errorNoID": {
+      "message": "あまりにも多くのタスクがマネージャにあるため、Chronoに新しいタスクを追加できない場合、いくつかの未使用のタスクをクリーンアップして再試行してください。"
+   },
+   "errorNone": {
+      "message": "エラーなし"
+   },
+   "errorRemovedFromChrome": {
+      "message": "タスクは、Chromeから削除された可能性があります。"
+   },
+   "everyXDays": {
+      "message": "$1日ごと"
+   },
+   "everyXHours": {
+      "message": "$1時間ごと"
+   },
+   "everyXMinutes": {
+      "message": "$1分ごと"
+   },
+   "extDesc": {
+      "message": "ダウンロードマネージャー | 動画ダウンローダー | 連続画像ダウンローダー"
+   },
+   "extDescBest": {
+      "message": "Chromeのための最高のダウンロードマネージャー"
+   },
+   "extDescSlogan": {
+      "message": "ダウンロードとWebの支援"
+   },
+   "extName": {
+      "message": "Chrono ダウンロードマネージャー"
+   },
+   "extsAll": {
+      "message": "すべて"
+   },
+   "extsApp": {
+      "message": "アプリケーション"
+   },
+   "extsArchive": {
+      "message": "アーカイブ"
+   },
+   "extsAudio": {
+      "message": "音声"
+   },
+   "extsDocument": {
+      "message": "ドキュメント"
+   },
+   "extsImage": {
+      "message": "画像"
+   },
+   "extsNew": {
+      "message": "新規フィルタ"
+   },
+   "extsOthers": {
+      "message": "その他"
+   },
+   "extsVideo": {
+      "message": "動画"
+   },
+   "fieldAddTime": {
+      "message": "追加時間"
+   },
+   "fieldAvgSpeed": {
+      "message": "平均速度"
+   },
+   "fieldDownloadedSize": {
+      "message": "ダウンロード済み"
+   },
+   "fieldElapsedTime": {
+      "message": "経過時間"
+   },
+   "fieldFileName": {
+      "message": "ファイル名"
+   },
+   "fieldFileSize": {
+      "message": "サイズ"
+   },
+   "fieldFinishTime": {
+      "message": "終了時間"
+   },
+   "fieldFolder": {
+      "message": "フォルダ"
+   },
+   "fieldNaming": {
+      "message": "マスクの命名"
+   },
+   "fieldProgress": {
+      "message": "進捗"
+   },
+   "fieldRedirection": {
+      "message": "リダイレクト"
+   },
+   "fieldReferer": {
+      "message": "リファラ"
+   },
+   "fieldRemainingTime": {
+      "message": "残り時間"
+   },
+   "fieldRemarks": {
+      "message": "備考"
+   },
+   "fieldSpeed": {
+      "message": "速度"
+   },
+   "fieldState": {
+      "message": "状態"
+   },
+   "fieldThreads": {
+      "message": "スレッド"
+   },
+   "fieldType": {
+      "message": "タイプ"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "タイトル"
+   },
+   "headExtFilterEnable": {
+      "message": "有効"
+   },
+   "headExtFilterExts": {
+      "message": "ファイルの拡張子"
+   },
+   "headExtFilterRefName": {
+      "message": "参照名"
+   },
+   "headRulesActive": {
+      "message": "有効"
+   },
+   "headRulesAsFilter": {
+      "message": "タスクフィルタ"
+   },
+   "headRulesCaption": {
+      "message": "タイトル"
+   },
+   "headRulesCondition": {
+      "message": "状態"
+   },
+   "headRulesRefName": {
+      "message": "参照名"
+   },
+   "helpExtFilter": {
+      "message": "* 編集するにはダブルクリックします。\n* 新しいフィルタを追加するには空行に入力します。\n* 削除するには行を選択してEnterキーを押します。"
+   },
+   "helpRules": {
+      "message": "* 編集するにはダブルクリックします。 \n* 新しいルールを追加するには空行をタイプします。\n* 削除するには行を選択してDELETEキーを押します。\n* ルールの記述に不明点がある場合はヘルプセクションを参照してください。"
+   },
+   "hintSearchDownloads": {
+      "message": "ダウンロードを検索"
+   },
+   "labelAutoClear": {
+      "message": "スケジュール"
+   },
+   "labelBGBlur": {
+      "message": "ぼかし"
+   },
+   "labelBGChooseFrom": {
+      "message": "選択してください"
+   },
+   "labelBGConstantColor": {
+      "message": "単色"
+   },
+   "labelBGImageURL": {
+      "message": "URLからの画像を選択"
+   },
+   "labelBGOpacity": {
+      "message": "不透明度"
+   },
+   "labelCustomFilter": {
+      "message": "カスタムフィルタ"
+   },
+   "menuDAudio": {
+      "message": "音声をダウンロード..."
+   },
+   "menuDAudioOneClick": {
+      "message": "音声をワンクリックダウンロード"
+   },
+   "menuDImage": {
+      "message": "画像をダウンロード..."
+   },
+   "menuDImageOneClick": {
+      "message": "画像をワンクリックダウンロード"
+   },
+   "menuDLink": {
+      "message": "リンクをダウンロード..."
+   },
+   "menuDLinkOneClick": {
+      "message": "リンクをワンクリックダウンロード"
+   },
+   "menuDVideo": {
+      "message": "動画をダウンロード..."
+   },
+   "menuDVideoOneClick": {
+      "message": "動画をワンクリックダウンロード"
+   },
+   "menuGetHelp": {
+      "message": "ヘルプの表示"
+   },
+   "menuOpenManager": {
+      "message": "マネージャーを開く"
+   },
+   "menuReportIssue": {
+      "message": "問題を報告"
+   },
+   "msgCannotScanResources": {
+      "message": "このページにはダンロードできるリソースがありません"
+   },
+   "msgEmptyDownloadsList": {
+      "message": "空のタスクリスト"
+   },
+   "msgRateShare": {
+      "message": "あなたはChronoダウンロードマネージャが有用であることが分かった場合は、Chromeウェブストアで評価し、あなたの友人に共有してください！"
+   },
+   "msgTaskAddPaused": {
+      "message": "タスクを追加して一時停止する"
+   },
+   "msgTaskFinish": {
+      "message": "タスクが完了しました"
+   },
+   "msgTaskInterrupt": {
+      "message": "タスクが中断されました"
+   },
+   "msgTaskStart": {
+      "message": "タスクがキューに追加されました"
+   },
+   "msgTextUpdateAvail": {
+      "message": "アップデートを適用するために拡張機能をリロードしてください。"
+   },
+   "msgTextWelcome": {
+      "message": "開始する前に、$1にあるチェックボックスを外して、Chromeの保存ダイアログをオフにすることをお勧めします。\nまた、より優れたユーザーエクスペリエンスを実現するために、$3にある$2のチェックボックスを有効にして、ChronoにファイルのURLにアクセスすることを許可してください。\n何か質問がある場合は、ヘルプページやFAQページをチェックしてください。また、dev@chronodownloader.net に電子メールを送信するもできます。お楽しみください！"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "新バージョン $1 が利用可能です!"
+   },
+   "msgTitleWelcome": {
+      "message": "Chronoダウンロードマネージャをインストールしていただきありがとうございます"
+   },
+   "msgUpdated": {
+      "message": "Chrono は$1にアップデートされました。$2を確認してください。"
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "ツールバーアイコンの上にダウンロードするタスクの数を表示する"
+   },
+   "optItemClearNotify": {
+      "message": "必要であれば通知をクリアする"
+   },
+   "optItemClearRemoveFile": {
+      "message": "ディスクからファイルを削除する"
+   },
+   "optItemClearSearch": {
+      "message": "フィルタの変更時に検索ボックスをクリアする"
+   },
+   "optItemClickNotify": {
+      "message": "通知をクリックしたとき"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "同時ダウンロード数"
+   },
+   "optItemDblClickAction": {
+      "message": "タスクをダブルクリックしたとき"
+   },
+   "optItemDefAddPaused": {
+      "message": "一時停止で追加"
+   },
+   "optItemDefFolder": {
+      "message": "デフォルトのフォルダ"
+   },
+   "optItemDefNaming": {
+      "message": "デフォルトの命名マスク"
+   },
+   "optItemDownloadClipboard": {
+      "message": "ダウンロードURLをクリップボードから取得する"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "サーバーごとのダウンロード数"
+   },
+   "optItemHideShelf": {
+      "message": "Chromeのダウンロードシェルフ/バーを非表示にする"
+   },
+   "optItemMenuDialog": {
+      "message": "リンク/画像をダウンロード..."
+   },
+   "optItemMenuOneClick": {
+      "message": "リンク/画像をワンクリックダウンロード"
+   },
+   "optItemNameConflict": {
+      "message": "ファイル名が競合した場合"
+   },
+   "optItemNotifyError": {
+      "message": "エラーが発生したときに通知を表示する"
+   },
+   "optItemNotifyFinish": {
+      "message": "ダウンロードが完了したときに通知を表示する"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "画像を大きなプレビューで表示する"
+   },
+   "optItemNotifyOneClick": {
+      "message": "ワンクリックダウンロードを追加したときに通知を表示する"
+   },
+   "optItemNotifyProgress": {
+      "message": "ダウンロードの進捗を表示する"
+   },
+   "optItemOpenManScroll": {
+      "message": "$1ボタンをクリックしたときタスクをスクロールする"
+   },
+   "optItemOverrideChrome": {
+      "message": "Chromeのオリジナルダウンロードページを上書きし、Ctrl+Jキーボードショートカットを有効にする"
+   },
+   "optItemPopClearClose": {
+      "message": "タスクをクリアした後ポップアップを閉じる"
+   },
+   "optItemPopDeleteAction": {
+      "message": "「削除」ボタンをクリックしたとき"
+   },
+   "optItemPopLikeButtons": {
+      "message": "ソーシャルメディアボタンを表示する"
+   },
+   "optItemPopMaxItems": {
+      "message": "ダウンロードリストの最大個数"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "ダウンロード中のタスクを最初に表示する"
+   },
+   "optItemPopSlideButtons": {
+      "message": "ボタンのスライドインアニメーション"
+   },
+   "optItemRecycleCancel": {
+      "message": "リサイクル時にタスクもキャンセルする"
+   },
+   "optItemRuleMatchMode": {
+      "message": "一致モード"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "タスクのクリックで詳細パネルを表示する"
+   },
+   "optItemSoundError": {
+      "message": "エラーが発生したときにサウンドを再生する"
+   },
+   "optItemSoundFinish": {
+      "message": "ダウンロードが完了したときにサウンドを再生する"
+   },
+   "optItemStartInterrupted": {
+      "message": "[スタート]ボタンで中断タスクを開始する"
+   },
+   "optOptionClearAllNotify": {
+      "message": "すべての通知をクリア"
+   },
+   "optOptionClearNotify": {
+      "message": "通知をクリア"
+   },
+   "optOptionDoNothing": {
+      "message": "何もしない"
+   },
+   "optOptionFirstMatch": {
+      "message": "最初の一致"
+   },
+   "optOptionOpenFile": {
+      "message": "ファイルを開く"
+   },
+   "optOptionOpenFolder": {
+      "message": "フォルダを開く"
+   },
+   "optOptionOverwrite": {
+      "message": "上書きする"
+   },
+   "optOptionPrompt": {
+      "message": "プロンプトを出す"
+   },
+   "optOptionRemAsk": {
+      "message": "確認する"
+   },
+   "optOptionRemFile": {
+      "message": "リストとディスクから削除"
+   },
+   "optOptionRemList": {
+      "message": "リストから削除"
+   },
+   "optOptionReplace": {
+      "message": "最後の一致"
+   },
+   "optOptionSkipCancel": {
+      "message": "スキップしてキャンセル"
+   },
+   "optOptionSkipPause": {
+      "message": "スキップして一時停止"
+   },
+   "optOptionStartPause": {
+      "message": "スタート/一時停止"
+   },
+   "optOptionUniquify": {
+      "message": "一意な名称にする"
+   },
+   "optSectionBehaviors": {
+      "message": "動作"
+   },
+   "optSectionMenu": {
+      "message": "メニュー"
+   },
+   "optSectionMisc": {
+      "message": "その他色々"
+   },
+   "optSectionNetwork": {
+      "message": "ネットワーク"
+   },
+   "optSectionNotifications": {
+      "message": "お知らせ"
+   },
+   "optSectionOneClick": {
+      "message": "ワンクリックダウンロード"
+   },
+   "optSectionPopup": {
+      "message": "ポップアップ"
+   },
+   "optSectionTaskDefaults": {
+      "message": "新しいタスクのデフォルト設定"
+   },
+   "optionAddTop": {
+      "message": "キューの先頭に追加"
+   },
+   "optionDisableExtFilters": {
+      "message": "拡張フィルタを無効にする"
+   },
+   "optionDontAsk": {
+      "message": "この選択を記憶し、以後、このメッセージを表示しない"
+   },
+   "optionShowSize": {
+      "message": "サイズを表示"
+   },
+   "optionTableAutoResize": {
+      "message": "ウィンドウ幅に合わせる"
+   },
+   "optionTableSyncResize": {
+      "message": "リサイズを同期する"
+   },
+   "phraseAutomatic": {
+      "message": "自動"
+   },
+   "phraseEnable": {
+      "message": "有効"
+   },
+   "phraseMultiValues": {
+      "message": "マルチ変数"
+   },
+   "phraseNever": {
+      "message": "しない"
+   },
+   "phrasePreview": {
+      "message": "プレビュー"
+   },
+   "phraseRegex": {
+      "message": "正規表現"
+   },
+   "phraseToday": {
+      "message": "今日"
+   },
+   "phraseUnknown": {
+      "message": "不明"
+   },
+   "phraseUnknownSize": {
+      "message": "サイズ不明"
+   },
+   "phraseVersion": {
+      "message": "バージョン"
+   },
+   "phraseYesterday": {
+      "message": "昨日"
+   },
+   "ruleAllTasks": {
+      "message": "全てのタスク"
+   },
+   "ruleAudio": {
+      "message": "音声"
+   },
+   "ruleDocument": {
+      "message": "ドキュメント"
+   },
+   "ruleDownloading": {
+      "message": "ダウンロード中"
+   },
+   "ruleFinished": {
+      "message": "完了"
+   },
+   "ruleImage": {
+      "message": "画像"
+   },
+   "ruleInterrupted": {
+      "message": "中断"
+   },
+   "ruleNew": {
+      "message": "新規ルール"
+   },
+   "ruleOther": {
+      "message": "その他"
+   },
+   "ruleRecent": {
+      "message": "最近"
+   },
+   "ruleRecycled": {
+      "message": "ごみ箱"
+   },
+   "ruleSmallFiles": {
+      "message": "小さなファイル"
+   },
+   "ruleVideo": {
+      "message": "動画"
+   },
+   "stateDownloading": {
+      "message": "ダウンロード中"
+   },
+   "stateError": {
+      "message": "中断"
+   },
+   "stateFileMiss": {
+      "message": "ファイル消失"
+   },
+   "stateFinished": {
+      "message": "完了"
+   },
+   "statePaused": {
+      "message": "一時停止"
+   },
+   "stateQueue": {
+      "message": "キューで待機"
+   },
+   "statusCopyURL": {
+      "message": "URLコピーを実行中"
+   },
+   "statusCopyURLDone": {
+      "message": "URLをクリップボードにコピー"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 / $2"
+   },
+   "statusImportDone": {
+      "message": "インポート完了"
+   },
+   "statusImporting": {
+      "message": "インポートを実行中"
+   },
+   "statusNumDownloading": {
+      "message": "$1 個ダウンロード中"
+   },
+   "statusNumItems": {
+      "message": "$1 個"
+   },
+   "statusReadClipboard": {
+      "message": "クリップボードを読込中"
+   },
+   "statusScheduledAutoClear": {
+      "message": "$1秒で自動タスク消去が実行されます"
+   },
+   "statusSelectedOf": {
+      "message": "$2 個中 $1 個を選択"
+   },
+   "statusTasksCleared": {
+      "message": "$1タスクが消去されました"
+   },
+   "statusTimeLeft": {
+      "message": "あと $1"
+   },
+   "tipAutoClear": {
+      "message": "タスクはリストから自動的に消去されますが、ファイルはディスクに残ります"
+   },
+   "tipBGBlur": {
+      "message": "ブラー効果はGUIの応答性が減少します"
+   },
+   "tipBGEnable": {
+      "message": "クロムの特定の問題のため、背景を有効にするとメモリ使用量が増加します。この機能を有効にする際は注意してください。"
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "ウェブのURL、 または 'file:///'で始まるコンピュータ上の画像のフルパスを入力してください。"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "ウェブのURL、またはコンピュータ上の画像のフルパスを入力してください。（ローカルファイルの場合、まずChrono のファイルアクセスを有効にする必要があります。方法を参照するには？をクリックしてください）"
+   },
+   "tipBrowserAction": {
+      "message": "このページのすべてのリソースをダウンロード"
+   },
+   "tipBtnBackToManager": {
+      "message": "マネージャーに戻る"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "ダウンロードフォルダを変更する"
+   },
+   "tipBtnClear": {
+      "message": "タスクをクリア"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "拡張フィルタを編集"
+   },
+   "tipBtnCopyLink": {
+      "message": "リンクのコピー"
+   },
+   "tipBtnDelete": {
+      "message": "削除"
+   },
+   "tipBtnHelp": {
+      "message": "ヘルプ"
+   },
+   "tipBtnNewTask": {
+      "message": "新しいタスク"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "ダウンロードフォルダを開く"
+   },
+   "tipBtnOpenFile": {
+      "message": "ファイルを開く"
+   },
+   "tipBtnOpenFolder": {
+      "message": "対象フォルダを開く"
+   },
+   "tipBtnOptions": {
+      "message": "オプション"
+   },
+   "tipBtnPause": {
+      "message": "一時停止"
+   },
+   "tipBtnPauseAll": {
+      "message": "すべてを一時停止"
+   },
+   "tipBtnPopList": {
+      "message": "ダウンロードリストに切り替え"
+   },
+   "tipBtnPopSniffer": {
+      "message": "スニファに切り替え"
+   },
+   "tipBtnRecycle": {
+      "message": "リサイクル"
+   },
+   "tipBtnRestart": {
+      "message": "再スタート"
+   },
+   "tipBtnRestore": {
+      "message": "復元"
+   },
+   "tipBtnSort": {
+      "message": "タスクを並び替え"
+   },
+   "tipBtnStart": {
+      "message": "スタート"
+   },
+   "tipBtnStartAll": {
+      "message": "すべてスタート"
+   },
+   "tipExtFilterEnable": {
+      "message": "Chronoスニファで有効にする拡張子フィルタ"
+   },
+   "tipExtFilterRefName": {
+      "message": "他の式でフィルタを参照するための内部名"
+   },
+   "tipNaming": {
+      "message": "命名マスクの使用方法はヘルプページを参照してください。"
+   },
+   "tipOptItemDefFolder": {
+      "message": "自動ルールのマッチングを適用する場合は空白のままにします。または ルールシステムで設定される$1を使い、デフォルトのフォルダ設定を適用します。"
+   },
+   "tipOptItemDefNaming": {
+      "message": "自動ルールのマッチングを適用する場合は空白のままにします。または ルールシステムで設定される$1を使い、デフォルトの命名マスクを適用します。"
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "アクティブなルールのみがマッチング試行されることに注意してください。置換モードでは、すべての一致したルールが適用されますが、後方のルールで前方のルールを上書きします。"
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Altキー+クリックで 詳細パネルを開くこともできます。"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "一致するルールがない場合に適用されます"
+   },
+   "tipOptSectionOneClick": {
+      "message": "有効になっている場合、リンクをクリックした際に、ネーミングマスク設定などのダイアログメッセージを表示せずに（上記参照）、デフォルトのタスクの設定を使用してすぐに開始されます"
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "新しいタスクを追加する際に適用されるデフォルト設定。例えば、ワンクリックダウンロードの場合など。"
+   },
+   "tipRulesActive": {
+      "message": "有効なルールのみルールマッチングに使用されます"
+   },
+   "tipRulesAsFilter": {
+      "message": "ダウンロードマネージャのタスクのフィルタとして表示"
+   },
+   "tipRulesRefName": {
+      "message": "他の式でルールを参照するための内部名"
+   },
+   "tipURL": {
+      "message": "改行で区切られた複数のURLを入力することができます。バッチ記述子を使用して、バッチのダウンロードを開始することができます。"
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "単に選択したタスクのURLをコピーするには Ctrl-Cを押してください"
+   },
+   "tipmsgDoubleClick": {
+      "message": "$1でダブルクリックの動作を変更することができます"
+   },
+   "tipmsgFileAccess": {
+      "message": "ChronoにファイルURLのアクセスを許可すると優れたユーザー体験をもたらすでしょう。例えばタスクアイコンにダウンロードした画像を表示したり、ローカル画像を背景画像に設定できます。chrome://extensions  ページの$1チェックボックスにより有効にすることができます。"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "自動的に列幅を調整するために、列サイズ変更をダブルクリックします"
+   },
+   "tipmsgGridSelection": {
+      "message": "複数の行を選択するには、Ctrl / Shiftキーを使用するか、すべての行を選択するには、Ctrl-Aを押してください"
+   },
+   "tipmsgNotifications": {
+      "message": "$1で通知/音の設定を変更することができます"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Chronoを開く最も簡単な方法は、Ctrl+j キーを押すことです"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "$1でスライディング詳細パネルをオフにすることができます"
+   },
+   "tipmsgTaskFilter": {
+      "message": "ドラッグしてタスクのフィルタの順序を変更します。$1でカスタムタスクフィルタを追加することができます"
+   },
+   "titleChangeBG": {
+      "message": "背景の変更"
+   },
+   "titleNewTaskDialog": {
+      "message": "新しいタスク"
+   },
+   "titleOptions": {
+      "message": "オプション"
+   },
+   "titleOptionsAbout": {
+      "message": "Chronoについて"
+   },
+   "titleOptionsFilter": {
+      "message": "拡張フィルター"
+   },
+   "titleOptionsGeneral": {
+      "message": "一般"
+   },
+   "titleOptionsHelp": {
+      "message": "ヘルプ"
+   },
+   "titleOptionsInterface": {
+      "message": "インターフェイス"
+   },
+   "titleOptionsRules": {
+      "message": "ルール体系"
+   },
+   "titleQuickSelection": {
+      "message": "クイック選択"
+   },
+   "titleRateShare": {
+      "message": "評価と共有をしてください！"
+   },
+   "titleSniffer": {
+      "message": "スニファ"
+   },
+   "titleSwitchUI": {
+      "message": "スイッチ表示モード"
+   },
+   "titleTaskProps": {
+      "message": "タスクのプロパティ"
+   },
+   "titleTips": {
+      "message": "ヒント"
+   },
+   "titleUpdateLog": {
+      "message": "更新履歴"
+   },
+   "translateContributors": {
+      "message": "rs, kirara397.s, sakuramanatsu etc."
+   },
+   "uilang": {
+      "message": "ja"
+   },
+   "uilangName": {
+      "message": "Japanese"
+   },
+   "unitBytes": {
+      "message": "$1 バイト"
+   },
+   "unitDay": {
+      "message": "$1 日"
+   },
+   "unitDays": {
+      "message": "$1 日"
+   },
+   "unitHour": {
+      "message": "$1 時間"
+   },
+   "unitHours": {
+      "message": "$1 時間"
+   },
+   "unitMinute": {
+      "message": "$1 分"
+   },
+   "unitMinutes": {
+      "message": "$1 分"
+   },
+   "unitSecond": {
+      "message": "$1 秒"
+   },
+   "unitSeconds": {
+      "message": "$1 秒"
+   }
+}

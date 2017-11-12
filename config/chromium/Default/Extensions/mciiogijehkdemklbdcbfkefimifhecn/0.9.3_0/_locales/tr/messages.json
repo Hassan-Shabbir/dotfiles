@@ -1,0 +1,932 @@
+{
+   "btnAbout": {
+      "message": "Hakkında"
+   },
+   "btnAddPaused": {
+      "message": "Duraklatılmış ekle"
+   },
+   "btnApply": {
+      "message": "Uygula"
+   },
+   "btnBackToManager": {
+      "message": "Geri"
+   },
+   "btnCancel": {
+      "message": "İptal"
+   },
+   "btnClearAll": {
+      "message": "Her ikisini de temizle"
+   },
+   "btnClearFailed": {
+      "message": "Yarıda kalan görevleri temizle"
+   },
+   "btnClearFinished": {
+      "message": "Biten görevleri temizle"
+   },
+   "btnClearRemoved": {
+      "message": "Dosyası kayıpları temizle"
+   },
+   "btnFAQ": {
+      "message": "SSS"
+   },
+   "btnGotIt": {
+      "message": "Anladım!"
+   },
+   "btnImportChromeHistory": {
+      "message": "Chrome'dan indirme geçmişini içe aktar"
+   },
+   "btnLater": {
+      "message": "Daha sonra"
+   },
+   "btnOpenManager": {
+      "message": "Yöneticiyi aç"
+   },
+   "btnPopRemoveFile": {
+      "message": "Dosyayı da SİL"
+   },
+   "btnPopRemoveList": {
+      "message": "Listeden kaldır"
+   },
+   "btnRate": {
+      "message": "Derecelendir"
+   },
+   "btnShareDone": {
+      "message": "Zaten yaptım"
+   },
+   "btnStart": {
+      "message": "Başlat!"
+   },
+   "btnStartAll": {
+      "message": "Tümünü Başlat!"
+   },
+   "btnTakeMeThere": {
+      "message": "Beni oraya götür"
+   },
+   "btnUpdateReload": {
+      "message": "Şimdi yeniden yükle"
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Dosya URL'lerine erişime izin ver"
+   },
+   "chromesysChange": {
+      "message": "Değiştir..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "ndirme konumu"
+   },
+   "chromesysDownloadsSection": {
+      "message": "İndirilenler"
+   },
+   "chromesysFontSize": {
+      "message": "Yazı tipi boyutu"
+   },
+   "chromesysLanguageSection": {
+      "message": "Dil"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Gelişmiş ayarları göster..."
+   },
+   "confirmBatchDownload": {
+      "message": "Toplu indirmeyi başlatmak üzere olduğunuz anlaşılıyor. İşte size birkaç örnek:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Toplu indirmeler için, lütfen adlandırma maskesinin farklı dosya isimleri ürettiğinden emin olun. Yine de devam edilsin mi?"
+   },
+   "confirmBtnYes": {
+      "message": "Evet"
+   },
+   "confirmBtnYesFile": {
+      "message": "Evet, dosyaları da kaldır"
+   },
+   "confirmCantResumeRestart": {
+      "message": "$1 görevine devam edilemiyor, yeniden başlatılsın mı?"
+   },
+   "confirmProceed": {
+      "message": "Devam etmek istediğinize emin misiniz?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Çalışan görev(ler) geri dönüşüme gönderilsin mi?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Seçilen öge(ler) kaldırılsın mı?"
+   },
+   "confirmRemoveRule": {
+      "message": "Seçilen kural(lar) kaldırılsın mı?"
+   },
+   "confirmRemoveTask": {
+      "message": "Seçilen görev(ler) kalıcı olarak kaldırılsın mı?"
+   },
+   "confirmReset": {
+      "message": "Uzantıyı sıfırlamak istediğinize emin misiniz?"
+   },
+   "errorFNameConflict": {
+      "message": "Dosya adı çakışıyor"
+   },
+   "errorFileNotExist": {
+      "message": "Dosya mevcut değil."
+   },
+   "errorInvalidNamingMask": {
+      "message": "Geçersiz adlandırma maskesi."
+   },
+   "errorInvalidURLs": {
+      "message": "Geçersiz URL(ler)."
+   },
+   "errorNoID": {
+      "message": "Chrono'ya yeni görev ekleme başarısız oldu. Çünkü yöneticide çok fazla görev var. Kullanılmayan bazı görevleri temizleyin ve yeniden deneyin."
+   },
+   "errorNone": {
+      "message": "Hata yok"
+   },
+   "errorRemovedFromChrome": {
+      "message": "Görev, Chrome'dan kaldırılmış olabilir."
+   },
+   "everyXDays": {
+      "message": "Her $1 günde"
+   },
+   "everyXHours": {
+      "message": "Her $1 saatte"
+   },
+   "everyXMinutes": {
+      "message": "Her $1 dakikada"
+   },
+   "extDesc": {
+      "message": "İndirme Yöneticisi | Video İndiricisi | Toplu Resim İndiricisi"
+   },
+   "extDescBest": {
+      "message": "Chrome için en iyi indirme yöneticisi"
+   },
+   "extDescSlogan": {
+      "message": "Dosya indir ve İnternet'i yönet!"
+   },
+   "extName": {
+      "message": "Chrono İndirme Yöneticisi"
+   },
+   "extsAll": {
+      "message": "Tümü"
+   },
+   "extsApp": {
+      "message": "Uygulama"
+   },
+   "extsArchive": {
+      "message": "Arşiv"
+   },
+   "extsAudio": {
+      "message": "Ses"
+   },
+   "extsDocument": {
+      "message": "Belge"
+   },
+   "extsImage": {
+      "message": "Resim"
+   },
+   "extsNew": {
+      "message": "Yeni Süzgeç"
+   },
+   "extsOthers": {
+      "message": "Diğerleri"
+   },
+   "extsVideo": {
+      "message": "Video"
+   },
+   "fieldAddTime": {
+      "message": "Eklenme Zamanı"
+   },
+   "fieldAvgSpeed": {
+      "message": "Ortalama Hız"
+   },
+   "fieldDownloadedSize": {
+      "message": "İndirilen"
+   },
+   "fieldElapsedTime": {
+      "message": "Geçen Zaman"
+   },
+   "fieldFileName": {
+      "message": "Dosya adı"
+   },
+   "fieldFileSize": {
+      "message": "Boyut"
+   },
+   "fieldFinishTime": {
+      "message": "Bitiş Zamanı"
+   },
+   "fieldFolder": {
+      "message": "Klasör"
+   },
+   "fieldNaming": {
+      "message": "Adlandırma Maskesi"
+   },
+   "fieldProgress": {
+      "message": "İlerleme"
+   },
+   "fieldRedirection": {
+      "message": "Son yönlendirilen URL"
+   },
+   "fieldReferer": {
+      "message": "Gönderen"
+   },
+   "fieldRemainingTime": {
+      "message": "Kalan Zaman"
+   },
+   "fieldRemarks": {
+      "message": "Açıklamalar"
+   },
+   "fieldSpeed": {
+      "message": "Hız"
+   },
+   "fieldState": {
+      "message": "Durum"
+   },
+   "fieldThreads": {
+      "message": "Çoklu bağlantı"
+   },
+   "fieldType": {
+      "message": "Tür"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "Başlık"
+   },
+   "headExtFilterEnable": {
+      "message": "Etkin"
+   },
+   "headExtFilterExts": {
+      "message": "Dosya Uzantıları"
+   },
+   "headExtFilterRefName": {
+      "message": "Başvuru Adı"
+   },
+   "headRulesActive": {
+      "message": "Etkin"
+   },
+   "headRulesAsFilter": {
+      "message": "Görev Süzgeci"
+   },
+   "headRulesCaption": {
+      "message": "Başlık"
+   },
+   "headRulesCondition": {
+      "message": "Koşul"
+   },
+   "headRulesRefName": {
+      "message": "Başvuru Adı"
+   },
+   "helpExtFilter": {
+      "message": "* Düzenlemek için çift tıklayın.\n* Yeni süzgeç eklemek için boş satıra yazın.\n* Silinecek satırları seçin ve SİL tuşuna basın."
+   },
+   "helpRules": {
+      "message": "* Düzenlemek için çift tıklayın.\n* Yeni kural eklemek için boş satıra yazın.\n* Silinecek satırları seçin ve SİL tuşuna basın.\n* Kural yazma ile ilgili sorunlarınız için lütfen Yardım bölümüne bakın."
+   },
+   "hintSearchDownloads": {
+      "message": "İndirmeleri ara"
+   },
+   "labelAutoClear": {
+      "message": "Zamanlama"
+   },
+   "labelBGBlur": {
+      "message": "Bulanıklık"
+   },
+   "labelBGChooseFrom": {
+      "message": "Buradan seçin"
+   },
+   "labelBGConstantColor": {
+      "message": "Sabit renk"
+   },
+   "labelBGImageURL": {
+      "message": "URL'den bir resim kullanın"
+   },
+   "labelBGOpacity": {
+      "message": "Saydamlık"
+   },
+   "labelCustomFilter": {
+      "message": "Özel Süzgeç"
+   },
+   "menuDAudio": {
+      "message": "Ses dosyasını indir ..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Tek-Tıkla ses dosyasını indir"
+   },
+   "menuDImage": {
+      "message": "Resmi indir ..."
+   },
+   "menuDImageOneClick": {
+      "message": "Tek-Tıkla resmi indir"
+   },
+   "menuDLink": {
+      "message": "Bağlantıyı indir ..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Tek-Tıkla bağlantıyı indir"
+   },
+   "menuDVideo": {
+      "message": "Videoyu indir ..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Tek-Tıkla videoyu indir"
+   },
+   "menuGetHelp": {
+      "message": "Yardım al"
+   },
+   "menuOpenManager": {
+      "message": "Yöneticiyi aç"
+   },
+   "menuReportIssue": {
+      "message": "Sorun bildir"
+   },
+   "msgCannotScanResources": {
+      "message": "Bu sayfadaki kaynaklar taranamıyor."
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Görev listesi boş"
+   },
+   "msgRateShare": {
+      "message": "Eğer Chrono İndirme Yöneticisini yararlı bulduysanız, lütfen Chrome Web Mağazası'nda uzantıyı derecelendirin ve arkadaşlarınızla paylaşın!"
+   },
+   "msgTaskAddPaused": {
+      "message": "Görev eklendi ve duraklatıldı"
+   },
+   "msgTaskFinish": {
+      "message": "Görev tamamlandı"
+   },
+   "msgTaskInterrupt": {
+      "message": "Görev yarıda kesildi"
+   },
+   "msgTaskStart": {
+      "message": "Görev sıraya eklendi"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Güncellemeyi uygulamak için lütfen uzantıyı yeniden yükleyin."
+   },
+   "msgTextWelcome": {
+      "message": "Başlamadan önce, Chrome'un kendi Farklı Kaydet iletisini, $1 kısmındaki onay kutusunu temizleyerek kapatmanız önerilir.\nAyrıca, $3 kısmındaki $2 onay kutusunu etkinleştirerek, Chrono'nun dosya URL'lerine ulaşmasına izin vererek daha iyi bir kullanıcı deneyimi elde edebilirsiniz.\nHerhangi bir sorunuz varsa, lütfen İngilizce Yardım sayfasını ve SSS (Sıkça Sorulan Sorular) sayfasını kontrol edin, ayrıca dev@chronodownloader.net adresine e-posta gönderebilirsiniz.\nHoşunuza gitmesi dileğiyle!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Yeni $1 sürümü hazır!"
+   },
+   "msgTitleWelcome": {
+      "message": "Chrono İndirme Yöneticisini kurduğunuz için teşekkür ederiz"
+   },
+   "msgUpdated": {
+      "message": "Chrono $1 sürümüne güncellendi, $2 bağlantısına bakın."
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Araç çubuğu simgesinin üstünde indirme görevi sayısını göster"
+   },
+   "optItemClearNotify": {
+      "message": "Gerektiğinde bildirimleri temizle"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Dosyayı diskten sil"
+   },
+   "optItemClearSearch": {
+      "message": "Süzgeç değiştiğinde arama kutusunu temizle"
+   },
+   "optItemClickNotify": {
+      "message": "Bir bildirime tıklayınca"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Eşzamanlı indirme sayısı"
+   },
+   "optItemDblClickAction": {
+      "message": "Görev çift tıklanınca"
+   },
+   "optItemDefAddPaused": {
+      "message": "Duraklatılmış ekle"
+   },
+   "optItemDefFolder": {
+      "message": "Varsayılan Klasör"
+   },
+   "optItemDefNaming": {
+      "message": "Varsayılan Adlandırma Maskesi"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Panodaki URL'yi indir"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Sunucu başına indirme sayısı"
+   },
+   "optItemHideShelf": {
+      "message": "Chrome'un indirme tepsisini/çubuğunu gizle"
+   },
+   "optItemMenuDialog": {
+      "message": "Bağlantıyı/resmi indir ..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Bağlantıyı/resmi Tek-Tıkla indir"
+   },
+   "optItemNameConflict": {
+      "message": "Dosya ismi çakıştığında"
+   },
+   "optItemNotifyError": {
+      "message": "Hata oluştuğunda bildirim göster"
+   },
+   "optItemNotifyFinish": {
+      "message": "Indirme tamamlandığında bildirim göster"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Resimler için büyük önizleme göster"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Tek-Tıkla indirme eklerken bildirim göster"
+   },
+   "optItemNotifyProgress": {
+      "message": "İndirme ilerleme durumunu göster"
+   },
+   "optItemOpenManScroll": {
+      "message": "'$1' tuşuna tıklandığında o göreve git"
+   },
+   "optItemOverrideChrome": {
+      "message": "Chrome'un orijinal indirme sayfasını geçersiz kıl ve Ctrl-J klavye kısayolunu etkinleştir"
+   },
+   "optItemPopClearClose": {
+      "message": "Görevleri temizledikten sonra açılır pencereleri kapat"
+   },
+   "optItemPopDeleteAction": {
+      "message": "'Sil' tuşu tıklanınca"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Sosyal medya tuşlarını göster"
+   },
+   "optItemPopMaxItems": {
+      "message": "Indirme listesindeki en fazla görev sayısı"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Önce indirilmekte olan görevleri göster"
+   },
+   "optItemPopSlideButtons": {
+      "message": "Animasyonla beliren tuşlar"
+   },
+   "optItemRecycleCancel": {
+      "message": "Görevi geri dönüşüme gönderince iptal et"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Eşleşme Kipi"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Göreve tıklayınca Ayrıntılar Paneline geç"
+   },
+   "optItemSoundError": {
+      "message": "Hata oluştuğunda sesli uyarı ver"
+   },
+   "optItemSoundFinish": {
+      "message": "İndirme tamamlandığında sesli uyarı ver"
+   },
+   "optItemStartInterrupted": {
+      "message": "Başlat tuşu yarıda kalan görevleri başlatabilir."
+   },
+   "optOptionClearAllNotify": {
+      "message": "Tüm bildirimleri temizle"
+   },
+   "optOptionClearNotify": {
+      "message": "Bu bildirimi temizle"
+   },
+   "optOptionDoNothing": {
+      "message": "Hiçbir şey yapma"
+   },
+   "optOptionFirstMatch": {
+      "message": "İlk eşleşme"
+   },
+   "optOptionOpenFile": {
+      "message": "Dosyayı aç"
+   },
+   "optOptionOpenFolder": {
+      "message": "Klasörü aç"
+   },
+   "optOptionOverwrite": {
+      "message": "Üzerine yaz"
+   },
+   "optOptionPrompt": {
+      "message": "Sor"
+   },
+   "optOptionRemAsk": {
+      "message": "Sor"
+   },
+   "optOptionRemFile": {
+      "message": "Hem listeden çıkart hem diskten sil"
+   },
+   "optOptionRemList": {
+      "message": "Listeden sil"
+   },
+   "optOptionReplace": {
+      "message": "Değiştir"
+   },
+   "optOptionSkipCancel": {
+      "message": "Atla ve iptal et"
+   },
+   "optOptionSkipPause": {
+      "message": "Atla ve duraklat"
+   },
+   "optOptionStartPause": {
+      "message": "Başlat/Duraklat"
+   },
+   "optOptionUniquify": {
+      "message": "Benzersiz isim ver"
+   },
+   "optSectionBehaviors": {
+      "message": "Davranışlar"
+   },
+   "optSectionMenu": {
+      "message": "Menü"
+   },
+   "optSectionMisc": {
+      "message": "Çeşitli"
+   },
+   "optSectionNetwork": {
+      "message": "Ağ"
+   },
+   "optSectionNotifications": {
+      "message": "Bildirimler"
+   },
+   "optSectionOneClick": {
+      "message": "Tek-Tıkla İndir"
+   },
+   "optSectionPopup": {
+      "message": "Açılır pencereler"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Yeni Görev Varsayılanları"
+   },
+   "optionAddTop": {
+      "message": "Sıranın başına ekle"
+   },
+   "optionDisableExtFilters": {
+      "message": "Eklenti süzgeçlerini devre dışı bırak"
+   },
+   "optionDontAsk": {
+      "message": "Seçimimi hatırla, bir daha sorma"
+   },
+   "optionShowSize": {
+      "message": "Boyutu göster"
+   },
+   "optionTableAutoResize": {
+      "message": "Sütünlara zorla sığdır"
+   },
+   "optionTableSyncResize": {
+      "message": "Eş zamanlı yeniden boyutlandır"
+   },
+   "phraseAutomatic": {
+      "message": "Otomatik"
+   },
+   "phraseEnable": {
+      "message": "Etkinleştir"
+   },
+   "phraseMultiValues": {
+      "message": "Çoklu değerler"
+   },
+   "phraseNever": {
+      "message": "Asla"
+   },
+   "phrasePreview": {
+      "message": "Önizle"
+   },
+   "phraseRegex": {
+      "message": "Düzenli İfadeler"
+   },
+   "phraseToday": {
+      "message": "Bugün"
+   },
+   "phraseUnknown": {
+      "message": "Bilinmeyen"
+   },
+   "phraseUnknownSize": {
+      "message": "Bilinmeyen Boyut"
+   },
+   "phraseVersion": {
+      "message": "Sürüm"
+   },
+   "phraseYesterday": {
+      "message": "Dün"
+   },
+   "ruleAllTasks": {
+      "message": "Tüm Görevler"
+   },
+   "ruleAudio": {
+      "message": "Ses"
+   },
+   "ruleDocument": {
+      "message": "Belge"
+   },
+   "ruleDownloading": {
+      "message": "İndirilenler"
+   },
+   "ruleFinished": {
+      "message": "Bitenler"
+   },
+   "ruleImage": {
+      "message": "Resim"
+   },
+   "ruleInterrupted": {
+      "message": "Yarıda kesilenler"
+   },
+   "ruleNew": {
+      "message": "Yeni Kural"
+   },
+   "ruleOther": {
+      "message": "Diğer"
+   },
+   "ruleRecent": {
+      "message": "Yakınlardakiler"
+   },
+   "ruleRecycled": {
+      "message": "Geri Dönüşüm Kutusu"
+   },
+   "ruleSmallFiles": {
+      "message": "Küçük Dosyalar"
+   },
+   "ruleVideo": {
+      "message": "Video"
+   },
+   "stateDownloading": {
+      "message": "İndiriliyor"
+   },
+   "stateError": {
+      "message": "Yarıda kesildi"
+   },
+   "stateFileMiss": {
+      "message": "Dosya kayıp"
+   },
+   "stateFinished": {
+      "message": "Bitti"
+   },
+   "statePaused": {
+      "message": "Duraklatıldı"
+   },
+   "stateQueue": {
+      "message": "Sırada bekliyor"
+   },
+   "statusCopyURL": {
+      "message": "Meşgul - URL(ler) kopyalanıyor"
+   },
+   "statusCopyURLDone": {
+      "message": "URL(ler)  panoya kopyalandı"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 / $2"
+   },
+   "statusImportDone": {
+      "message": "İçe aktarma tamamlandı"
+   },
+   "statusImporting": {
+      "message": "Meşgul - içe aktarılıyor"
+   },
+   "statusNumDownloading": {
+      "message": "$1 öge indiriliyor"
+   },
+   "statusNumItems": {
+      "message": "$1 öge"
+   },
+   "statusReadClipboard": {
+      "message": "Meşgul - pano okunuyor"
+   },
+   "statusScheduledAutoClear": {
+      "message": "Kendiliğinden görev temizleme işlemi $1 saniye içinde başlayacak"
+   },
+   "statusSelectedOf": {
+      "message": "$2 ögeden $1 tanesi seçildi"
+   },
+   "statusTasksCleared": {
+      "message": "$1 adet görev temizlendi"
+   },
+   "statusTimeLeft": {
+      "message": "$1 kaldı"
+   },
+   "tipAutoClear": {
+      "message": "Görevleri listeden kendiliğinden temizle, ancak dosyaları diskte tut"
+   },
+   "tipBGBlur": {
+      "message": "Bulanıklık etkisi kullanıcı arabiriminin tepki süresini arttırabilir"
+   },
+   "tipBGEnable": {
+      "message": "Chrome'dan kaynaklı bir nedenden ötürü, arka planı etkinleştirmek bellek kullanımı oldukça arttıracak, özelliği etkinleştirmeden önce bunu göz önünde bulundurun."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Bir İnternet URL'si veya bilgisayarınızdaki bir resmin  'file:///' ile başlayan tam dosya yolunu girin"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Bir web URL'si veya bilgisayarınızdaki bir resmin tam dosya yolunu girin (yerel dosyalar için, öncelikle Chrono için dosya erişimini etkinleştirmeniz gerekir, nasıl yapıldığını görmek için soru işaretini tıklayın)"
+   },
+   "tipBrowserAction": {
+      "message": "Bu sayfadaki tüm kaynakları indir"
+   },
+   "tipBtnBackToManager": {
+      "message": "Yöneticiye dön"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "İndirme klasörünü değiştir"
+   },
+   "tipBtnClear": {
+      "message": "Görevleri temizle"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Eklenti süzgeçlerini düzenle"
+   },
+   "tipBtnCopyLink": {
+      "message": "Bağlantıyı kopyala"
+   },
+   "tipBtnDelete": {
+      "message": "Sil"
+   },
+   "tipBtnHelp": {
+      "message": "Yardım"
+   },
+   "tipBtnNewTask": {
+      "message": "Yeni Görev"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "İndirme klasörünü aç"
+   },
+   "tipBtnOpenFile": {
+      "message": "Dosyayı aç"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Dosyayı içeren klasörü aç"
+   },
+   "tipBtnOptions": {
+      "message": "Seçenekler"
+   },
+   "tipBtnPause": {
+      "message": "Duraklat"
+   },
+   "tipBtnPauseAll": {
+      "message": "Tümünü Duraklat"
+   },
+   "tipBtnPopList": {
+      "message": "İndirme listesine geç"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Yoklayıcıya geç"
+   },
+   "tipBtnRecycle": {
+      "message": "Geri Dönüşüme Gönder"
+   },
+   "tipBtnRestart": {
+      "message": "Tekrar Başlat"
+   },
+   "tipBtnRestore": {
+      "message": "Eski Haline Getir"
+   },
+   "tipBtnSort": {
+      "message": "Görevleri sırala"
+   },
+   "tipBtnStart": {
+      "message": "Başlat"
+   },
+   "tipBtnStartAll": {
+      "message": "Tümünü Başlat"
+   },
+   "tipExtFilterEnable": {
+      "message": "Chrono Yoklayıcı'da uzantı filtresi olarak etkinleştirildi"
+   },
+   "tipExtFilterRefName": {
+      "message": "Diğer ifadelerdeki referans filtreleme için dahili isim"
+   },
+   "tipNaming": {
+      "message": "Adlandırma Maskelerinin kullanımı için lütfen Yardım sayfasına bakınız."
+   },
+   "tipOptItemDefFolder": {
+      "message": "Otomatik Kural eşleşmesini uygulamak için boş bırakın; veya Kural Sisteminde ayarlandığı gibi varsayılan klasör ayarlarını uygulamak için $1'i kullanın."
+   },
+   "tipOptItemDefNaming": {
+      "message": "Otomatik Kural eşleşmesini uygulamak için boş bırakın; veya Kural Sisteminde ayarlandığı gibi varsayılan Adlandırma Maskesini uygulamak için $1'i kullanın."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Sadece etkin Kurallar'ın eşleştirme için test edildiğini unutmayınız. Değiştirme kipinde iken, tüm eşleşen Kurallar uygulanır, ancak sonraki Kurallar öncekilerini geçersiz kılacaktır."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Ayrıntılar Panelini açmak için ayrıca Alt tuşu ile beraber görevi tıklayabilirsiniz"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Hiçbir Kural eşleşmediğinde uygulanır"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Etkinse, bir bağlantıya tıkladığınızda, varsayılan görev ayarları kullanılarak (yukarıya bknz.), Adlandırma Maskesi vb. ayarlarını sormadan, indirme hemen başlayacaktır."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Yeni görev eklendiğinde uygulanacak olan varsayılan ayarlar, örneğin Tek-Tıkla indirmeler için uygulanacak ayarlar"
+   },
+   "tipRulesActive": {
+      "message": "Kural eşleşmesi için sadece etkin kurallar kullanılacak"
+   },
+   "tipRulesAsFilter": {
+      "message": "İndirme Yöneticisinde görev süzgeci olarak göster"
+   },
+   "tipRulesRefName": {
+      "message": "Diğer ifadelerdeki referans kuralı için dahili isim"
+   },
+   "tipURL": {
+      "message": "Birden fazla URL'yi yeni satırla ayırarak girebilirsiniz; Toplu Tanıtıcılar kullanarak toplu indirmeler başlatabilirsiniz."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Seçilen görev(ler)in URL'sini kopyalamak için sadece Ctrl-C tuşlarına basmanız yeterlidir"
+   },
+   "tipmsgDoubleClick": {
+      "message": "$1 altında çift-tıklama davranışını değiştirebilirsiniz"
+   },
+   "tipmsgFileAccess": {
+      "message": "Chrono'ya dosya URL'lerine erişim izni vermek size daha iyi bir kullanıcı deneyimi sunar; örneğin indirilen resimleri görev simgeleri olarak göstermek ve yerel resimleri arka plan olarak ayarlamak. Bunu chrome://extensions sayfasındaki $1 onay kutusunu kullanarak etkinleştirebilirsiniz."
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Sütun genişliğini otomatik ayarlamak için sütun boyutlandırıcıya çift tıklayın"
+   },
+   "tipmsgGridSelection": {
+      "message": "Birden çok satır seçmek için Ctrl/Shift tuşlarını kullanın veya tüm satırları seçmek için Ctrl-A tuşlarına basın"
+   },
+   "tipmsgNotifications": {
+      "message": "$1 altında bildirim/ses ayarlarını değiştirebilirsiniz"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Chrono'yu açmanın en basit yolu Ctrl-J 'ye basmaktır"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Kayan ayrıntılar paneli $1 altında kapatılabilir"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Görev Süzgeçlerini yeniden sıralamak için sürükleyin; ayrıca $1 altında kendi özel Görev Süzgeçlerinizi ekleyebilirsiniz"
+   },
+   "titleChangeBG": {
+      "message": "Arkaplanı değiştir"
+   },
+   "titleNewTaskDialog": {
+      "message": "Yeni Görev"
+   },
+   "titleOptions": {
+      "message": "Seçenekler"
+   },
+   "titleOptionsAbout": {
+      "message": "Hakkında"
+   },
+   "titleOptionsFilter": {
+      "message": "Eklenti Süzgeci"
+   },
+   "titleOptionsGeneral": {
+      "message": "Genel"
+   },
+   "titleOptionsHelp": {
+      "message": "Yardım"
+   },
+   "titleOptionsInterface": {
+      "message": "Arayüz"
+   },
+   "titleOptionsRules": {
+      "message": "Kural Sistemi"
+   },
+   "titleQuickSelection": {
+      "message": "Hızlı Seçim"
+   },
+   "titleRateShare": {
+      "message": "Derecelendir ve paylaş!"
+   },
+   "titleSniffer": {
+      "message": "Yoklayıcı"
+   },
+   "titleSwitchUI": {
+      "message": "Görüntü kipini değiştir"
+   },
+   "titleTaskProps": {
+      "message": "Görev Özellikleri"
+   },
+   "titleTips": {
+      "message": "İpuçları"
+   },
+   "titleUpdateLog": {
+      "message": "Güncelleme Günlüğü"
+   },
+   "translateContributors": {
+      "message": "Arif Güler, Gürol Canbek, Emin Bakan, Yılmaz Durmaz"
+   },
+   "uilang": {
+      "message": "tr"
+   },
+   "uilangName": {
+      "message": "Turkish"
+   },
+   "unitBytes": {
+      "message": "$1 Byte"
+   },
+   "unitDay": {
+      "message": "$1 gün"
+   },
+   "unitDays": {
+      "message": "$1 gün"
+   },
+   "unitHour": {
+      "message": "$1 sa."
+   },
+   "unitHours": {
+      "message": "$1 sa."
+   },
+   "unitMinute": {
+      "message": "$1 dk."
+   },
+   "unitMinutes": {
+      "message": "$1 dk."
+   },
+   "unitSecond": {
+      "message": "$1 sn."
+   },
+   "unitSeconds": {
+      "message": "$1 sn."
+   }
+}

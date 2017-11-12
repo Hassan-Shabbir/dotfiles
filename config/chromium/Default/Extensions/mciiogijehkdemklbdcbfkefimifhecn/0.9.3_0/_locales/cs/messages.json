@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Umožnit přístup k adresám URL souborů"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Stáhnout do"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Stažené soubory"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Zobrazit rozšířená nastavení..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Czech"
+   }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Changelog</title>
+		<script src="js/jquery/jquery.js"></script>
+		<script src="js/js/vue.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap-switch.min.css">
+		<link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap-toastr.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-options-page.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<span class="navbar-brand"><a href="http://kissanime.ru/"><img src="icon.png" class="brand-image pull-left"></a></span>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="/options.html">Options</a></li>
+						<li class="active"><a id="version" href="/changelog.html">Changelog</a></li>
+						<li><a id="info" href="/info.html">Info</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container" id="changelog" style="display:none">
+			<div style="float:right"><strong>Last Updated:</strong> {{lastUpdate}}</div>
+			<div style="clear:both"></div>
+			<div class="panel panel-default" v-for="(versionInfo, key) in changelog">
+				<div class="panel-heading">
+					<a :href="'#collapse-' + key.replace(/[ \?\.]/g, '')" class="deco-none" data-toggle="collapse"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> {{key}}</a>
+				</div>
+				<div :id="'collapse-' + key.replace(/[ \?\.]/g, '')" class="panel-collapse collapse" v-bind:class="[versionInfo.active ? 'in': '']">
+					<ul class="list-group">
+						<li class="list-group-item" v-if="versionInfo.added"  v-for="added in versionInfo.added"><strong>Added:</strong> <span v-html="added"></span></li>
+						<li class="list-group-item" v-if="versionInfo.changed"  v-for="changed in versionInfo.changed"><strong>Changed:</strong> <span v-html="changed"></span></li>
+						<li class="list-group-item" v-if="versionInfo.fixed"  v-for="fixed in versionInfo.fixed"><strong>Fixed:</strong> <span v-html="fixed"></span></li>
+						<li class="list-group-item" v-if="versionInfo.removed"  v-for="removed in versionInfo.removed"><strong>Removed:</strong> <span v-html="removed"></span></li>
+					</ul>
+					<div class="panel-footer">
+						<span class="text-muted"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Release date: {{versionInfo.date}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/loadchangelog.js"></script>
+		<script src="js/bootstrap/js/bootstrap.min.js"></script>
+		<!-- <script src="js/bootstrap/js/bootstrap-switch.min.js"></script> -->
+		<!-- <script src="js/bootstrap/js/bootstrap-toastr.min.js"></script> -->
+		<!-- <script src="js/bootstrap/js/bootstrap-main.js"></script> -->
+	</body>
+</html>

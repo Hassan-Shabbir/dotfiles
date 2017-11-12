@@ -1,0 +1,932 @@
+{
+   "btnAbout": {
+      "message": "O programu"
+   },
+   "btnAddPaused": {
+      "message": "Dodaj Pauzirano"
+   },
+   "btnApply": {
+      "message": "Nanesite"
+   },
+   "btnBackToManager": {
+      "message": "Natrag"
+   },
+   "btnCancel": {
+      "message": "Otkaži"
+   },
+   "btnClearAll": {
+      "message": "Obriši oboje"
+   },
+   "btnClearFailed": {
+      "message": "Obriši prekinuta preuzimanja"
+   },
+   "btnClearFinished": {
+      "message": "Obriši gotova preuzimanja"
+   },
+   "btnClearRemoved": {
+      "message": "Obriši preuzimanje koje nedostaje"
+   },
+   "btnFAQ": {
+      "message": "Licenca"
+   },
+   "btnGotIt": {
+      "message": "Razumio sam"
+   },
+   "btnImportChromeHistory": {
+      "message": "Uvoz  povijesti preuzimanja iz preglednika Chrome"
+   },
+   "btnLater": {
+      "message": "Kasnije"
+   },
+   "btnOpenManager": {
+      "message": "Otvori Menađer"
+   },
+   "btnPopRemoveFile": {
+      "message": "I izbriši datoteku"
+   },
+   "btnPopRemoveList": {
+      "message": "Ukloni sa liste"
+   },
+   "btnRate": {
+      "message": "Ocjeni dodatak"
+   },
+   "btnShareDone": {
+      "message": "Već sam to uradio"
+   },
+   "btnStart": {
+      "message": "Pokreni"
+   },
+   "btnStartAll": {
+      "message": "Pokreni sve"
+   },
+   "btnTakeMeThere": {
+      "message": "Odvedi me tamo"
+   },
+   "btnUpdateReload": {
+      "message": "Restartajte sad"
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Dozvoli pristup URL-ovima datoteke"
+   },
+   "chromesysChange": {
+      "message": "Promijeni..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Lokacija za preuzimanje"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Preuzimanje"
+   },
+   "chromesysFontSize": {
+      "message": "Veličina fonta"
+   },
+   "chromesysLanguageSection": {
+      "message": "Jezik"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Pokaži napredne postavke..."
+   },
+   "confirmBatchDownload": {
+      "message": "Čini se da ćeš početi serijskih preuzimanja, ovdje su neki primjeri:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Za preuzimanje serije, molimo provjerite je li imenovanje maska ​​generirati različite nazive datoteka. Svejedno nastaviti?"
+   },
+   "confirmBtnYes": {
+      "message": "Da"
+   },
+   "confirmBtnYesFile": {
+      "message": "Da, također ukloniti datoteku (e)"
+   },
+   "confirmCantResumeRestart": {
+      "message": "Zadatak $1 se ne pokreće, ponovno pokretanje njega?"
+   },
+   "confirmProceed": {
+      "message": "Jeste li sigurni da nastavite?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Baci zadatak u koš"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Ukloni odabrane stavke?"
+   },
+   "confirmRemoveRule": {
+      "message": "Ukloni odabrano pravilo (a)?"
+   },
+   "confirmRemoveTask": {
+      "message": "Trajno uklanjanje odabrane zadatak (e)?"
+   },
+   "confirmReset": {
+      "message": "Jeste li sigurni resetirati proširenje?"
+   },
+   "errorFNameConflict": {
+      "message": "Sukob u imenu datoteke"
+   },
+   "errorFileNotExist": {
+      "message": "Datoteka ne postoji."
+   },
+   "errorInvalidNamingMask": {
+      "message": "Pogrešno ime exstenzije"
+   },
+   "errorInvalidURLs": {
+      "message": "Neispravan URL (s)."
+   },
+   "errorNoID": {
+      "message": "Neuspijelo dodavanje novog zadatka na Chrono, jer ima previše zadataka u upravitelju, očistiti neke nekorištene zadatke i pokušajte ponovno."
+   },
+   "errorNone": {
+      "message": "Bez greške"
+   },
+   "errorRemovedFromChrome": {
+      "message": "Zadatak je možda uklonjen iz Chromea."
+   },
+   "everyXDays": {
+      "message": "Svakih $1 dana"
+   },
+   "everyXHours": {
+      "message": "Svakih $1 sati"
+   },
+   "everyXMinutes": {
+      "message": "Svakih $1 minuta"
+   },
+   "extDesc": {
+      "message": "Upravitelj preuzimanja | Preuzimatelj videa | Preuzimatelj grupa slika"
+   },
+   "extDescBest": {
+      "message": "Najbolji downloader za Chrome"
+   },
+   "extDescSlogan": {
+      "message": "Preuzmi i upravljaj Webom!"
+   },
+   "extName": {
+      "message": "Chrono upravtelj preuzimanja"
+   },
+   "extsAll": {
+      "message": "Sve"
+   },
+   "extsApp": {
+      "message": "Aplikacija"
+   },
+   "extsArchive": {
+      "message": "Arhiva"
+   },
+   "extsAudio": {
+      "message": "Zvuk"
+   },
+   "extsDocument": {
+      "message": "Dokument"
+   },
+   "extsImage": {
+      "message": "Slika"
+   },
+   "extsNew": {
+      "message": "Novi filter"
+   },
+   "extsOthers": {
+      "message": "Ostalo"
+   },
+   "extsVideo": {
+      "message": "Video"
+   },
+   "fieldAddTime": {
+      "message": "Dodaj vrijeme"
+   },
+   "fieldAvgSpeed": {
+      "message": "Prosječna brzina"
+   },
+   "fieldDownloadedSize": {
+      "message": "Preuzeto"
+   },
+   "fieldElapsedTime": {
+      "message": "Prošlo vrijeme"
+   },
+   "fieldFileName": {
+      "message": "Ime Datoteke"
+   },
+   "fieldFileSize": {
+      "message": "Veličina"
+   },
+   "fieldFinishTime": {
+      "message": "Završno vrijeme"
+   },
+   "fieldFolder": {
+      "message": "Mapa"
+   },
+   "fieldNaming": {
+      "message": "Vrsta"
+   },
+   "fieldProgress": {
+      "message": "Napredak"
+   },
+   "fieldRedirection": {
+      "message": "Redirekcija"
+   },
+   "fieldReferer": {
+      "message": "Pozivatelj"
+   },
+   "fieldRemainingTime": {
+      "message": "Ostalo Vrijeme"
+   },
+   "fieldRemarks": {
+      "message": "Komentari"
+   },
+   "fieldSpeed": {
+      "message": "Brzina"
+   },
+   "fieldState": {
+      "message": "Stanje"
+   },
+   "fieldThreads": {
+      "message": "Djelovi"
+   },
+   "fieldType": {
+      "message": "Tip"
+   },
+   "fieldURL": {
+      "message": "Adresa"
+   },
+   "headExtFilterCaption": {
+      "message": "Naslov"
+   },
+   "headExtFilterEnable": {
+      "message": "Omogućite"
+   },
+   "headExtFilterExts": {
+      "message": "Extenzije datoteka"
+   },
+   "headExtFilterRefName": {
+      "message": "Referentni Naziv"
+   },
+   "headRulesActive": {
+      "message": "Aktivan"
+   },
+   "headRulesAsFilter": {
+      "message": "Kao Filter Zadataka"
+   },
+   "headRulesCaption": {
+      "message": "Naslov"
+   },
+   "headRulesCondition": {
+      "message": "Stanje"
+   },
+   "headRulesRefName": {
+      "message": "Referentni Naziv"
+   },
+   "helpExtFilter": {
+      "message": "* Dvaput kliknite za uređivanje.\n* Klik na prazan redak dodati novi filter.\n* Odaberite redaka i pritisnite DELETE da ih ukloniti."
+   },
+   "helpRules": {
+      "message": "* Dvaput kliknite za uređivanje.\n* Klik na prazan redak dodaje novo pravilo.\n* Odaberite redak i pritisnite DELETE da ih uklonite.\n* Ako imate problema u pisanju Pravila, potražite u odjeljku Pomoć."
+   },
+   "hintSearchDownloads": {
+      "message": "Traži preuzimanja"
+   },
+   "labelAutoClear": {
+      "message": "Zadani zadaci"
+   },
+   "labelBGBlur": {
+      "message": "Zamagljenje"
+   },
+   "labelBGChooseFrom": {
+      "message": "Odaberite iz"
+   },
+   "labelBGConstantColor": {
+      "message": "Zadana boja"
+   },
+   "labelBGImageURL": {
+      "message": "Koristite sliku iz URL"
+   },
+   "labelBGOpacity": {
+      "message": "Prozirnost"
+   },
+   "labelCustomFilter": {
+      "message": "Prilagođeni filtar"
+   },
+   "menuDAudio": {
+      "message": "Preuzmi zvuk ..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Preuzmi zvuk jednim klikom"
+   },
+   "menuDImage": {
+      "message": "Preuzmi sliku ..."
+   },
+   "menuDImageOneClick": {
+      "message": "Preuzmi sliku jednim linkom"
+   },
+   "menuDLink": {
+      "message": "Preuzmi link ..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Preuzmi link jednim klikom"
+   },
+   "menuDVideo": {
+      "message": "Preuzmi video ..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Preuzmi video jednim klikom"
+   },
+   "menuGetHelp": {
+      "message": "Pomoć"
+   },
+   "menuOpenManager": {
+      "message": "Otvori manager"
+   },
+   "menuReportIssue": {
+      "message": "Prijavi problem"
+   },
+   "msgCannotScanResources": {
+      "message": "Ne mogu skenirati resurse na ovoj stranici"
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Prazan popis zadataka"
+   },
+   "msgRateShare": {
+      "message": "Ako ste ocijenili da je Chrono Download Manager korisan, molimo vas da ga ocijenite  na Chrome web-trgovini i podijelite ga s prijateljima!"
+   },
+   "msgTaskAddPaused": {
+      "message": "Zadatak je dodan i pauziran"
+   },
+   "msgTaskFinish": {
+      "message": "Zadatak završio"
+   },
+   "msgTaskInterrupt": {
+      "message": "Zadatak prekinut"
+   },
+   "msgTaskStart": {
+      "message": "Zadatak dodan red"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Ponovno učitajte proširenje da primijenite ažuriranje."
+   },
+   "msgTextWelcome": {
+      "message": "Prije nego što počnete, to je preporučeno da isključite Chrome Spremi kao dijalog, brisanjem kućicu u $1.\nVi svibanj također omogućiti Chrono pristupiti URL datoteke postići bolje korisničko iskustvo, koje se može omogućiti u kućicu $2 u $3.\nAko imate bilo kakvih pitanja, molimo Vas da provjerite stranicu Pomoć i FAQ stranicu, možete poslati e-mail na dev@chronodownloader.net.\nUživati!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Nova verzija $1 dostupna!"
+   },
+   "msgTitleWelcome": {
+      "message": "Hvala vam za instaliranje Chrono Download Manager"
+   },
+   "msgUpdated": {
+      "message": "Chrono je ažuriran na $1 pogledati $2"
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Pokaži broj preuzimanja zadataka na vrhu ikone alatne trake"
+   },
+   "optItemClearNotify": {
+      "message": "Obriši obavijesti kad je potrbno"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Uklonite datoteku s diska"
+   },
+   "optItemClearSearch": {
+      "message": "Obriši pretraživanja kod promjene filtra"
+   },
+   "optItemClickNotify": {
+      "message": "Klikom na obavijesti"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Konkurentna preuzimanja"
+   },
+   "optItemDblClickAction": {
+      "message": "Dvaput kliknite na zadatak"
+   },
+   "optItemDefAddPaused": {
+      "message": "Dodaj Pauzirano"
+   },
+   "optItemDefFolder": {
+      "message": "Zadana mapa"
+   },
+   "optItemDefNaming": {
+      "message": "Zadano imenovanje"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Preuzmite Adresu iz međuspremnika"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Preuzimanja po poslužitelju"
+   },
+   "optItemHideShelf": {
+      "message": "Sakrij Chromeov originalni bar preuzimanja"
+   },
+   "optItemMenuDialog": {
+      "message": "Preuzmi link/sliku ..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Preuzmi link/sliku jednim klikom"
+   },
+   "optItemNameConflict": {
+      "message": "Kod konflikta datoteka"
+   },
+   "optItemNotifyError": {
+      "message": "Prikaži obavijest kada dođe do pogreške"
+   },
+   "optItemNotifyFinish": {
+      "message": "Prikaži obavijest kada završi preuzimanje"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Pokaži veliki pregled za slike"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Prikaži obavijest pri dodavanju preuzimanja jednim klikom "
+   },
+   "optItemNotifyProgress": {
+      "message": "Pokaži napredak preuzimanja"
+   },
+   "optItemOpenManScroll": {
+      "message": "Dođite na zadatku kada kliknete na gumb $1"
+   },
+   "optItemOverrideChrome": {
+      "message": "Obiđi izvornu stranicu preuzimanja Chrome i omogućiti Ctrl-J tipkovni prečac"
+   },
+   "optItemPopClearClose": {
+      "message": "Zatvori skočni nakon brisanja zadataka"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Kliknite gumb \"Izbriši\""
+   },
+   "optItemPopLikeButtons": {
+      "message": "Pokaži ikone društvenih media"
+   },
+   "optItemPopMaxItems": {
+      "message": "Maksimalno stavki na popisu preuzimanja"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Pokaži prvo zadatke preuzimanja"
+   },
+   "optItemPopSlideButtons": {
+      "message": "Animirane tipke"
+   },
+   "optItemRecycleCancel": {
+      "message": "Otkaži zadatak kad je u smeću"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Približno"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Slide detalje na ploči kada kliknete na zadatak"
+   },
+   "optItemSoundError": {
+      "message": "Obavijesti zvukom kada dođe do pogreške"
+   },
+   "optItemSoundFinish": {
+      "message": "Obavijesti zvukom kad završi preuzimanje"
+   },
+   "optItemStartInterrupted": {
+      "message": "Tipka start može početi prekinute zadatke"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Brisanje svih obavijesti"
+   },
+   "optOptionClearNotify": {
+      "message": "Obriši obavijest"
+   },
+   "optOptionDoNothing": {
+      "message": "Učiniti ništa"
+   },
+   "optOptionFirstMatch": {
+      "message": "Prvo slično"
+   },
+   "optOptionOpenFile": {
+      "message": "Otvori datoteku"
+   },
+   "optOptionOpenFolder": {
+      "message": "Otvori mapu"
+   },
+   "optOptionOverwrite": {
+      "message": "Prepiši"
+   },
+   "optOptionPrompt": {
+      "message": "Pitaj"
+   },
+   "optOptionRemAsk": {
+      "message": "Pitajte"
+   },
+   "optOptionRemFile": {
+      "message": "Ukloni s popisa i diska"
+   },
+   "optOptionRemList": {
+      "message": "Ukloni s popisa"
+   },
+   "optOptionReplace": {
+      "message": "Zamijenite"
+   },
+   "optOptionSkipCancel": {
+      "message": "Preskoči i otkazati"
+   },
+   "optOptionSkipPause": {
+      "message": "Preskoči i pauzirati"
+   },
+   "optOptionStartPause": {
+      "message": "Start / Pauza"
+   },
+   "optOptionUniquify": {
+      "message": "Preimenuj"
+   },
+   "optSectionBehaviors": {
+      "message": "Ponašanja"
+   },
+   "optSectionMenu": {
+      "message": "Meni"
+   },
+   "optSectionMisc": {
+      "message": "Razni"
+   },
+   "optSectionNetwork": {
+      "message": "Mreža"
+   },
+   "optSectionNotifications": {
+      "message": "Obavijesti"
+   },
+   "optSectionOneClick": {
+      "message": "Jedan-Klik za Preuzimanje"
+   },
+   "optSectionPopup": {
+      "message": "Popup"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Novi zadatak"
+   },
+   "optionAddTop": {
+      "message": "Dodaj na vrh reda"
+   },
+   "optionDisableExtFilters": {
+      "message": "Onemogući filtere"
+   },
+   "optionDontAsk": {
+      "message": "Zapamti moj odabir, i ne pitaj me više"
+   },
+   "optionShowSize": {
+      "message": "Pokaži veličinu"
+   },
+   "optionTableAutoResize": {
+      "message": "Vidljive Kolumne"
+   },
+   "optionTableSyncResize": {
+      "message": "Sinhrozinirano proširenje"
+   },
+   "phraseAutomatic": {
+      "message": "Automatski"
+   },
+   "phraseEnable": {
+      "message": "Omogućite"
+   },
+   "phraseMultiValues": {
+      "message": "Multi-vrijednosti"
+   },
+   "phraseNever": {
+      "message": "Nikad"
+   },
+   "phrasePreview": {
+      "message": "Pregled"
+   },
+   "phraseRegex": {
+      "message": "Regularni izraz"
+   },
+   "phraseToday": {
+      "message": "Danas"
+   },
+   "phraseUnknown": {
+      "message": "Nepoznato"
+   },
+   "phraseUnknownSize": {
+      "message": "Nepoznata veličina"
+   },
+   "phraseVersion": {
+      "message": "Verzija"
+   },
+   "phraseYesterday": {
+      "message": "Jučer"
+   },
+   "ruleAllTasks": {
+      "message": "Svi zadaci"
+   },
+   "ruleAudio": {
+      "message": "Zvuk"
+   },
+   "ruleDocument": {
+      "message": "Dokument"
+   },
+   "ruleDownloading": {
+      "message": "Preuzimam"
+   },
+   "ruleFinished": {
+      "message": "Završeno"
+   },
+   "ruleImage": {
+      "message": "Slike"
+   },
+   "ruleInterrupted": {
+      "message": "Prekinuto"
+   },
+   "ruleNew": {
+      "message": "Novo pravilo"
+   },
+   "ruleOther": {
+      "message": "Ostalo"
+   },
+   "ruleRecent": {
+      "message": "Nedavna"
+   },
+   "ruleRecycled": {
+      "message": "Koš za smeće"
+   },
+   "ruleSmallFiles": {
+      "message": "Mala datoteke"
+   },
+   "ruleVideo": {
+      "message": "Video"
+   },
+   "stateDownloading": {
+      "message": "Preuzimanje"
+   },
+   "stateError": {
+      "message": "Pekinuto"
+   },
+   "stateFileMiss": {
+      "message": "Datoteka nedostaje"
+   },
+   "stateFinished": {
+      "message": "Završeno"
+   },
+   "statePaused": {
+      "message": "Pauzirano"
+   },
+   "stateQueue": {
+      "message": "Čeka preuzimanje"
+   },
+   "statusCopyURL": {
+      "message": "Kopiram adresu(e)"
+   },
+   "statusCopyURLDone": {
+      "message": "Adresa kopirana"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 od $2"
+   },
+   "statusImportDone": {
+      "message": "Učitavanje završeno"
+   },
+   "statusImporting": {
+      "message": "Učitavam povijest preuzimanja"
+   },
+   "statusNumDownloading": {
+      "message": "$1 preuzimanje"
+   },
+   "statusNumItems": {
+      "message": "$1 stavki"
+   },
+   "statusReadClipboard": {
+      "message": "Zauzeto - čitanje međuspremnik"
+   },
+   "statusScheduledAutoClear": {
+      "message": "Automatsko brisanje zadatka će biti za $1 sekundi"
+   },
+   "statusSelectedOf": {
+      "message": "Odabrano $1 od $2"
+   },
+   "statusTasksCleared": {
+      "message": "$1 zadatak(a) obrisan(o)"
+   },
+   "statusTimeLeft": {
+      "message": "$1 preostalo"
+   },
+   "tipAutoClear": {
+      "message": "Automatski obriši zadatke,ali zadrži fajlove na disku"
+   },
+   "tipBGBlur": {
+      "message": "Efekt zamućenja može smanjiti GUI odaziv"
+   },
+   "tipBGEnable": {
+      "message": "Zbog određenom broju Chrome, omogućujući pozadinu će povećati memorije puno, imajte to na umu prije nego što omogućite tu značajku."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Unesite web URL ili puni put slike na računalu prefiks 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Unesite web URL ili cijeli put slike na računalu (za lokalnu datoteku, morate omogućiti pristup datotekama za Chrono prvi, kliknite na upitnik da vidite kako)"
+   },
+   "tipBrowserAction": {
+      "message": "Preuzmi sve resurse na ovoj stranici"
+   },
+   "tipBtnBackToManager": {
+      "message": "Vrati se na Menađer"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Promijeni mapu  preuzimanja"
+   },
+   "tipBtnClear": {
+      "message": "Obriši zadatke"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Uredi filter proširenja"
+   },
+   "tipBtnCopyLink": {
+      "message": "Kopiraj vezu"
+   },
+   "tipBtnDelete": {
+      "message": "Obriši"
+   },
+   "tipBtnHelp": {
+      "message": "Pomoć"
+   },
+   "tipBtnNewTask": {
+      "message": "Novi zadatak"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Otvori mapu preuzimanja"
+   },
+   "tipBtnOpenFile": {
+      "message": "Otvori datoteku"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Otvori mapu preuzimanja"
+   },
+   "tipBtnOptions": {
+      "message": "Opcije"
+   },
+   "tipBtnPause": {
+      "message": "Pauza"
+   },
+   "tipBtnPauseAll": {
+      "message": "Pauziraj sve"
+   },
+   "tipBtnPopList": {
+      "message": "Prebaci se na popis preuzimanja"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Prebaci na Njuškalo"
+   },
+   "tipBtnRecycle": {
+      "message": "Koš za smeće"
+   },
+   "tipBtnRestart": {
+      "message": "Ponovno pokreni"
+   },
+   "tipBtnRestore": {
+      "message": "Obnovi"
+   },
+   "tipBtnSort": {
+      "message": "Sortiraj zadatke"
+   },
+   "tipBtnStart": {
+      "message": "Početak"
+   },
+   "tipBtnStartAll": {
+      "message": "Početi sve"
+   },
+   "tipExtFilterEnable": {
+      "message": "Omogući proširenje filtera exstenzije u Chrono Njuškalo"
+   },
+   "tipExtFilterRefName": {
+      "message": "Interni naziv za pozivom filtera u drugim izrazima"
+   },
+   "tipNaming": {
+      "message": "Molimo pogledajte Pomoć stranicu za korištenje Imenovanje maske."
+   },
+   "tipOptItemDefFolder": {
+      "message": "Ostavite prazno primijeniti automatsko pravilo prepoznavanja; ili koristiti $1 primijeniti zadane postavke mape, kako je utvrđeno u pravilu sustavu."
+   },
+   "tipOptItemDefNaming": {
+      "message": "Ostavite prazno primijeniti automatsko pravilo prepoznavanja; ili koristiti $1 primijeniti zadani Imenovanje maska, kao što je navedeno u pravilu sustavu."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Imajte na umu da su samo aktivni ispitani pravila za usklađivanje. U Zamijeni modu, svi se podudaraju pravila primjenjuju, ali potonji se pravila prepisati bivše one."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Također možete kliknuti Alt + zadatak za otvoriti Detaljni Panel"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Primjenjuje kada postoji odgovarajuće pravilo "
+   },
+   "tipOptSectionOneClick": {
+      "message": "Ako je omogućeno, preuzimanje će početi odmah kada kliknete na link, pomoću zadanih postavki zadatka (vidi gore), ne pitajući dijalog za postavljanje dodjeli naziva maska ​​itd"
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Zadane postavke koje se primjenjuju pri dodavanju nove zadatke, npr zatražila jednim klikom preuzimanja"
+   },
+   "tipRulesActive": {
+      "message": "Samo aktivni pravila će se koristiti za pravilo podudaranja"
+   },
+   "tipRulesAsFilter": {
+      "message": "Prikaži kao filter zadatkaka u Download Manager"
+   },
+   "tipRulesRefName": {
+      "message": "Interni naziv za pozivom pravilo u drugim izrazima"
+   },
+   "tipURL": {
+      "message": "Možete unijeti više URL-ova odvojenih nove linije; možete početi serije preuzimanja pomoću batch deskriptorima."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Možete jednostavno pritisnite Ctrl-C za kopiranje URL odabranog zadatka (s)"
+   },
+   "tipmsgDoubleClick": {
+      "message": "Možete promijeniti ponašanje dvostrukim klikom ispod $1"
+   },
+   "tipmsgFileAccess": {
+      "message": "Dopuštajući Chrono pristupiti URL-ova datoteka će vam donijeti bolje korisničko iskustvo, npr pokazuju preuzete slike kao ikone zadataka i postaviti lokalne slike kao pozadinu. Možete omogućiti po okvir $1 na chrome://extensions."
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Dvaput kliknite na stupcu Resizer za automatsko podešavanje širine stupca"
+   },
+   "tipmsgGridSelection": {
+      "message": "Ctrl / Shift za odabir više redaka ili pritisnite Ctrl-A da biste odabrali sve retke"
+   },
+   "tipmsgNotifications": {
+      "message": "Možete promijeniti obavijesti / zvučne postavke pod $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Najjednostavniji način za otvaranje Chrono je pritisnuti Ctrl-J"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Klizna ploča sa detaljima  može biti isključen iz $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Povucite za promjenu redoslijeda zadataka Filtri; također možete dodati svoj ​​vlastiti zadataka Filtri ispod $1"
+   },
+   "titleChangeBG": {
+      "message": "Promjena pozadine"
+   },
+   "titleNewTaskDialog": {
+      "message": "Novi zadatak"
+   },
+   "titleOptions": {
+      "message": "Opcije"
+   },
+   "titleOptionsAbout": {
+      "message": "O programu"
+   },
+   "titleOptionsFilter": {
+      "message": "Filter proširenja"
+   },
+   "titleOptionsGeneral": {
+      "message": "Općenito"
+   },
+   "titleOptionsHelp": {
+      "message": "Pomoć"
+   },
+   "titleOptionsInterface": {
+      "message": "Sučelje"
+   },
+   "titleOptionsRules": {
+      "message": "Pravilo sustava"
+   },
+   "titleQuickSelection": {
+      "message": "Brzi odabir"
+   },
+   "titleRateShare": {
+      "message": "Ocijenite i podjelite"
+   },
+   "titleSniffer": {
+      "message": "Njuškalo"
+   },
+   "titleSwitchUI": {
+      "message": "Prebaci način prikaza"
+   },
+   "titleTaskProps": {
+      "message": "Svojstva zadatka"
+   },
+   "titleTips": {
+      "message": "Savjeti"
+   },
+   "titleUpdateLog": {
+      "message": "Podaci o verziji"
+   },
+   "translateContributors": {
+      "message": "Darko Lochert and Ivan Jakšić"
+   },
+   "uilang": {
+      "message": "hr"
+   },
+   "uilangName": {
+      "message": "Croatian"
+   },
+   "unitBytes": {
+      "message": "$1 bajtova"
+   },
+   "unitDay": {
+      "message": "$1 dan"
+   },
+   "unitDays": {
+      "message": "$1 dana"
+   },
+   "unitHour": {
+      "message": "$1 sat"
+   },
+   "unitHours": {
+      "message": "$1 sata/i"
+   },
+   "unitMinute": {
+      "message": "$1 minuta"
+   },
+   "unitMinutes": {
+      "message": "$1 minuta/e"
+   },
+   "unitSecond": {
+      "message": "$1 sekunda"
+   },
+   "unitSeconds": {
+      "message": "$1 sekundi"
+   }
+}

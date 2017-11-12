@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Toegang tot bestand-URL's toestaan"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Downloadlocatie"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Downloads"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Geavanceerde instellingen weergeven..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Dutch"
+   }
+}

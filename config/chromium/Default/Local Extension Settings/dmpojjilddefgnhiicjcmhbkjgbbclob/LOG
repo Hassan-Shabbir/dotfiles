@@ -1,0 +1,15 @@
+2017/10/28-22:16:17.596 24638 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/MANIFEST-000001
+2017/10/28-22:16:17.597 24638 Recovering log #412
+2017/10/28-22:16:17.598 24638 Reusing old log /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/000412.log 
+2017/10/28-22:16:26.748 3584 Level-0 table #416: started
+2017/10/28-22:16:26.995 3584 Level-0 table #416: 3717311 bytes OK
+2017/10/28-22:16:27.001 3584 Delete type=0 #412
+2017/10/28-22:16:27.003 3584 Compacting 4@0 + 1@1 files
+2017/10/28-22:16:27.417 3584 Generated table #417@0: 14 keys, 1860873 bytes
+2017/10/28-22:16:27.417 3584 Compacted 4@0 + 1@1 files => 1860873 bytes
+2017/10/28-22:16:27.424 3584 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/28-22:16:27.424 3584 Delete type=2 #408
+2017/10/28-22:16:27.424 3584 Delete type=2 #411
+2017/10/28-22:16:27.426 3584 Delete type=2 #416
+2017/10/28-22:16:27.427 3584 Delete type=2 #405
+2017/10/28-22:16:27.427 3584 Delete type=2 #413
