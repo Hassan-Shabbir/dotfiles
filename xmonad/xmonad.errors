@@ -1,7 +1,18 @@
 
-xmonad.hs:3:49: error:
-    Not in scope: ‘M.fromList’
-    No module named ‘M’ is imported.
+xmonad.hs:1:1: error:
+    Could not find module ‘Prelude’
+    There are files missing in the ‘base-4.10.0.0’ package,
+    try running 'ghc-pkg check'.
+    Use -v to see a list of the files searched for.
   |
-3 | myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
-  |                                                 ^^^^^^^^^^
+1 | import XMonad
+  | ^
+
+xmonad.hs:1:1: error:
+    Could not find module ‘XMonad’
+    There are files missing in the ‘xmonad-0.13’ package,
+    try running 'ghc-pkg check'.
+    Use -v to see a list of the files searched for.
+  |
+1 | import XMonad
+  | ^^^^^^^^^^^^^

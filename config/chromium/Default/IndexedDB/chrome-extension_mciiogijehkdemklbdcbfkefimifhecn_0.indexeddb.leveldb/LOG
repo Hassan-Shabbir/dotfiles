@@ -1,8 +1,0 @@
-2017/11/04-19:22:03.569 1069 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/IndexedDB/chrome-extension_mciiogijehkdemklbdcbfkefimifhecn_0.indexeddb.leveldb/MANIFEST-000001
-2017/11/04-19:22:03.569 1069 Recovering log #407
-2017/11/04-19:22:03.573 1069 Reusing old log /home/hassan4350/.config/chromium/Default/IndexedDB/chrome-extension_mciiogijehkdemklbdcbfkefimifhecn_0.indexeddb.leveldb/000407.log 
-2017/11/04-19:23:36.677 2054 Compacting 2@0 + 2@1 files
-2017/11/04-19:23:36.701 2054 Generated table #409@0: 344 keys, 2113012 bytes
-2017/11/04-19:23:36.722 2054 Generated table #410@0: 852 keys, 1310056 bytes
-2017/11/04-19:23:36.722 2054 Compacted 2@0 + 2@1 files => 3423068 bytes
-2017/11/04-19:23:36.728 2054 compacted to: files[ 0 2 0 0 0 0 0 ]

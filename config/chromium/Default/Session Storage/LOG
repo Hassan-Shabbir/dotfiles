@@ -1,30 +1,3 @@
-2017/11/04-19:22:04.166 1195 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Session Storage/MANIFEST-000001
-2017/11/04-19:22:04.167 1195 Recovering log #3247
-2017/11/04-19:22:04.169 1195 Reusing old log /home/hassan4350/.config/chromium/Default/Session Storage/003247.log 
-2017/11/04-19:27:51.561 2222 Level-0 table #3251: started
-2017/11/04-19:27:51.566 2222 Level-0 table #3251: 17972 bytes OK
-2017/11/04-19:27:51.571 2222 Delete type=0 #3247
-2017/11/05-17:13:00.963 2222 Compacting 3@0 + 1@1 files
-2017/11/05-17:13:00.967 2222 Generated table #3252@0: 746 keys, 16172 bytes
-2017/11/05-17:13:00.967 2222 Compacted 3@0 + 1@1 files => 16172 bytes
-2017/11/05-17:13:00.969 2222 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/11/05-17:13:00.969 2222 Delete type=2 #3251
-2017/11/05-17:13:00.969 2222 Delete type=2 #3244
-2017/11/05-17:13:00.969 2222 Delete type=2 #3248
-2017/11/05-17:13:00.969 2222 Delete type=2 #3246
-2017/11/05-18:38:34.028 2222 Level-0 table #3254: started
-2017/11/05-18:38:34.031 2222 Level-0 table #3254: 19512 bytes OK
-2017/11/05-18:38:34.033 2222 Delete type=0 #3250
-2017/11/05-19:08:40.594 2222 Level-0 table #3256: started
-2017/11/05-19:08:40.597 2222 Level-0 table #3256: 21594 bytes OK
-2017/11/05-19:08:40.599 2222 Delete type=0 #3253
-2017/11/05-19:58:30.808 2222 Compacting 2@0 + 1@1 files
-2017/11/05-19:58:30.814 2222 Generated table #3257@0: 1059 keys, 26493 bytes
-2017/11/05-19:58:30.814 2222 Compacted 2@0 + 1@1 files => 26493 bytes
-2017/11/05-19:58:30.816 2222 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/11/05-19:58:30.816 2222 Delete type=2 #3252
-2017/11/05-19:58:30.816 2222 Delete type=2 #3254
-2017/11/05-19:58:30.816 2222 Delete type=2 #3256
-2017/11/05-20:05:57.377 2222 Level-0 table #3259: started
-2017/11/05-20:05:57.380 2222 Level-0 table #3259: 22480 bytes OK
-2017/11/05-20:05:57.382 2222 Delete type=0 #3255
+2017/11/12-10:26:17.786 892 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/11/12-10:26:17.786 892 Recovering log #6
+2017/11/12-10:26:17.788 892 Reusing old log /home/hassan4350/.config/chromium/Default/Session Storage/000006.log 

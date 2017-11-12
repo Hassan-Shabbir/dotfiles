@@ -77,7 +77,7 @@ setxkbmap -option caps:swapescape > /dev/null 2>&1 &
 # Set background image to fork bomb ie why linux 
 #feh --bg-scale ~/pictures/fork-bomb.jpg 
 feh --image-bg black --bg-max ~/pictures/card/arch-card-black-demo2.png > /dev/null 2>&1 &
-# load zmv command for batch renaming
+# load zmv command for batch renaming; aliased to bmv
 autoload zmv
 # remove mouse from screen after 1 second of not moving
 #unclutter -idle 1 -root > /dev/null 2>&1 &
@@ -98,6 +98,7 @@ echo "Hs905239" | sudo -S powertop --auto-tune > /dev/null 2>&1 &
 #file=`ls ~/pictures/pokemon | shuf -n 1`
 #fullfile=`echo '/home/hassan4350/pictures/pokemon/'$file` 
 #sed -i "38s@.*@BackgroundImageFile=$fullfile@" ~/.config/xfce4/terminal/terminalrc
+sleep 2 && clear
 
 # Personal aliases
 alias c="clear"
