@@ -1,3 +1,12 @@
-2017/11/12-14:23:54.624 5130 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Session Storage/MANIFEST-000001
-2017/11/12-14:23:54.625 5130 Recovering log #3247
-2017/11/12-14:23:54.625 5130 Reusing old log /home/hassan4350/.config/chromium/Default/Session Storage/003247.log 
+2017/11/16-10:18:52.082 1194 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/11/16-10:18:52.082 1194 Recovering log #3271
+2017/11/16-10:18:52.084 1194 Reusing old log /home/hassan4350/.config/chromium/Default/Session Storage/003271.log 
+2017/11/16-10:26:31.724 1665 Level-0 table #3275: started
+2017/11/16-10:26:31.730 1665 Level-0 table #3275: 14009 bytes OK
+2017/11/16-10:26:31.735 1665 Delete type=0 #3271
+2017/11/16-12:10:32.525 1665 Compacting 1@0 + 1@1 files
+2017/11/16-12:10:32.533 1665 Generated table #3276@0: 666 keys, 13364 bytes
+2017/11/16-12:10:32.533 1665 Compacted 1@0 + 1@1 files => 13364 bytes
+2017/11/16-12:10:32.537 1665 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/11/16-12:10:32.537 1665 Delete type=2 #3275
+2017/11/16-12:10:32.537 1665 Delete type=2 #3272

@@ -1,1 +1,6 @@
-2017/10/24-22:01:35.005 8840 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/15-17:39:31.391 12467 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/15-17:39:31.391 12467 Recovering log #3
+2017/11/15-17:39:31.408 12467 Reusing old log /home/hassan4350/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
+2017/11/15-17:40:20.370 12560 Level-0 table #5: started
+2017/11/15-17:40:20.401 12560 Level-0 table #5: 5270283 bytes OK
+2017/11/15-17:40:20.405 12560 Delete type=0 #3

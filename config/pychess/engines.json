@@ -8,7 +8,7 @@
   "analyze": true,
   "command": "/usr/lib/python3.6/site-packages/pychess/Players/PyChess.py",
   "country": "dk",
-  "md5": "958052112030b9cf794955386a1dc2aa",
+  "md5": "9486ec6d4d522b3129ed3ec230ec157d",
   "name": "PyChess.py",
   "options": [
    {
@@ -52,7 +52,7 @@
   "analyze": true,
   "command": "/usr/bin/gnuchess",
   "country": "us",
-  "md5": "78a647a2a6dfb398a9f97236b7d850a2",
+  "md5": "80b5b6152fba4b418263129ac621a750",
   "name": "gnuchess",
   "options": [
    {
@@ -318,6 +318,10 @@
  },
  {
   "name": "plugin spec 0.0",
+  "protocol": "xboard"
+ },
+ {
+  "name": "gnuchess -x",
   "protocol": "xboard"
  }
 ]

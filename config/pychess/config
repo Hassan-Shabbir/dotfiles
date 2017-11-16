@@ -27,7 +27,7 @@ spy_mode = False
 show_sidepanels = True
 autocallflag = True
 mainwindow_width = 1360
-mainwindow_height = 762
+mainwindow_height = 378
 mainwindow_x = 0
 mainwindow_y = 0
 newgametasker_playercombo = 3
@@ -82,4 +82,12 @@ tipofthedaywindow_y = 0
 newgametasker_colorcombo = 1
 blackplayercombobox = 3
 skillslider2 = 1.0
+externalsdialogwindow_width = 711
+externalsdialogwindow_height = 234
+externalsdialogwindow_x = 523
+externalsdialogwindow_y = 264
+
+[FICS]
+
+[ICC]
 

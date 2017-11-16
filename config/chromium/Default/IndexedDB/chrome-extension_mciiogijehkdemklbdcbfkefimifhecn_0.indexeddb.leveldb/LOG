@@ -1,3 +1,6 @@
-2017/11/12-14:20:27.226 3530 Reusing MANIFEST /home/.config/chromium/Default/IndexedDB/chrome-extension_mciiogijehkdemklbdcbfkefimifhecn_0.indexeddb.leveldb/MANIFEST-000001
-2017/11/12-14:20:27.226 3530 Recovering log #407
-2017/11/12-14:20:27.233 3530 Reusing old log /home/.config/chromium/Default/IndexedDB/chrome-extension_mciiogijehkdemklbdcbfkefimifhecn_0.indexeddb.leveldb/000407.log 
+2017/11/16-10:17:53.508 925 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/IndexedDB/chrome-extension_mciiogijehkdemklbdcbfkefimifhecn_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/16-10:17:53.508 925 Recovering log #407
+2017/11/16-10:17:53.545 925 Reusing old log /home/hassan4350/.config/chromium/Default/IndexedDB/chrome-extension_mciiogijehkdemklbdcbfkefimifhecn_0.indexeddb.leveldb/000407.log 
+2017/11/16-10:52:29.869 3780 Level-0 table #410: started
+2017/11/16-10:52:29.920 3780 Level-0 table #410: 3629859 bytes OK
+2017/11/16-10:52:29.928 3780 Delete type=0 #407

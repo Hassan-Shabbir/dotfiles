@@ -1,0 +1,275 @@
+## ELinks 0.12pre6 configuration file
+
+## This is ELinks configuration file. You can edit it manually,
+## if you wish so; this file is edited by ELinks when you save
+## options through UI, however only option values will be altered
+## and missing options will be added at the end of file; if option
+## is not written in this file, but in some file included from it,
+## it is NOT counted as missing. Note that all your formatting,
+## own comments and so on will be kept as-is.
+##
+## Obviously, if you don't like what ELinks is going to do with
+## this file, you can change it by altering the config.saving_style
+## option. Come on, aren't we friendly guys after all?
+
+
+
+##############################
+# Automatically saved options
+#
+
+## config 
+#  Configuration handling options.
+
+  ## config.saving_style_w [0|1]
+  #  This is internal option used when displaying a warning about obsolete
+  #  config.saving_style. You shouldn't touch it.
+  set config.saving_style_w = 1
+
+
+## document 
+#  Document options.
+
+  ## document.browse 
+  #  Document browsing options (mainly interactivity).
+
+    ## document.browse.links 
+    #  Options for handling of links to other documents.
+
+      ## document.browse.links.numbering [0|1]
+      #  Display numbers next to the links.
+      set document.browse.links.numbering = 1
+
+
+
+
+## terminal 
+#  Terminal options.
+
+  ## terminal.xterm 
+  #  Options specific to this terminal type (according to $TERM value).
+
+    ## terminal.xterm.colors <num>
+    set terminal.xterm.colors = 0
+
+
+## ui 
+#  User interface options.
+
+  ## ui.language <language>
+  #  Language of user interface. 'System' means that the language will be
+  #  extracted from the environment dynamically.
+  set ui.language = "System"
+
+
+
+
+
+##############################
+# Automatically saved options
+#
+
+## terminal 
+#  Terminal options.
+
+  ## terminal.xterm 
+  #  Options specific to this terminal type (according to $TERM value).
+
+    ## terminal.xterm.underline [0|1]
+    set terminal.xterm.underline = 0
+    ## terminal.xterm.block_cursor [0|1]
+    set terminal.xterm.block_cursor = 1
+
+
+
+
+
+##############################
+# Automatically saved options
+#
+
+## ui 
+#  User interface options.
+
+  ## ui.success_msgbox [0|1]
+  #  When you pressed a [ Save ] button in some manager, this option will make
+  #  sure that a box confirming success of the operation will pop up.
+  set ui.success_msgbox = 0
+
+
+
+
+
+##############################
+# Automatically saved options
+#
+
+## ui 
+#  User interface options.
+
+  ## ui.clock 
+  #  Digital clock in the status bar.
+
+    ## ui.clock.enable [0|1]
+    #  Whether to display a digital clock in the status bar.
+    set ui.clock.enable = 1
+
+
+
+
+
+
+##############################
+# Automatically saved options
+#
+
+## document 
+#  Document options.
+
+  ## document.colors 
+  #  Default document color settings.
+
+    ## document.colors.use_document_colors <num>
+    #  Use colors specified in document:
+    #  0 is use always the default settings
+    #  1 is use document colors if available, except background
+    #  2 is use document colors, including background. This can
+    #    mostly look very impressive, but some sites will appear
+    #    really ugly. Note, that obviously if the background is
+    #    not black, it will break the behaviour of transparency.
+    set document.colors.use_document_colors = 1
+
+
+
+
+
+
+##############################
+# Automatically saved options
+#
+
+## terminal 
+#  Terminal options.
+
+  ## terminal.xterm 
+  #  Options specific to this terminal type (according to $TERM value).
+
+    ## terminal.xterm.transparency [0|1]
+    set terminal.xterm.transparency = 1
+
+
+
+
+
+##################################
+# Automatically saved keybindings
+#
+
+bind "main" ">" = "tab-move-right"
+bind "main" "<" = "tab-move-left"
+bind "main" "h" = "tab-prev"
+bind "main" "l" = "tab-next"
+bind "main" "q" = "tab-close"
+bind "main" "k" = "move-link-prev"
+bind "main" "j" = "move-link-next"
+bind "main" "r" = "reload"
+bind "main" "Ctrl-Z" = "open-os-shell"
+bind "main" "K" = "move-page-up"
+bind "main" "J" = "move-page-down"
+bind "main" "g" = "move-document-start"
+bind "main" "G" = "move-document-end"
+bind "main" "e" = "goto-url-current"
+bind "main" "o" = "goto-url"
+bind "main" "b" = "bookmark-manager"
+bind "main" "s" = "none"
+bind "main" "c" = "none"
+bind "main" "Ctrl-R" = "none"
+bind "main" "Q" = "none"
+bind "main" "Ctrl-K" = "none"
+bind "main" "H" = "history-move-back"
+bind "main" "Ctrl-F" = "none"
+bind "main" "Ctrl-E" = "none"
+bind "main" "Ctrl-B" = "none"
+bind "main" "Ctrl-A" = "none"
+bind "main" "Alt->" = "none"
+bind "main" "Alt-<" = "none"
+bind "main" ":" = "none"
+
+
+
+##################################
+# Automatically saved keybindings
+#
+
+bind "main" "B" = "add-bookmark-link"
+bind "main" "a" = "none"
+bind "main" "C" = "none"
+bind "edit" "Ctrl-N" = "auto-complete"
+bind "edit" "Ctrl-W" = "none"
+
+
+
+##################################
+# Automatically saved keybindings
+#
+
+bind "main" "Ctrl-J" = "download-manager"
+bind "main" "D" = "none"
+bind "main" "A" = "none"
+
+
+
+##################################
+# Automatically saved keybindings
+#
+
+bind "main" "Ctrl-H" = "history-manager"
+bind "main" "F10" = "none"
+
+
+
+##################################
+# Automatically saved keybindings
+#
+
+bind "main" "`" = "mark-goto"
+bind "main" "L" = "history-move-forward"
+
+
+
+##################################
+# Automatically saved keybindings
+#
+
+bind "menu" "l" = "right"
+bind "menu" "h" = "left"
+
+
+
+##################################
+# Automatically saved keybindings
+#
+
+bind "menu" "k" = "up"
+bind "menu" "j" = "down"
+
+
+
+##############################
+# Automatically saved options
+#
+
+## terminal 
+#  Terminal options.
+
+  ## terminal.xterm-256color 
+  #  Options specific to this terminal type (according to $TERM value).
+
+    ## terminal.xterm-256color.colors <num>
+    set terminal.xterm-256color.colors = 0
+    ## terminal.xterm-256color.restrict_852 [0|1]
+    set terminal.xterm-256color.restrict_852 = 1
+    ## terminal.xterm-256color.m11_hack [0|1]
+    set terminal.xterm-256color.m11_hack = 1
+
+

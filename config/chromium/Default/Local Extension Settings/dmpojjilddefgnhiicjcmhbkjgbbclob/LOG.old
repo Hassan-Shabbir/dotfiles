@@ -1,9 +1,9 @@
-2017/10/24-22:08:17.415 9560 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/MANIFEST-000001
-2017/10/24-22:08:17.415 9560 Recovering log #407
-2017/10/24-22:08:17.451 9560 Reusing old log /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/000407.log 
-2017/10/24-22:08:20.325 3973 Level-0 table #411: started
-2017/10/24-22:08:20.479 3973 Level-0 table #411: 3715843 bytes OK
-2017/10/24-22:08:20.480 3973 Delete type=0 #407
-2017/10/24-22:08:21.673 3973 Level-0 table #413: started
-2017/10/24-22:08:21.829 3973 Level-0 table #413: 3715665 bytes OK
-2017/10/24-22:08:21.833 3973 Delete type=0 #410
+2017/11/13-22:16:17.055 10104 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/MANIFEST-000001
+2017/11/13-22:16:17.056 10104 Recovering log #415
+2017/11/13-22:16:17.079 10104 Reusing old log /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/000415.log 
+2017/11/13-22:16:19.509 2423 Level-0 table #420: started
+2017/11/13-22:16:19.570 2423 Level-0 table #420: 3718600 bytes OK
+2017/11/13-22:16:19.574 2423 Delete type=0 #415
+2017/11/13-22:16:24.996 2423 Level-0 table #422: started
+2017/11/13-22:16:25.122 2423 Level-0 table #422: 3719058 bytes OK
+2017/11/13-22:16:25.126 2423 Delete type=0 #419

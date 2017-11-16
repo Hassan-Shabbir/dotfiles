@@ -1,3 +1,34 @@
 {
-  "services": []
+  "services": [
+    {
+      "notifications": true,
+      "count_message_direct": 0,
+      "count_message_indirect": 0,
+      "zoom": 0,
+      "showIndirectMessages": true,
+      "enabled": true,
+      "focusMode": true,
+      "id": "542b7ffe-cb89-1d06-ad12-ec6da3c66c98",
+      "order": 1,
+      "service": "messenger",
+      "name": "Hassan Shabbir",
+      "mute_audio": false,
+      "customURL": false
+    },
+    {
+      "notifications": true,
+      "count_message_direct": 0,
+      "count_message_indirect": 0,
+      "zoom": 0,
+      "showIndirectMessages": true,
+      "enabled": true,
+      "focusMode": true,
+      "id": "38b1e9d8-0007-5556-2fe4-96ec88015bd0",
+      "order": 2,
+      "service": "irccloud",
+      "name": "hassan",
+      "mute_audio": false,
+      "customURL": false
+    }
+  ]
 }

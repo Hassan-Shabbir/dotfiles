@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Messenger for Desktop
+Comment=A simple &amp; beautiful desktop client for Facebook Messenger.
+GenericName=Internet Messenger
+Exec=messengerfordesktop --os-startup
+Icon=messengerfordesktop
+Terminal=false
+Type=Application
+StartupNotify=false
+StartupWMClass=Messenger for Desktop
+Keywords=Facebook;Messenger;chat;desktop;
+Categories=Network;InstantMessaging;
+X-GNOME-UsesNotifications=true

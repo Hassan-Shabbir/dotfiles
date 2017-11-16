@@ -1300,8 +1300,11 @@
          }, {
             "date_added": "13140462824256938",
             "id": "272",
+            "meta_info": {
+               "last_visited_desktop": "13155008789954213"
+            },
             "name": "(2) qutebrowser - All the Cool Kids should try it! - YouTube",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4085",
             "type": "url",
             "url": "https://www.youtube.com/watch?v=g2RtjO_jXvY"
          }, {
@@ -1404,8 +1407,11 @@
          }, {
             "date_added": "13140496056548092",
             "id": "296",
+            "meta_info": {
+               "last_visited_desktop": "13155006692103445"
+            },
             "name": "Chesscademy | Tactics",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4077",
             "type": "url",
             "url": "https://www.chesscademy.com/train"
          }, {
@@ -1421,8 +1427,11 @@
          }, {
             "date_added": "13140496056549875",
             "id": "298",
+            "meta_info": {
+               "last_visited_desktop": "13155008218325474"
+            },
             "name": "GitHub - gabrielelana/awesome-terminal-fonts: Tools and instructions on how to have awesome symbols in a terminal with a monospace font",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4079",
             "type": "url",
             "url": "https://github.com/gabrielelana/awesome-terminal-fonts"
          }, {
@@ -1599,8 +1608,11 @@
          }, {
             "date_added": "13141186189407187",
             "id": "336",
+            "meta_info": {
+               "last_visited_desktop": "13154990786478341"
+            },
             "name": "Thinkpad Battery 19+ (6 Cell Slice): Amazon.ca: Computers & Tablets",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4056",
             "type": "url",
             "url": "https://www.amazon.ca/Thinkpad-Battery-19-Cell-Slice/dp/B004UC59Q4/ref=sr_1_1?ie=UTF8&qid=1496712217&sr=8-1&keywords=battery+slice+x220"
          }, {
@@ -2213,7 +2225,7 @@
             "date_added": "13148084418079513",
             "id": "493",
             "name": "x220_x220i_hmm_0a60739_06.pdf",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4086",
             "type": "url",
             "url": "https://thinkpads.com/support/hmm/hmm_pdf/x220_x220i_hmm_0a60739_06.pdf"
          }, {
@@ -2354,8 +2366,11 @@
          }, {
             "date_added": "13148529186449310",
             "id": "518",
+            "meta_info": {
+               "last_visited_desktop": "13154993606371324"
+            },
             "name": "Learn Haskell, and learn it well.",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4061",
             "type": "url",
             "url": "https://www.reddit.com/r/HaskellBook/"
          }, {
@@ -2856,10 +2871,10 @@
             "date_added": "13150941742395628",
             "id": "680",
             "meta_info": {
-               "last_visited_desktop": "13153971180232270"
+               "last_visited_desktop": "13154993078301876"
             },
             "name": "Programmer Humor",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4060",
             "type": "url",
             "url": "https://www.reddit.com/r/ProgrammerHumor/"
          }, {
@@ -3084,8 +3099,11 @@
             }, {
                "date_added": "13151440207719959",
                "id": "723",
+               "meta_info": {
+                  "last_visited_desktop": "13154990814821331"
+               },
                "name": "better ah on 29++ battery  --  44++ Genuine 45N1029 45N1028 Battery for IBM Lenovo ThinkPad X220i X230s X220i | eBay",
-               "sync_transaction_version": "4052",
+               "sync_transaction_version": "4058",
                "type": "url",
                "url": "http://www.ebay.ca/itm/44-Genuine-45N1029-45N1028-Battery-for-IBM-Lenovo-ThinkPad-X220i-X230s-X220i-/162614729081?hash=item25dc97d979:g:b-kAAOSwr6RZgg1Y"
             }, {
@@ -3167,10 +3185,10 @@
                "date_added": "13154818264009728",
                "id": "958",
                "meta_info": {
-                  "last_visited_desktop": "13154818264010313"
+                  "last_visited_desktop": "13154996722136930"
                },
                "name": "Upgrading X220/X230 to FHD 1080p - Thinkpads Forum",
-               "sync_transaction_version": "4055",
+               "sync_transaction_version": "4064",
                "type": "url",
                "url": "https://forum.thinkpads.com/viewtopic.php?f=43&t=122640"
             }, {
@@ -3350,10 +3368,10 @@
             "date_added": "13152412313866298",
             "id": "777",
             "meta_info": {
-               "last_visited_desktop": "13154829896517890"
+               "last_visited_desktop": "13154995005208320"
             },
             "name": "Learn Data Science and Machine Learning - EliteDataScience",
-            "sync_transaction_version": "4055",
+            "sync_transaction_version": "4063",
             "type": "url",
             "url": "https://elitedatascience.com/"
          }, {
@@ -3495,10 +3513,10 @@
             "date_added": "13152934053061557",
             "id": "809",
             "meta_info": {
-               "last_visited_desktop": "13154470974855828"
+               "last_visited_desktop": "13154923744072819"
             },
             "name": "Facebook Video Downloader - FBVideos.to",
-            "sync_transaction_version": "4055",
+            "sync_transaction_version": "4087",
             "type": "url",
             "url": "https://fbvideos.to/"
          }, {
@@ -3705,10 +3723,10 @@
             "date_added": "13153621839161258",
             "id": "868",
             "meta_info": {
-               "last_visited_desktop": "13153621839168302"
+               "last_visited_desktop": "13155003536651787"
             },
             "name": "Top 10 Best Torrent Search Engine Sites of 2017 - Popular Torrent Engines",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4070",
             "type": "url",
             "url": "https://chrometechny.in/top-10-best-torrent-search-engine-sites-of-2017/"
          }, {
@@ -3775,10 +3793,10 @@
             "date_added": "13153885247692481",
             "id": "879",
             "meta_info": {
-               "last_visited_desktop": "13154202178499358"
+               "last_visited_desktop": "13154994404328217"
             },
             "name": "dataHaskell - Data Types for Data Science",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4062",
             "type": "url",
             "url": "http://www.datahaskell.org/"
          }, {
@@ -3815,10 +3833,10 @@
             "date_added": "13154109470635118",
             "id": "887",
             "meta_info": {
-               "last_visited_desktop": "13154235648547477"
+               "last_visited_desktop": "13155073146024301"
             },
             "name": "LARBS—Luke's Auto-Rice Bootstrapping Scripts",
-            "sync_transaction_version": "4052",
+            "sync_transaction_version": "4092",
             "type": "url",
             "url": "http://larbs.xyz/"
          }, {
@@ -3885,20 +3903,20 @@
             "date_added": "13154235811420705",
             "id": "929",
             "meta_info": {
-               "last_visited_desktop": "13154235811421225"
+               "last_visited_desktop": "13155016721126470"
             },
             "name": "GitHub - DaveDavenport/rofi: Rofi: A window switcher, application launcher and dmenu replacement",
-            "sync_transaction_version": "4053",
+            "sync_transaction_version": "4089",
             "type": "url",
             "url": "https://github.com/DaveDavenport/rofi"
          }, {
             "date_added": "13154235811420705",
             "id": "942",
             "meta_info": {
-               "last_visited_desktop": "13154235811421225"
+               "last_visited_desktop": "13155016721126470"
             },
             "name": "GitHub - DaveDavenport/rofi: Rofi: A window switcher, application launcher and dmenu replacement",
-            "sync_transaction_version": "4055",
+            "sync_transaction_version": "4090",
             "type": "url",
             "url": "https://github.com/DaveDavenport/rofi"
          }, {
@@ -4153,7 +4171,7 @@
             "url": "https://github.com/k0ral/hbro"
          } ],
          "date_added": "13139887318661963",
-         "date_modified": "13154988030227953",
+         "date_modified": "13155006055465285",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -4166,7 +4184,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "4055",
+      "sync_transaction_version": "4092",
       "synced": {
          "children": [  ],
          "date_added": "13139887318661971",

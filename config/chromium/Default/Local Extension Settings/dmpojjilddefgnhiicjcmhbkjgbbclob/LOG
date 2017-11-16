@@ -1,15 +1,17 @@
-2017/10/28-22:16:17.596 24638 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/MANIFEST-000001
-2017/10/28-22:16:17.597 24638 Recovering log #412
-2017/10/28-22:16:17.598 24638 Reusing old log /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/000412.log 
-2017/10/28-22:16:26.748 3584 Level-0 table #416: started
-2017/10/28-22:16:26.995 3584 Level-0 table #416: 3717311 bytes OK
-2017/10/28-22:16:27.001 3584 Delete type=0 #412
-2017/10/28-22:16:27.003 3584 Compacting 4@0 + 1@1 files
-2017/10/28-22:16:27.417 3584 Generated table #417@0: 14 keys, 1860873 bytes
-2017/10/28-22:16:27.417 3584 Compacted 4@0 + 1@1 files => 1860873 bytes
-2017/10/28-22:16:27.424 3584 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/10/28-22:16:27.424 3584 Delete type=2 #408
-2017/10/28-22:16:27.424 3584 Delete type=2 #411
-2017/10/28-22:16:27.426 3584 Delete type=2 #416
-2017/10/28-22:16:27.427 3584 Delete type=2 #405
-2017/10/28-22:16:27.427 3584 Delete type=2 #413
+2017/11/16-10:17:52.871 1194 Reusing MANIFEST /home/hassan4350/.config/chromium/Default/Local Extension Settings/dmpojjilddefgnhiicjcmhbkjgbbclob/MANIFEST-000001
+2017/11/16-10:17:52.871 1194 Recovering log #421
+2017/11/16-10:17:52.956 1194 Level-0 table #424: started
+2017/11/16-10:17:53.037 1194 Level-0 table #424: 3719533 bytes OK
+2017/11/16-10:17:53.055 1194 Delete type=0 #421
+2017/11/16-10:18:53.609 1665 Level-0 table #427: started
+2017/11/16-10:18:53.678 1665 Level-0 table #427: 3719329 bytes OK
+2017/11/16-10:18:53.682 1665 Delete type=0 #425
+2017/11/16-10:18:53.684 1665 Compacting 4@0 + 1@1 files
+2017/11/16-10:18:53.805 1665 Generated table #428@0: 14 keys, 1861340 bytes
+2017/11/16-10:18:53.805 1665 Compacted 4@0 + 1@1 files => 1861340 bytes
+2017/11/16-10:18:53.810 1665 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/11/16-10:18:53.810 1665 Delete type=2 #422
+2017/11/16-10:18:53.811 1665 Delete type=2 #427
+2017/11/16-10:18:53.812 1665 Delete type=2 #424
+2017/11/16-10:18:53.812 1665 Delete type=2 #420
+2017/11/16-10:18:53.813 1665 Delete type=2 #417
